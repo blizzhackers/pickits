@@ -1,4 +1,4 @@
-[pickit table of content](https://github.com/blizzhackers/pickits/README.md)
+[pickit table of content](https://github.com/blizzhackers/pickits/#pickits)
 
 ----
 
@@ -6,7 +6,7 @@
 
 ---
 
-by @frickaline
+by [@frickaline](https://github.com/frickaline)
 
 ### What is Nipper?
 Nipper is a Java Application that provides a graphical user interface (GUI) for editing NIP files. NIP files, also known as pickit or snagit files, contain individual lines that characterize the items you want your bot to retain. Changing these lines changes the items the bot picks up, sells, and retains.
@@ -14,7 +14,6 @@ Nipper is a Java Application that provides a graphical user interface (GUI) for 
 The syntax of these NIP files can be cumbersome and/or complicated. The Nipper GUI gives users the ability to click on valid keywords to construct NIP lines that are always valid syntactically. It also provides NIP checking for any NIP files that were written outside the GUI.
 
 Note that you cannot create an invalid NIP line in Nipper. You can create NIPs that don't keep what you intend, but the syntax will always be valid.
-
 
 ### Installation
 
@@ -32,7 +31,7 @@ jre1.8.0_191 <-- needs to be changed after every java update, according to the n
 
 ### Usage
 
-##### File Menu
+#### File Menu
 
 When you first launch Nipper, the UI will appear like the first image in the gallery below.
 Select the file menu as shown and either edit an existing NIP file or create a new NIP file to work with.
@@ -66,7 +65,7 @@ Exit the Nipper application.
 
 ![04](assets/nipper04.jpg)
 
-##### Right-click Menu
+#### Right-click Menu
 
 Right-click Menu -> Enable/Disable
 Items that are greyed out and italicized are disabled item entries. They are considered "commented out" and are inactive. Items in regular text are enabled. To switch an item between enabled and disabled, right click the item and select the disable/enable option.
@@ -91,11 +90,11 @@ Use this option to delete an existing section or item.
 
 ![05](assets/nipper05.jpg)
 
-##### Editing the contents of an item in the right-hand pane
+#### Editing the contents of an item in the right-hand pane
 
 The right hand pane will be blank whenever you have a header selected in the left hand pane but will contain a tabular interface whenever an item is selected in the left hand pane. The tabular interface is made up of 3 tabs: Properties, Stats, and Quantity.[/INDENT]
 
-####### The Properties Tab
+###### The Properties Tab
 
 The properties tab contains all item properties associated with your item. The valid properties of an item consist of Type, Name, Class, Quality, Flag, and Level.
 
@@ -134,7 +133,7 @@ If you wish that logic to be OR'ed instead, use the Toggle AND/OR button. If you
 
 ![11](assets/nipper11.jpg)
 
-####### The Stats Tab
+###### The Stats Tab
 
 The stats tab contains all item stats associated with your item. The valid stats of an item consist of a very long list ot possible stats. With the some exceptions like sockets, the stats are mostly those item identifiers that do not appear on an item until the item is identified.
 
@@ -156,16 +155,16 @@ If you add multiple equations and wish any of that logic to be OR'ed instead of 
 
 ![14](assets/nipper14.jpg)
 
-####### The Quantity Tab
+###### The Quantity Tab
 
 The quantity tab allows you to constrain the number of these items kept by the bot. You can keep as many as you find or limit the amount retained to a specific number.
 
 ![15](assets/nipper15.jpg)
 
 
-##### Edit Menu[/INDENT]
+#### Edit Menu[/INDENT]
 
-####### Edit Complex Keywords
+###### Edit Complex Keywords
 
 This menu selection is only for advanced Nipper users.
 
@@ -182,3 +181,9 @@ Locate your newly added keyword in the same place as all the other keywords, on 
 * New Keyword
 
 ![17](assets/nipper17.jpg)
+
+##### hystory
+
+[bh shared topic](https://web.archive.org/web/20161029231618/http://www.blizzhackers.cc:80/viewtopic.php?f=182&t=495003)
+
+and it was also included in etal d2nt bot.

@@ -1,5 +1,7 @@
 [pickit table of content](https://github.com/blizzhackers/pickits/#pickits)
 
+[NipCheck](nipcheck/readme.md)
+
 ----
 
 # Nipper

@@ -1,6 +1,6 @@
 [pickit table of content](https://github.com/blizzhackers/pickits/#pickits)
 
-[Nipper](d2nt/tools/nipper/Readme.md)
+[Nipper](https://github.com/blizzhackers/pickits/nipper/readme.md)
 
 ---
 

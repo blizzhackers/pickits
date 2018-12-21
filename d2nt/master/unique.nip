@@ -3,7 +3,6 @@
 //
 //		any item on this list which starts with //[ will not be picked up at all
 //		any item on this list which starts with [ 	will be picked up, then kept unid'ed or checked and then kept if it's good enough.
-//		more detailed instructions can be found at: http://www.projectetal.com/forums/wiki/?title=snagit_nip_syntax
 // -----------------------------------------------------------------------------------------------------
 
 //unique gloves

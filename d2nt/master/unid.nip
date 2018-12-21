@@ -6,7 +6,6 @@
 //		any item on this list which starts with //[ will not be picked up at all
 //		any item on this list which starts with [	will be picked up and kept unid'ed
 //		you must double check unique.nip to see which unique items will be picked up and then checked to see if the bot wants to keep them.
-//		more detailed instructions can be found at: http://www.projectetal.com/forums/wiki/?title=snagit_nip_syntax
 // -----------------------------------------------------------------------------------------------------
 
 //magic charms for cubing

@@ -28,7 +28,7 @@
 
 * [pickit FAQ](#pickit-faq)
 
-* [d2nt pickit errors](#d2nt-pickit errors)
+* [d2nt pickit errors](#d2nt-pickit-errors)
 
 * [pickit philosophy](#pickit-philosophy)
 
@@ -46,22 +46,22 @@
 
 All pickit files are stored in d2bs/kolbot/pickit/ There are several files to choose, you can also create and add your own or just edit these files.
 
-	* classic.nip
-	* follower.nip
-	* gold.nip
-	* keyorg.nip
-	* kolton.nip
-	* LLD.nip
-	* pots.nip
-	* shopbot.nip
-	* test.nip
+	* [classic.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/classic.nip)
+	* [follower.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/follower.nip)
+	* [gold.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/gold.nip)
+	* [keyorg.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/keyorg.nip)
+	* [kolton.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/kolton.nip)
+	* [LLD.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/LLD.nip)
+	* [pots.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/pots.nip)
+	* [shopbot.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/shopbot.nip)
+	* [test.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/test.nip)
 
-It is strongly recommended to use [notepad++](https://notepad-plus-plus.org/download/) to edit files. A useful plugin for notepad++ that works as a [NipCheck](nipcheck/README.md).
-It's important to check if your *.nip file is without errors. If you like you can use [Nipper](d2nt/tools/nipper/Readme.md) which works for kolbot and d2nt.
+It is strongly recommended to use [notepad++](https://notepad-plus-plus.org/download/) to edit files. A useful plugin for notepad++ that works as a [NipCheck](nipcheck/readme.md).
+It's important to check if your *.nip file is without errors. If you like you can use [Nipper](nipper/readme.md) which works both for kolbot and d2nt.
 
 First off familiarize yourself with some important and useful information.
 
-[NTItemAlias.dbl](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/libs/NTItemAlias.dbl) (or [NTItemAlias.ntj](d2nt\tools\NTItemAlias.ntj) in d2nt case) will answer 99% of item names/stats questions.
+[NTItemAlias.dbl](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/libs/NTItemAlias.dbl) (or [NTItemAlias.ntl](d2nt\NTItemAlias.ntl) in d2nt case) will answer 99% of item names/stats questions.
 
 **Remember**:
 
@@ -71,7 +71,7 @@ First off familiarize yourself with some important and useful information.
 
 * Crafts Get 4 affix + craft mods, still limited to 3 prefix or suffix max
 
-That's pretty much all there is to writing a pickit. Remember that everyone makes simple mistakes, but you can use [NipChecker](nipcheck/README.md) to find easier the issued lines and to correct them.
+That's pretty much all there is to writing a pickit. Remember that everyone makes simple mistakes, but you can use [NipCheck](nipcheck/readme.md) to find easier the issued lines and to correct them.
 
 ### format of the nip lines
 
@@ -79,7 +79,7 @@ NIP lines are of the format:
 
 ***{properties} # {stats} # {maxquantity}***
 
-##### things that go **before #**
+##### things that go before #
 
 **[type]**, **[name]**, **[class]**, **[quality]**, **[flag]**, **[level]**, **[prefix]**, **[suffix]**
 
@@ -92,7 +92,7 @@ NIP lines are of the format:
 	* [prefix]	= number of a prefix that should be on the item, this and suffix number can be a bit hard to find
 	* [suffix]	= number of a suffix that should be on the item
 
-##### things that go **after #**
+##### things that go after #
 
 * [stat keywords] : [Number or Alias]
 	* NTIPAliasStat		-> (skills,stats, etc)
@@ -263,7 +263,7 @@ Any pickit line without requirements for  [Stat] will keep that item unidentifie
 ```
 
 **Q:** I noticed you use **[name] >= && [name] <=** just wondering why?
-**A:** Simply easier than writing out each individual item name, but it has its drawbacks, for instance in the case of orbs I also wind up picking up all normal/exceptional amazon weapons(because they are between orbs) not a biggie on orbs but imagine if you put >= Crystalsword(#29) and <= Phaseblade(#225)
+**A:** Simply easier than writing out each individual item name, but it has its drawbacks, for instance in the case of orbs I also wind up picking up all normal/exceptional amazon weapons(because they are between orbs) not a biggie on orbs but imagine if you put >= crystalsword(#29) and <= phaseblade(#225)
 
 **Q:** Why does my bot keep picking up magic items when I have none on my pickit?
 **A:** If you're certain you don't have any magics on your pickt it is usually caused by >= or <= on normal or rares
@@ -275,8 +275,8 @@ Any pickit line without requirements for  [Stat] will keep that item unidentifie
 **Q:** How come for viperskin you only have FireRes?
 **A:** Unique items with all res only need one res to look for. If i have [fireresist] == 35, there is no need for it to look at any other qualifiers, Not like maras/vipers/metalgrids can spawn with 35fr,30LR,21Pr,30cr Same goes for charms, you only need 2 of the 4 Res to pickup an all res SC.
 
-**Q:** What is the difference between [Itemlevelreq] and [level]?
-**A:** Well [level] is kinda odd as although its listed as a [Stat] in NTitemAlias its actually used as a [Property], so If you want items under a certain level you would use [name] && [quality] # [ItemLevelReq] <=
+**Q:** What is the difference between [itemlevelreq] and [level]?
+**A:** Well [level] is kinda odd as although its listed as a [stat] in NTItemAlias its actually used as a [property], so If you want items under a certain level you would use [name] && [quality] # [itemlevelreq] <=
 If you want to keep items of a certain Ilvl you would use [name] && [quality] && [level]
 
 ##### d2nt pickit errors

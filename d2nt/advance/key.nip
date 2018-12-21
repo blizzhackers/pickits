@@ -1,0 +1,27 @@
+// ##### keys ##########################
+[name] == keyofterror
+[name] == keyofhate
+[name] == keyofdestruction
+
+// ##### organs ########################
+[name] == mephistosbrain
+[name] == baalseye
+[name] == diabloshorn
+
+// ##### essences ######################
+//[name] == twistedessenceofsuffering
+//[name] == chargedessenceofhatred
+//[name] == burningessenceofterror
+//[name] == festeringessenceofdestruction
+[name] == tokenofabsolution
+
+// ##### torch ######################
+//[name] == largecharm && [quality] == unique
+											   
+[name] == largecharm && [quality] == unique # [itemaddassassinskills] >= 1 && [strength] >= 10 && [fireresist] >= 10 
+[name] == largecharm && [quality] == unique # [itemadddruidskills] >= 1 && [strength] >= 10 && [fireresist] >= 10
+[name] == largecharm && [quality] == unique # [itemaddsorceressskills] >= 1 && [strength] >= 10 && [fireresist] >= 10
+[name] == largecharm && [quality] == unique # [itemaddpaladinskills] >= 1 && [strength] >= 10 && [fireresist] >= 10
+[name] == largecharm && [quality] == unique # [itemaddamazonskills] >= 1 && [strength] >= 10 && [fireresist] >= 10
+[name] == largecharm && [quality] == unique # [itemaddnecromancerskills] >= 1 && [strength] >= 10 && [fireresist] >= 10
+[name] == largecharm && [quality] == unique # [itemaddbarbarianskills] >= 1 && [strength] >= 10 && [fireresist] >= 10

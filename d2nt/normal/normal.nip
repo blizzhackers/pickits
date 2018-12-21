@@ -1,0 +1,164 @@
+// ##### helms #########################
+[type] == helm && [class] >= exceptional && [quality] == superior && [flag] != ethereal # [sockets] == 3 && [enhanceddefense] >= 5 // delirium or dream
+
+// ##### armor #########################
+[name] == mageplate && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 3) && [enhanceddefense] >= 5 // enigma
+[type] == armor && [class] == elite && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] >= 3) && [enhanceddefense] >= 5 // variable
+//[name] == sacredarmor && [quality] == normal # [defense] >= 720 && [sockets] == 0 // cubing
+[type] == armor && [quality] == normal # [defense] >= 1000 && [sockets] >= 3 // variable
+
+// ##### shields #######################
+[type] == shield && [class] == elite && [quality] == superior && [flag] != ethereal # [sockets] == 3 && [enhanceddefense] >= 5 // dream
+[name] == monarch && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddefense] >= 5 // phoenix or spirit
+
+// ##### gloves ########################
+
+// ##### boots #########################
+
+// ##### belts #########################
+
+// ##### barbarian helms ###############
+[type] == primalhelm && [class] == elite && [quality] <= superior && [flag] != ethereal # [sockets] == 3 && [skillbattleorders]+[skillbattlecommand] >= 4 // delirium
+[type] == primalhelm && [class] == elite && [quality] <= superior && [flag] != ethereal # [sockets] == 3 && [skillbattleorders]+[skillfinditem] >= 4 // delirium
+[type] == primalhelm && [class] == elite && [quality] <= superior && [flag] != ethereal # [sockets] == 3 && [skillbattleorders]+[skillshout] >= 4 // delirium
+
+// ##### druid pelts ###################
+[type] == pelt && [class] == elite && [quality] <= superior && [flag] != ethereal # [sockets] == 3 && [skillhurricane]+[skilltornado] >= 4 // delirium
+
+// ##### paladin shields ###############
+[type] == auricshields && [class] == elite && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] >= 3) && [enhanceddefense] >= 5 && [fireresist] >= 20 // dream or spirit
+[type] == auricshields && [class] == elite && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddefense] >= 5 && [enhanceddamage] >= 35 // phoenix
+[type] == auricshields && [quality] == normal # [defense] >= 300 && [sockets] == 4 && [fireresist] >= 20 // exile
+
+// ##### necromancer shrunken heads ####
+[type] == voodooheads && [class] == elite && [quality] <= superior && [flag] != ethereal # [sockets] == 2 && [skillbonespear]+[skillbonespirit] >= 4 // splender
+[type] == voodooheads && [class] == elite && [quality] <= superior && [flag] != ethereal # [sockets] == 2 && [skillpoisonexplosion]+[skillpoisonnova] >= 4 // splender
+
+// ##### axes ##########################
+[name] == berserkeraxe && [quality] == superior && [flag] != ethereal # [sockets] == 5 && [enhanceddamage] >= 5 // grief
+[name] == berserkeraxe && [quality] == superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 6) && [enhanceddamage] >= 5 // breath of the dying
+
+// ##### bows ##########################
+[type] == bow && [class] == elite && [quality] == superior # ([sockets] == 4 || [sockets] == 6) && [enhanceddamage] >= 5 // faith or breath of the dying
+[name] == greatbow && [quality] == superior # [sockets] == 0 && [enhanceddamage] >= 5 // faith
+([name] == crusaderbow || [name] == hydrabow) && [quality] == superior # [sockets] == 0 && [enhanceddamage] >= 5 // breath of the dying
+
+// ##### crossbows #####################
+([name] == gorgoncrossbow || [name] == colossuscrossbow) && [quality] == superior # [sockets] == 4 && [enhanceddamage] >= 5 // faith
+
+// ##### daggers #######################
+
+// ##### javelins ######################
+
+// ##### maces #########################
+[name] == flail && [quality] <= superior # [sockets] == 4 // heart of the oak
+
+// ##### polearms ######################
+[type] == polearm && [class] == normal && [quality] <= normal && [flag] != ethereal # [sockets] == 4 // insight for chaos
+//([name] >= thresher && [name] <= giantthresher) && [quality] == normal && [flag] == ethereal # [sockets] == 0 // cubing
+[type] == polearm && [class] == elite && [quality] <= superior && [flag] == ethereal # [sockets] >= 4 // variable
+
+// ##### scepters ######################
+[type] == scepter && [quality] <= superior # [sockets] == 5 && [skillblessedhammer]+[skillconcentration] >= 4 // call to arms
+[type] == scepter && [quality] <= superior # [sockets] == 5 && [skillfistoftheheavens]+[skillconviction] >= 4 // call to arms
+
+// ##### spears ########################
+[type] == spear && [class] == elite && [quality] == superior && [flag] == ethereal # [sockets] == 6 && [enhanceddamage] >= 5 // breath of the dying
+
+// ##### staves ########################
+
+// ##### swords ########################
+[name] == crystalsword && [quality] <= superior # [sockets] == 5 // call to arms
+([name] == zweihander || [name] == colossusblade) && [quality] == superior && [flag] != ethereal # [sockets] == 5 && [enhanceddamage] >= 5 // grief
+[name] == colossusblade && [quality] == superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 6) && [enhanceddamage] >= 5 // breath of the dying
+[name] == phaseblade && [quality] == superior # ([sockets] == 0 || [sockets] == 6) && [enhanceddamage] >= 5 // last wish
+
+// ##### throwing ######################
+
+// ##### wands #########################
+[type] == wand && [quality] <= superior # [sockets] != 1 && [skillbonespear]+[skillbonespirit] >= 4 // white
+
+// ##### amazon weapons ################
+[type] == amazonbow && [class] == elite && [quality] == superior # [sockets] == 4 && [enhanceddamage] >= 5 && [bowandcrossbowskilltab] >= 1 // faith
+
+// ##### assassin katars ###############
+([name] == suwayyah || [name] == scissorssuwayyah) && [quality] == superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 3) && [enhanceddamage] >= 5 // chaos
+
+// ##### sorceress orbs ################
+
+// ##### circlets ######################
+[type] == circlet && [quality] == superior && [flag] != ethereal # [sockets] == 3 && [enhanceddefense] >= 5 // dream
+
+// ##### runes #########################
+//[name] == elrune
+//[name] == eldrune
+//[name] == tirrune
+//[name] == nefrune
+//[name] == ethrune
+//[name] == ithrune
+//[name] == talrune
+//[name] == ralrune
+//[name] == ortrune
+//[name] == thulrune
+//[name] == amnrune
+//[name] == solrune
+//[name] == shaelrune
+//[name] == dolrune
+//[name] == helrune
+[name] == iorune
+[name] == lumrune
+[name] == korune
+[name] == falrune
+[name] == lemrune
+[name] == pulrune
+[name] == umrune
+[name] == malrune
+[name] >= istrune && [name] <= zodrune
+
+// ##### gems ##########################
+//[name] == chippedamethyst
+//[name] == chippeddiamond
+//[name] == chippedemerald
+//[name] == chippedruby
+//[name] == chippedsapphire
+//[name] == chippedskull
+//[name] == chippedtopaz
+//[name] == flawedamethyst
+//[name] == flaweddiamond
+//[name] == flawedemerald
+//[name] == flawedruby
+//[name] == flawedsapphire
+//[name] == flawedskull
+//[name] == flawedtopaz
+//[name] == amethyst
+//[name] == diamond
+//[name] == emerald
+//[name] == ruby
+//[name] == skull
+//[name] == sapphire
+//[name] == topaz
+//[name] == flawlessamethyst
+//[name] == flawlessdiamond
+//[name] == flawlessemerald
+//[name] == flawlessruby
+//[name] == flawlesssapphire
+//[name] == flawlessskull
+//[name] == flawlesstopaz
+//[name] == perfectamethyst
+//[name] == perfectdiamond
+//[name] == perfectemerald
+//[name] == perfectruby
+//[name] == perfectsapphire
+//[name] == perfectskull
+//[name] == perfecttopaz
+
+// ##### potions #######################
+//[name] == greaterhealingpotion
+[name] == superhealingpotion
+//[name] == greatermanapotion
+[name] == supermanapotion
+//[name] == rejuvenationpotion
+[name] == fullrejuvenationpotion
+
+// ##### gold ##########################
+[type] == gold # [gold] >= 1000

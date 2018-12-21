@@ -1,0 +1,30 @@
+// ##### helms #########################
+[type] == helm && [quality] == crafted # [sockets] >= 0 && [itemdeadlystrike] >= 5 && [lifeleech] >= 1 && [itemtohitpercentperlevel] >= 1 && [fhr] >= 10 && ([enhanceddefense] >= 120 || [maxhp] >= 45)
+
+// ##### armor #########################
+
+// ##### shields #######################
+[name] == monarch && [quality] == crafted # [sockets] >= 0 && [enhanceddefense] >= 150 && [fbr] >= 15 && (([fireresist] >= 15 && [lightresist] >= 15) || [fhr] >= 10)
+
+// ##### gloves ########################
+[type] == gloves && [quality] == crafted # [itemknockback] >= 1 && [itemaddskilltab] >= 2 && [ias] >= 20 && ([strength] >= 6 || [dexterity] >= 6) && ([lifeleech] >= 3 || [manaleech] >= 3)
+[type] == gloves && [quality] == crafted # [itemknockback] >= 1 && [itemaddskilltab] >= 2 && [ias] >= 20 && [strength]+[dexterity] >= 15
+[type] == gloves && [quality] == crafted # [itemcrushingblow] >= 5 && [lifeleech] >= 4 && [ias] >= 20 && ([strength] >= 6 || [dexterity] >= 6)
+[type] == gloves && [quality] == crafted # [itemcrushingblow] >= 5 && [lifeleech] >= 4 && [strength]+[dexterity] >= 15
+
+// ##### boots #########################
+[type] == boots && [quality] == crafted # [lifeleech] >= 1 && [frw] >= 30 && [fhr] >= 10 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 40
+[type] == boots && [quality] == crafted # [lifeleech] >= 1 && [frw] >= 30 && [fhr] >= 10 && [dexterity] >= 4 && ([fireresist] >= 25 || [lightresist] >= 25 || [coldresist] >= 25 || [poisonresist] >= 25)
+
+// ##### belts #########################
+[type] == belt && [quality] == crafted # [itemopenwounds] >= 5 && [lifeleech] >= 1 && [fhr] >= 24 && [strength] >= 15 && ([maxhp] >= 50 || [itemgoldbonus] >= 50)
+
+// ##### rings #########################
+[type] == ring && [quality] == crafted # [lifeleech] >= 8 && [tohit] >= 70 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 32 && ([strength] >= 10 || [dexterity] >= 0 || [manaleech] >= 4)
+[type] == ring && [quality] == crafted # [lifeleech] >= 8 && [tohit] >= 70 && [strength]+[dexterity] >= 25
+
+// ##### amulets #######################
+[type] == amulet && [quality] == crafted # [fcr] >= 15 && [itemaddclassskills] >= 2 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 50 && ([maxmana] >= 80 || [maxhp] >= 30 || [strength] >= 15 || [dexterity] >= 5)
+[type] == amulet && [quality] == crafted # [lifeleech] >= 7 && [itemaddclassskills] >= 2 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 50 && ([manaleech] >= 6 || [maxhp] >= 50 || [strength] >= 15 || [dexterity] >= 5)
+[type] == amulet && [quality] == crafted # [lifeleech] >= 7 && [itemaddclassskills] >= 2 && [strength]+[dexterity] >= 30
+[type] == amulet && [quality] == crafted # [toblock] >= 5 && [itemaddclassskills] >= 2 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 50 && ([lifeleech] >= 4 || [manaleech] >= 6 || [maxhp] >= 30 || [strength] >= 15 || [dexterity] >= 5)

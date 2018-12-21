@@ -44,17 +44,17 @@
 
 ### pickit walk-through
 
-All pickit files are stored in d2bs/kolbot/pickit/ There are several files to choose, you can also create and add your own or just edit these files.
+All pickit files are stored in d2bs/kolbot/pickit/ There are several default files to choose, you can also create and add your own or just edit these files.
 
-	* [classic.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/classic.nip)
-	* [follower.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/follower.nip)
-	* [gold.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/gold.nip)
-	* [keyorg.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/keyorg.nip)
-	* [kolton.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/kolton.nip)
-	* [LLD.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/LLD.nip)
-	* [pots.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/pots.nip)
-	* [shopbot.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/shopbot.nip)
-	* [test.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/test.nip)
+* [classic.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/classic.nip)
+* [follower.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/follower.nip)
+* [gold.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/gold.nip)
+* [keyorg.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/keyorg.nip)
+* [kolton.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/kolton.nip)
+* [LLD.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/LLD.nip)
+* [pots.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/pots.nip)
+* [shopbot.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/shopbot.nip)
+* [test.nip](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/test.nip)
 
 It is strongly recommended to use [notepad++](https://notepad-plus-plus.org/download/) to edit files. A useful plugin for notepad++ that works as a [NipCheck](nipcheck/readme.md).
 It's important to check if your *.nip file is without errors. If you like you can use [Nipper](nipper/readme.md) which works both for kolbot and d2nt.
@@ -79,7 +79,7 @@ NIP lines are of the format:
 
 ***{properties} # {stats} # {maxquantity}***
 
-##### things that go before #
+##### things that go before \#
 
 **[type]**, **[name]**, **[class]**, **[quality]**, **[flag]**, **[level]**, **[prefix]**, **[suffix]**
 
@@ -92,7 +92,7 @@ NIP lines are of the format:
 	* [prefix]	= number of a prefix that should be on the item, this and suffix number can be a bit hard to find
 	* [suffix]	= number of a suffix that should be on the item
 
-##### things that go after #
+##### things that go after \#
 
 * [stat keywords] : [Number or Alias]
 	* NTIPAliasStat		-> (skills,stats, etc)
@@ -234,14 +234,14 @@ the two # # seperate properties, stats and maxquantity. If no stats are on the i
 ##### druid pelt
 One last example on how the () works in a line:
 ```
-[type] == Pelt && [quality] == Rare && [flag] != Ethereal # ([DruidSkills] >= 2 || [ElementalSkillTab] >= 2) && [SkillTornado] >= 3 && [FHR] >= 10 && [sockets] >= 2
+[type] == pelt && [quality] == rare && [flag] != ethereal # ([druidskills] >= 2 || [elementalskilltab] >= 2) && [skilltornado] >= 3 && [fhr] >= 10 && [sockets] >= 2
 ```
 This line looks for:
-a druid helm (called pelts), [type] == pelt that is rare, [quality] == rare and that is NOT ethereal, [flag] != ethereal, then comes the first # so next comes the stats that should be on the item: either DruidSkills 2 or more (2 + to Druid skills) OR ElementalSkillTab 2 or more (2 + to Elemental skill tab) SkillTornado 3 or higher (can't be higher than 3 but better safe than sorry if a bugged item happens to come along) faster hit recovery 3 or higher, [FHR] >= 3, Sockets 2 or more, [sockets] >= 2
+a druid helm (called pelt), [type] == pelt that is rare, [quality] == rare and that is NOT ethereal, [flag] != ethereal, then comes the first # so next comes the stats that should be on the item: either DruidSkills 2 or more (2 + to druid skills) OR elementalskilltab 2 or more (2 + to elemental skill tab) skilltornado 3 or higher (can't be higher than 3 but better safe than sorry if a bugged item happens to come along) faster hit recovery 3 or higher, [fhr] >= 3, sockets 2 or more, [sockets] >= 2
 
 
 ### how to keep items unid
-Any pickit line without requirements for  [Stat] will keep that item unidentified. If it doesn't, check other lines from active pickit files to see if you not doubled that item. use notepad++ < Find in Files > tool. Example: 
+Any pickit line without requirements for **[stat]** will keep that item unidentified. If it doesn't, check other lines from active pickit files to see if you not doubled that item. use notepad++ < Find in Files > tool. Example: 
 ```
 [name] == corona && [quality] == unique
 [name] == ring && [quality] == unique
@@ -366,13 +366,13 @@ Remember, what works for one person may not work for you. Even if you use a pre-
 Example:
 
 ```
-[name] == SlayerGuard && [quality] == unique # [EnhancedDefense] >= 200
+[name] == slayerguard && [quality] == unique # [enhanceddefense] >= 200
 ```
 
 This line is for Arreat's Face with perfect defense. While this is ideal, it's rare. You can drop it to
 
 ```
-[name] == SlayerGuard && [quality] == unique # [EnhancedDefense] >= 180
+[name] == slayerguard && [quality] == unique # [enhanceddefense] >= 180
 ```
 
 If that one with perfect defense drops, you will still keep it.
@@ -382,78 +382,78 @@ If that one with perfect defense drops, you will still keep it.
 
 When an item has both a poison damage prefix and suffix, it's not the total damage but the damage rates (i.e. damage per second) that are summed (as are the lengths).
 
-The Pestilent prefix applies 175 Poison Damage Over 6 Seconds; that's approximately 175/6 poison damage per second. The Anthrax suffix applies 50 Poison Damage Over 6 Seconds; that's approximately 50/6 poison damage per second. So a Pestilent Small Charm of Anthrax applies approximately 37.5 ((175 + 50)/6) poison damage per second for 12 (6 + 6) seconds, resulting in approximately 450 (37.5 x 12) poison damage over 12 seconds. You need to know the values and calculations used by the game for exact figures:
+The **pestilent** prefix applies 175 poison damage over 6 seconds; that's approximately 175/6 poison damage per second. The **anthrax** suffix applies 50 poison damage over 6 seconds; that's approximately 50/6 poison damage per second. So, a **pestilent small charm of anthrax** applies approximately 37.5 ((175 + 50)/6) poison damage per second for 12 (6 + 6) seconds, resulting in approximately 450 (37.5 x 12) poison damage over 12 seconds. You need to know the values and calculations used by the game for exact figures:
 ```
-Affix      Rate  Frames  Poison Damage      Over Seconds
+Affix      Rate  Frames  Poison Damage      Over seconds
 ________________________________________________________
-Pestilent  299    150    299*150/256 = 175  150/25 =  6
-Anthrax     86    150     86*150/256 =  50  150/25 =  6
+pestilent  299    150    299*150/256 = 175  150/25 =  6
+anthrax     86    150     86*150/256 =  50  150/25 =  6
 
 Total      385    300    385*300/256 = 451  300/25 = 12
 ```
 
 ```
-//Prefix
-//Septic    +  15 Poison Damage Over 3 Seconds
-//Foul      +  50 Poison Damage Over 4 Seconds
-//Toxic     + 100 Poison Damage Over 5 Seconds
-//Pestilent + 175 Poison Damage Over 6 Seconds
+//prefix
+//septic    +  15 poison damage over 3 seconds
+//foul      +  50 poison damage over 4 seconds
+//toxic     + 100 poison damage over 5 seconds
+//pestilent + 175 poison damage over 6 seconds
  
-//Suffix
-//Blight     +  6 Poison Damage Over 3 Seconds
-//Venom      + 15 Poison Damage Over 4 Seconds
-//Pestilence + 25 Poison Damage Over 5 Seconds
-//Anthrax    + 50 Poison Damage Over 6 Seconds
+//suffix
+//blight     +  6 poison damage over 3 seconds
+//venom      + 15 poison damage over 4 seconds
+//pestilence + 25 poison damage over 5 seconds
+//anthrax    + 50 poison damage over 6 seconds
  
-// Prefix Small Charms
-[PoisonMaxDam] >= 52 && [PoisonLength] == 3 // Septic Small Charm
-[PoisonMaxDam] >= 128 && [PoisonLength] == 4 // Foul Small Charm
-[PoisonMaxDam] >= 205 && [PoisonLength] == 5 // Toxic Small Charm
-[PoisonMaxDam] >= 299 && [PoisonLength] == 6 // Pestilent Small Charm
+// prefix small charms
+[poisonmaxdam] >= 52 && [poisonlength] == 3 // septic small charm
+[poisonmaxdam] >= 128 && [poisonlength] == 4 // foul small charm
+[poisonmaxdam] >= 205 && [poisonlength] == 5 // toxic small charm
+[poisonmaxdam] >= 299 && [poisonlength] == 6 // pestilent small charm
  
-// Suffix Small Charms
-[PoisonMaxDam] >= 21 && [PoisonLength] == 3 // Small Charm of Blight
-[PoisonMaxDam] >= 39 && [PoisonLength] == 4 // Small Charm of Venom
-[PoisonMaxDam] >= 52 && [PoisonLength] == 5 // Small Charm of Pestilence
-[PoisonMaxDam] >= 86 && [PoisonLength] == 6 // Small Charm of Anthrax
+// suffix small charms
+[poisonmaxdam] >= 21 && [poisonlength] == 3 // small charm of blight
+[poisonmaxdam] >= 39 && [poisonlength] == 4 // small charm of venom
+[poisonmaxdam] >= 52 && [poisonlength] == 5 // small charm of pestilence
+[poisonmaxdam] >= 86 && [poisonlength] == 6 // small charm of anthrax
  
-// Combinations of Pre+Suf Small Chamrs
-[PoisonMaxDam] >= 73 && [PoisonLength] == 6 // Septic Small Charm of Blight             -  43 damage over 6 seconds
-[PoisonMaxDam] >= 91 && [PoisonLength] == 7 // Septic Small Charm of Venom              -  62 damage over 7 seconds
-[PoisonMaxDam] >= 104 && [PoisonLength] == 8 // Septic Small Charm of Pestilence        -  81 damage over 8 seconds
-[PoisonMaxDam] >= 138 && [PoisonLength] == 9 // Septic Small Charm of Anthrax           - 121 damage over 9 seconds
+// Combinations of Pre+Suf small Chamrs
+[poisonmaxdam] >= 73 && [poisonlength] == 6 // septic small charm of blight             -  43 damage over 6 seconds
+[poisonmaxdam] >= 91 && [poisonlength] == 7 // septic small charm of venom              -  62 damage over 7 seconds
+[poisonmaxdam] >= 104 && [poisonlength] == 8 // septic small charm of pestilence        -  81 damage over 8 seconds
+[poisonmaxdam] >= 138 && [poisonlength] == 9 // septic small charm of anthrax           - 121 damage over 9 seconds
  
-[PoisonMaxDam] >= 149 && [PoisonLength] == 7 // Foul Small Charm of Blight              - 102 damage over 7 seconds
-[PoisonMaxDam] >= 167 && [PoisonLength] == 8 // Foul Small Charm of Venom               - 130 damage over 8 seconds
-[PoisonMaxDam] >= 180 && [PoisonLength] == 9 // Foul Small Charm of Pestilence          - 158 damage over 9 seconds
-[PoisonMaxDam] >= 214 && [PoisonLength] == 10 // Foul Small Charm of Anthrax            - 209 damage over 10 seconds
+[poisonmaxdam] >= 149 && [poisonlength] == 7 // foul small charm of blight              - 102 damage over 7 seconds
+[poisonmaxdam] >= 167 && [poisonlength] == 8 // foul small charm of venom               - 130 damage over 8 seconds
+[poisonmaxdam] >= 180 && [poisonlength] == 9 // foul small charm of pestilence          - 158 damage over 9 seconds
+[poisonmaxdam] >= 214 && [poisonlength] == 10 // foul small charm of anthrax            - 209 damage over 10 seconds
  
-[PoisonMaxDam] >= 226 && [PoisonLength] == 8 // Toxic Small Charm of Blight             - 177 damage over 8 seconds
-[PoisonMaxDam] >= 244 && [PoisonLength] == 9 // Toxic Small Charm of Venom              - 214 damage over 9 seconds
-[PoisonMaxDam] >= 257 && [PoisonLength] == 10 // Toxic Small Charm of Pestilence        - 251 damage over 10 seconds
-[PoisonMaxDam] >= 291 && [PoisonLength] == 11 // Toxic Small Charm of Anthrax           - 313 damage over 11 seconds
+[poisonmaxdam] >= 226 && [poisonlength] == 8 // toxic small charm of blight             - 177 damage over 8 seconds
+[poisonmaxdam] >= 244 && [poisonlength] == 9 // toxic small charm of venom              - 214 damage over 9 seconds
+[poisonmaxdam] >= 257 && [poisonlength] == 10 // toxic small charm of pestilence        - 251 damage over 10 seconds
+[poisonmaxdam] >= 291 && [poisonlength] == 11 // toxic small charm of anthrax           - 313 damage over 11 seconds
  
-[PoisonMaxDam] >= 320 && [PoisonLength] == 9 // Pestilent Small Charm of Blight         - 281 damage over 9 seconds
-[PoisonMaxDam] >= 338 && [PoisonLength] == 10 // Pestilent Small Charm of Venom         - 330 damage over 10 seconds
-[PoisonMaxDam] >= 351 && [PoisonLength] == 11 // Pestilent Small Charm of Pestilence    - 377 damage over 11 seconds
-[PoisonMaxDam] >= 385 && [PoisonLength] == 12 // Pestilent Small Charm of Anthrax       - 451 damage over 12 seconds
+[poisonmaxdam] >= 320 && [poisonlength] == 9 // pestilent small charm of blight         - 281 damage over 9 seconds
+[poisonmaxdam] >= 338 && [poisonlength] == 10 // pestilent small charm of venom         - 330 damage over 10 seconds
+[poisonmaxdam] >= 351 && [poisonlength] == 11 // pestilent small charm of pestilence    - 377 damage over 11 seconds
+[poisonmaxdam] >= 385 && [poisonlength] == 12 // pestilent small charm of anthrax       - 451 damage over 12 seconds
  
-//Affix      Rate  Frames  Poison Damage      Over Seconds
+//Affix      Rate  Frames  poison damage      over seconds
   ________________________________________________________
-//Pestilent  299    150    299*150/256 = 175  150/25 =  6
-//Anthrax     86    150     86*150/256 =  50  150/25 =  6
+//pestilent  299    150    299*150/256 = 175  150/25 =  6
+//anthrax     86    150     86*150/256 =  50  150/25 =  6
 
 //Total      385    300    385*300/256 = 451  300/25 = 12
 
 (damage*256) / (secound*25)
 so in the case of the above mentioned 175/6
 (175*256) / (6*25) = 44800 / 150 = 298,666666667
-175 poison damage over 6 = [PoisonMaxDam] >= 299 && [PoisonLength] >= 6
+175 poison damage over 6 = [poisonmaxdam] >= 299 && [poisonlength] >= 6
 
 (damage*256) / (secound*25)
 so in the case of the above mentioned 100/5
 (100*205) / (5*25) = 20500 / 125 = 164
-100 Poison Damage Over 5 = [PoisonMaxDam] >= 164 && [PoisonLength] >= 5
+100 poison damage over 5 = [poisonmaxdam] >= 164 && [poisonlength] >= 5
 ```
 
-additional https://diablo2.diablowiki.net/Guide:Calculating_Poison_Damage_v1.10,_by_onderduiker
+additional https://diablo2.diablowiki.net/Guide:Calculating_poison_damage_v1.10,_by_onderduiker

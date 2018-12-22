@@ -121,7 +121,7 @@
 [name] == smallcharm && [quality] == magic # [maxhp]+[maxmana] >= 25
 [name] == smallcharm && [quality] == magic # [firemaxdam] >= 30 || [lightmaxdam] >= 75 || [coldmaxdam] >= 22
 [name] == smallcharm && [quality] == magic && [prefix] == 1407 && [suffix] > 0
-[name] == smallcharm && [quality] == magic # [poisonmaxdam]/10.2 >= 21
+[name] == smallcharm && [quality] == magic # [poisonmaxdam] >= 214
 [name] == smallcharm && [quality] == magic # [itemmagicbonus] >= 7
 
 // ##### large charms ##################

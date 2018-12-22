@@ -4,9 +4,9 @@
 [name] == keyofdestruction
 
 // ##### organs ########################
-[name] == mephistosbrain
-[name] == baalseye
-[name] == diabloshorn
+[name] == mephisto'sbrain
+[name] == baal'seye
+[name] == diablo'shorn
 
 // ##### essences ######################
 //[name] == twistedessenceofsuffering
@@ -17,7 +17,7 @@
 
 // ##### torch ######################
 //[name] == largecharm && [quality] == unique
-											   
+
 [name] == largecharm && [quality] == unique # [itemaddassassinskills] >= 1 && [strength] >= 10 && [fireresist] >= 10 
 [name] == largecharm && [quality] == unique # [itemadddruidskills] >= 1 && [strength] >= 10 && [fireresist] >= 10
 [name] == largecharm && [quality] == unique # [itemaddsorceressskills] >= 1 && [strength] >= 10 && [fireresist] >= 10

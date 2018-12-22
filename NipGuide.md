@@ -8,9 +8,9 @@
 
 * [format of the nip lines](#format-of-the-nip-lines)
 
-	* [things that go before the #](#things-that-go-before-the-#)
+	* [things that go before the #](#things-that-go-before-)
 
-	* [things that go after #](#things-that-go-after-#)
+	* [things that go after #](#things-that-go-after-)
 
 	* [comparison symbols](#comparison-symbols)
 
@@ -81,7 +81,7 @@ NIP lines are of the format:
 
 ##### things that go before \#
 
-**[type]**, **[name]**, **[class]**, **[quality]**, **[flag]**, **[level]**, **[prefix]**, **[suffix]**
+[type], [name], [class], [quality], [flag], [level], [prefix], [suffix]
 
 	* NTIPAliasType		-> [type] 
 	* NTIPAliasClassID	-> [name]
@@ -102,15 +102,15 @@ NIP lines are of the format:
 
 ##### [comparison symbols](https://www.w3schools.com/JSREF/jsref_operators.asp):
 
-	* == equals
-	* > greater than
-	* >= greater or equal to
-	* < less than
-	* <= less than or equal to
-	* != not equal to
-	* && and
-	* || or
-	* () group things up
+* == equals
+* > greater than
+* >= greater or equal to
+* < less than
+* <= less than or equal to
+* != not equal to
+* && and
+* || or
+* () group things up
 
 ### item-parser syntax information
 
@@ -122,9 +122,9 @@ NIP lines are of the format:
 * [maxquantity keywords] = [maxquantity] (used to limit the quantity kept)
 * [keyword] must be surrounded by **[** and **]**
 * [property keywords] must be placed first
-* Insert **#** symbol between [property keywords] and [stat keywords]
-* Use **+**, **-**, **\***, **/**, **(**, **)**, **&&**, **||**, **>**, **>=**, **<**, **<=**, **==**, **!=** symbols for comparison
-* Use **//** symbol for comment
+* insert **#** symbol between [property keywords] and [stat keywords]
+* use +, -, \*, /, (, ), &&, ||, >, >=, <, <=, ==, != symbols for comparison
+* use **//** symbol for comment
 
 There is no getting around learning the NIP syntax. You simply have to bite the bullet and do it. No one here can learn it for you. While it is not the most user-friendly language, it is fairly easy to understand once you start working with it.
 

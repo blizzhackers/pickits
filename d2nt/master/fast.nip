@@ -244,7 +244,7 @@
 //[name] == smallcharm && [quality] == magic # [tohit] >= 34 && ([strength] == 2 || [dexterity] == 2)
 
 //poison sc
-[name] == smallcharm && [quality] == magic # [poisonmaxdam]/10.2 >= 20
+[name] == smallcharm && [quality] == magic # [poisonmaxdam] >= 214
 
 //##########rare##########
 //rare jewels

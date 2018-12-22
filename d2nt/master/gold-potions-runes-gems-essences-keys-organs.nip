@@ -24,9 +24,9 @@
 //[name] == keyofdestruction # # [maxquantity] == 3
 
 //uber quest organs
-[name] == mephistosbrain
-[name] == baalseye
-[name] == diabloshorn
+[name] == mephisto'sbrain
+[name] == baal'seye
+[name] == diablo'shorn
 
 //respec essences
 //[name] == twistedessenceofsuffering # # [maxquantity] == 2

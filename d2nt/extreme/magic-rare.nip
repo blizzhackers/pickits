@@ -315,7 +315,7 @@
 [name] == smallcharm && [quality] == magic # (([maxdamage] >= 3 && [tohit] >= 16) || [maxmana] >= 16 || ([fireresist] >= 5 && [lightresist] >= 5)) && ([maxhp] >= 16 || [fhr] >= 5 || [frw] >= 3 || [strength] >= 2 || [dexterity] >= 2)
 [name] == smallcharm && [quality] == magic # ([firemaxdam] >= 28 || [lightmaxdam] >= 65 || [coldmaxdam] >= 19) && ([maxhp] >= 16 || [fhr] >= 5 || [frw] >= 3 || [strength] >= 2 || [dexterity] >= 2)
 [name] == smallcharm && [quality] == magic # [maxhp]+[maxmana] >= 30
-[name] == smallcharm && [quality] == magic # [firemaxdam] >= 40 || [lightmaxdam] >= 95 || [coldmaxdam] >= 28 || [poisonmaxdam]/10.2 >= 20
+[name] == smallcharm && [quality] == magic # [firemaxdam] >= 40 || [lightmaxdam] >= 95 || [coldmaxdam] >= 28 || [poisonmaxdam] >= 214
 [name] == smallcharm && [quality] == magic # [itemmagicbonus] >= 7
 [name] == smallcharm && [quality] == magic # [maxhp] == 20
 [name] == smallcharm && [quality] == magic # [maxhp] >= 15 && [fhr] == 5 

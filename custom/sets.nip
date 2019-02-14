@@ -1,0 +1,195 @@
+// ---------- normal sets ----------
+
+//		== angelic raiment ==
+//[name] == ringmail && [quality] == set # [enhanceddefense] == 40
+//[name] == sabre && [quality] == set # [tohit] == 75 && [itemundeaddamagepercent] == 250
+//[name] == ring && [quality] == set # [maxhp] == 20 && [hpregen] == 6
+//[name] == amulet && [quality] == set # [itemdamagetomana] == 20 && [itemlightradius] == 3
+
+//		== arcanna's tricks == sorceress set
+//[name] == skullcap && [quality] == set # [hpregen] == 4 && [itemattackertakesdamage] == 2
+//[name] == lightplate && [quality] == set # [itemlightradius] == 2 && [normaldamagereduction] == 3
+//[name] == warstaff && [quality] == set # [sorceressskills] == 1 && [itemdeadlystrike] == 25
+[name] == amulet && [quality] == set # [maxmana] == 15 && [manarecoverybonus] == 20
+
+//		== arctic gear == amazon set
+[name] == quiltedarmor && [quality] == set # [enhanceddefense] >= 275 && [fireresist] == 10
+//[name] == lightbelt && [quality] == set # [coldresist] == 40
+//[name] == lightgauntlets && [quality] == set # [maxhp] == 20 && [ias] == 10
+[name] == shortwarbow && [quality] == set # [enhanceddamage] == 50 && [tohit] == 20
+
+//		== berserker's arsenal == barbarian set
+//[name] == helm && [quality] == set # [fireresist] == 25
+//[name] == splintmail && [quality] == set # [barbarianskills] == 1 && [magicdamagereduction] == 2
+//[name] == doubleaxe && [quality] == set # [manaleech] == 5
+
+//		== cathan's traps == sorceress set
+//[name] == mask && [quality] == set # [coldresist] == 25 && [maxmana] == 20
+[name] == chainmail && [quality] == set # [itemreqpercent] == 50
+[name] == battlestaff && [quality] == set # [fireskilltab] == 1 && [firemaxdam] == 10 && [itemundeaddamagepercent] == 50
+//[name] == amulet && [quality] == set # [itemattackertakeslightdamage] == 5 && [fhr] == 10
+//[name] == ring && [quality] == set # [lifeleech] == 6 && [normaldamagereduction] == 2
+
+//		== civerb's vestments ==
+[name] == grandscepter && [quality] == set # [itemmaxdamageperlevel] == 1 && [plusmaxdamage] >= 17 && [tohit] == 75
+//[name] == amulet && [quality] == set # [hpregen] == 4 && [manarecoverybonus] == 40
+//[name] == largeshield && [quality] == set # [toblock] == 15
+
+//		== clegaw's brace ==
+//[name] == longsword && [quality] == set # [itemdeadlystrike] == 50 && [itemtohitpercent] == 30
+//[name] == chaingloves && [quality] == set # [itemslow] == 25
+//[name] == smallshield && [quality] == set # [itempoisonlengthresist] == 75
+
+//		== death's disquise ==
+//[name] == warsword && [quality] == set # [enhanceddamage] == 25 && [lifeleech] == 4
+//[name] == leathergloves && [quality] == set # [itempoisonlengthresist] == 75 && [poisonresist] == 50
+[name] == sash && [quality] == set # [defense] == 20
+
+//		== hsarus defense ==
+//[name] == buckler && [quality] == set # [normaldamagereduction] == 2 && [strength] == 10
+//[name] == belt && [quality] == set # [coldresist] == 20 && [maxhp] == 20
+//[name] == chainboots && [quality] == set # [frw] == 20 && [fireresist] == 25
+
+//		== infernal tools == necromancer set
+[name] == cap && [quality] == set # [itemdamagetomana] == 20 && [fireresist] == 10 && [coldresist] == 10 && [lightresist] == 10
+//[name] == heavybelt && [quality] == set # [maxhp] == 20
+[name] == grimwand && [quality] == set # [necromancerskills] == 1 && [plusmindamage] == 8 && [itemundeaddamagepercent] == 150
+
+//		== iratha's finery ==
+//[name] == crown && [quality] == set # [lightresist] == 30 && [fireresist] == 30
+//[name] == amulet && [quality] == set # [itempoisonlengthresist] == 75 && [poisonresist] == 30
+//[name] == heavybelt && [quality] == set # [mindamage] == 5
+//[name] == lightgauntlets && [quality] == set # [coldresist] == 30
+
+//		== isenhart's armory ==
+//[name] == broadsword && [quality] == set # [ias] == 20
+//[name] == fullhelm && [quality] == set # [normaldamagereduction] == 2 && [dexterity] == 6
+//[name] == breastplate && [quality] == set # [magicdamagereduction] == 2 
+//[name] == gothicshield && [quality] == set # [itemattackertakeslightdamage] == 4
+
+//		== milebrega's regalia == paladin set
+//[name] == crown && [quality] == set # [maxmana] == 15 && [maxhp] == 15
+//[name] == ancientarmor && [quality] == set # [normaldamagereduction] == 2 && [itemattackertakesdamage] == 3
+//[name] == kiteshield && [quality] == set # [itemmagicbonus] == 20
+[name] == warscepter && [quality] == set # [enhanceddamage] == 20 && [paladinskills] == 1
+
+//		== sigon's complete steel ==
+//[name] == greathelm && [quality] == set # [maxmana] == 30
+//[name] == gothicplate && [quality] == set # [enhanceddefense] == 25 && [lightresist] == 30
+//[name] == greaves && [quality] == set # [frw] == 20 && [coldresist] == 40
+[name] == towershield && [quality] == set # [itemaddskilltab] == 1 && [toblock] == 20
+//[name] == platedbelt && [quality] == set # [fireresist] == 20 && [maxhp] == 20
+//[name] == gauntlets && [quality] == set # [tohit] == 20 && [strength] == 10
+
+//		== tancred's battlegear ==
+//[name] == bonehelm && [quality] == set # [enhanceddamage] == 10 && [tohit] == 40
+//[name] == fullplatemail && [quality] == set # [maxhp] == 40 && [strength] == 15
+//[name] == boots && [quality] == set # [dexterity] == 10
+//[name] == militarypick && [quality] == set # [enhanceddamage] == 80 && [tohit] == 75
+//[name] == amulet && [quality] == set # [normaldamagereduction] == 2 && [magicdamagereduction] == 1
+
+//		== vidala's rig == amazon set
+//[name] == longbattlebow && [quality] == set
+//[name] == leatherarmor && [quality] == set # [dexterity] == 11
+//[name] == lightplatedboots && [quality] == set # [frw] == 30
+//[name] == amulet && [quality] == set # [coldresist] == 20 && [maxhp] == 15
+
+
+// ---------- lod sets ----------
+
+//		== aldur's watchtower == druid set
+//[name] == hunter'sguise && [quality] == set # [fhr] == 25 && [coldresist] >= 40
+//[name] == battleboots && [quality] == set # [fireresist] >= 40
+//[name] == shadowplate && [quality] == set # [lightresist] >= 40
+//[name] == jaggedstar && [quality] == set # [ias] == 30 && [lifeleech] == 10 && [sockets] >= 2
+
+//		== bul-kathos' children == barbarian set
+//[name] == colossusblade && [quality] == set # [enhanceddamage] == 200 && [ias] == 20
+[name] == mythicalsword && [quality] == set # [enhanceddamage] == 200 && [fireresist] == 50
+
+//		== cow king's leathers ==
+[name] == warhat && [quality] == set # [itemdamagetomana] == 35
+[name] == studdedleather && [quality] == set # [enhanceddefense] == 60 && [maxhp] == 30
+[name] == heavyboots && [quality] == set # [frw] == 30 && [dexterity] == 20
+
+//		== the disciple ==
+[name] == amulet && [quality] == set # [itemaddskilltab] == 1 && [poisonresist] >= 35
+//[name] == bramblemitts && [quality] == set # [ias] == 20
+//[name] == duskshroud && [quality] == set # [fireresist] == 24
+//[name] == demonhideboots && [quality] == set # [frw] == 30
+//[name] == mithrilcoil && [quality] == set # [dexterity] == 10
+
+//		== griswold's legacy == paladin set
+//[name] == ornateplate && [quality] == set # [strength] == 20 && [sockets] == 3
+//[name] == corona  && [quality] == set # [enhanceddefense] >= 50 && [itemmagicbonus] >= 20
+[name] == caduceus && [quality] == set # [enhanceddamage] >= 200 && [sockets] >= 3
+[name] == vortexshield && [quality] == set # [fireresist] == 45 && [coldresist] == 45 && [sockets] == 3
+
+//		== heaven's brethren ==
+//[name] == cuirass && [quality] == set # [maxhp] == 75
+//[name] == reinforcedmace && [quality] == set # [ias] == 40
+//[name] == ward && [quality] == set # [lightresist] == 30
+//[name] == spiredhelm && [quality] == set # [fhr] == 24
+
+//		== hwanin's majesty ==
+//[name] == grandcrown && [quality] == set # [enhanceddefense] == 100 && [coldresist] == 37
+//[name] == bill && [quality] == set # [enhanceddamage] == 200 && [ias] == 40
+//[name] == tigulatedmail && [quality] == set # [poisonresist] == 27
+//[name] == belt && [quality] == set # [itemdamagetomana] == 12
+
+//		== immortal king == barbarian set
+//[name] == avengerguard && [quality] == set # [itemmagicbonus] >= 25
+[name] == ogremaul && [quality] == set # [itemmagicbonus] == 40
+//[name] == sacredarmor && [quality] == set # [poisonresist] == 50
+//[name] == warbelt && [quality] == set # [lightresist] == 31 && [strength] == 25
+//[name] == wargauntlets && [quality] == set # [strength] == 20
+//[name] == warboots && [quality] == set # [frw] == 40
+
+//		== m'avina's battle hymn == amazon set
+[name] == diadem && [quality] == set # [ias] == 30
+//[name] == grandmatronbow && [quality] == set # [enhanceddamage] == 188 && [ias] == 40
+//[name] == krakenshell && [quality] == set # [magicdamagereduction] >= 5
+//[name] == battlegauntlets && [quality] == set # [strength] == 10
+//[name] == sharkskinbelt && [quality] == set # [frw] == 20
+
+//		== natalya's odium == assassin set
+//[name] == grimhelm && [quality] == set # [fireresist] >= 10 && [lightresist] >= 10 && [coldresist] >= 10 && [dexterity] >= 20 && [strength] >= 10
+[name] == scissorssuwayyah && [quality] == set # [enhanceddamage] == 200 && [ias] == 40
+//[name] == loricatedmail && [quality] == set # [sockets] >= 2
+//[name] == meshboots && [quality] == set # [coldresist] >= 15 && [lightresist] >= 15
+
+//		== naj's ancient vestiage == sorceress set
+//[name] == circlet && [quality] == set # [strength] == 15
+//[name] == hellforgeplate && [quality] == set # [maxhp] == 65
+//[name] == elderstaff && [quality] == set # [enhanceddamage] == 150 && [fcr] == 30 && [maxmana] == 70
+
+//		==	orphan's call ==
+//[name] == wingedhelm && [quality] == set # [enhanceddefense] == 120 && [fhr] == 30 && [strength] == 15
+//[name] == roundshield && [quality] == set # [enhanceddefense] == 175
+//[name] == sharkskingloves && [quality] == set # [enhanceddefense] == 50 && [ias] == 20 && [fireresist] == 15
+//[name] == battlebelt && [quality] == set # [enhanceddefense] == 75 && [coldresist] == 10
+
+//		== sander's folly ==
+[name] == cap && [quality] == set # [itemmagicbonus] == 35
+//[name] == bonewand && [quality] == set # [enhanceddamage] == 75 && [fcr] == 20
+//[name] == heavygloves && [quality] == set # [ias] == 20
+//[name] == heavyboots && [quality] == set # [frw] == 40
+
+//		== sazabi's grand tribute ==
+//[name] == basinet && [quality] == set # [lightresist] >= 15 && [fireresist] >= 15
+//[name] == crypticsword && [quality] == set # [enhanceddamage] == 150 && [ias] == 40 && [dexterity] == 15
+//[name] == balrogskin && [quality] == set # [maxhp] >= 50
+
+//		==	tal rasha's wrappings == sorceress set
+[name] == swirlingcrystal && [quality] == set # [skilllightningmastery]+[skillfiremastery]+[skillcoldmastery] >= 6
+[name] == deathmask && [quality] == set # [coldresist] == 15 && [lightresist] == 15
+[name] == lacqueredplate && [quality] == set # [coldresist] == 40 && [lightresist] == 40
+[name] == meshbelt && [quality] == set # [itemmagicbonus] >= 10
+[name] == amulet && [quality] == set # [lightresist] == 33
+
+//		== trang-oul's avatar == necromancer set
+//[name] == bonevisage && [quality] == set # [fhr] == 25 && 
+//[name] == chaosarmor && [quality] == set # [enhanceddefense] == 150 && [frw] == 40
+//[name] == cantortrophy && [quality] == set # [fireresist] >= 38
+//[name] == trollbelt && [quality] == set # [maxmana] >= 25
+//[name] == heavybracers && [quality] == set # [fcr] == 20 && [coldresist] == 30

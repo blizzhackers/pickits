@@ -1,0 +1,325 @@
+// %%%%%% this is a classic pickit
+
+
+//armor
+	[name] == breastplate && [quality] == rare # [fhr] >= 10 && [fireresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == breastplate && [quality] == rare # [fhr] >= 10 && [fireresist]+[coldresist] >= 40 && [maxhp] >= 20
+	[name] == breastplate && [quality] == rare # [fhr] >= 10 && [fireresist]+[poisonresist] >= 40 && [maxhp] >= 20
+	[name] == breastplate && [quality] == rare # [fhr] >= 10 && [coldresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == breastplate && [quality] == rare # [fhr] >= 10 && [poisonresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == breastplate && [quality] == rare # [fhr] >= 10 && [poisonresist]+[coldresist] >= 40 && [maxhp] >= 20
+	
+	[name] == breastplate && [quality] == rare # [fhr] >= 10 && [fireresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == breastplate && [quality] == rare # [fhr] >= 10 && [fireresist]+[coldresist] >= 40 && [maxmana] >= 20
+	[name] == breastplate && [quality] == rare # [fhr] >= 10 && [fireresist]+[poisonresist] >= 40 && [maxmana] >= 20
+	[name] == breastplate && [quality] == rare # [fhr] >= 10 && [coldresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == breastplate && [quality] == rare # [fhr] >= 10 && [poisonresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == breastplate && [quality] == rare # [fhr] >= 10 && [poisonresist]+[coldresist] >= 40 && [maxmana] >= 20
+	
+	[name] == studdedleather && [quality] == rare # [fhr] >= 10 && [fireresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == studdedleather && [quality] == rare # [fhr] >= 10 && [fireresist]+[coldresist] >= 40 && [maxhp] >= 20
+	[name] == studdedleather && [quality] == rare # [fhr] >= 10 && [fireresist]+[poisonresist] >= 40 && [maxhp] >= 20
+	[name] == studdedleather && [quality] == rare # [fhr] >= 10 && [coldresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == studdedleather && [quality] == rare # [fhr] >= 10 && [poisonresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == studdedleather && [quality] == rare # [fhr] >= 10 && [poisonresist]+[coldresist] >= 40 && [maxhp] >= 20
+	
+	[name] == studdedleather && [quality] == rare # [fhr] >= 10 && [fireresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == studdedleather && [quality] == rare # [fhr] >= 10 && [fireresist]+[coldresist] >= 40 && [maxmana] >= 20
+	[name] == studdedleather && [quality] == rare # [fhr] >= 10 && [fireresist]+[poisonresist] >= 40 && [maxmana] >= 20
+	[name] == studdedleather && [quality] == rare # [fhr] >= 10 && [coldresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == studdedleather && [quality] == rare # [fhr] >= 10 && [poisonresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == studdedleather && [quality] == rare # [fhr] >= 10 && [poisonresist]+[coldresist] >= 40 && [maxmana] >= 20
+	
+	[name] == ringmail && [quality] == rare # [fhr] >= 10 && [fireresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == ringmail && [quality] == rare # [fhr] >= 10 && [fireresist]+[coldresist] >= 40 && [maxhp] >= 20
+	[name] == ringmail && [quality] == rare # [fhr] >= 10 && [fireresist]+[poisonresist] >= 40 && [maxhp] >= 20
+	[name] == ringmail && [quality] == rare # [fhr] >= 10 && [coldresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == ringmail && [quality] == rare # [fhr] >= 10 && [poisonresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == ringmail && [quality] == rare # [fhr] >= 10 && [poisonresist]+[coldresist] >= 40 && [maxhp] >= 20
+		
+	[name] == ringmail && [quality] == rare # [fhr] >= 10 && [fireresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == ringmail && [quality] == rare # [fhr] >= 10 && [fireresist]+[coldresist] >= 40 && [maxmana] >= 20
+	[name] == ringmail && [quality] == rare # [fhr] >= 10 && [fireresist]+[poisonresist] >= 40 && [maxmana] >= 20
+	[name] == ringmail && [quality] == rare # [fhr] >= 10 && [coldresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == ringmail && [quality] == rare # [fhr] >= 10 && [poisonresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == ringmail && [quality] == rare # [fhr] >= 10 && [poisonresist]+[coldresist] >= 40 && [maxmana] >= 20
+	
+	[name] == chainmail && [quality] == rare # [fhr] >= 10 && [fireresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == chainmail && [quality] == rare # [fhr] >= 10 && [fireresist]+[coldresist] >= 40 && [maxhp] >= 20
+	[name] == chainmail && [quality] == rare # [fhr] >= 10 && [fireresist]+[poisonresist] >= 40 && [maxhp] >= 20
+	[name] == chainmail && [quality] == rare # [fhr] >= 10 && [coldresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == chainmail && [quality] == rare # [fhr] >= 10 && [poisonresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == chainmail && [quality] == rare # [fhr] >= 10 && [poisonresist]+[coldresist] >= 40 && [maxhp] >= 20
+		
+	[name] == chainmail && [quality] == rare # [fhr] >= 10 && [fireresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == chainmail && [quality] == rare # [fhr] >= 10 && [fireresist]+[coldresist] >= 40 && [maxmana] >= 20
+	[name] == chainmail && [quality] == rare # [fhr] >= 10 && [fireresist]+[poisonresist] >= 40 && [maxmana] >= 20
+	[name] == chainmail && [quality] == rare # [fhr] >= 10 && [coldresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == chainmail && [quality] == rare # [fhr] >= 10 && [poisonresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == chainmail && [quality] == rare # [fhr] >= 10 && [poisonresist]+[coldresist] >= 40 && [maxmana] >= 20
+	
+	[name] == lightplate && [quality] == rare # [fhr] >= 10 && [fireresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == lightplate && [quality] == rare # [fhr] >= 10 && [fireresist]+[coldresist] >= 40 && [maxhp] >= 20
+	[name] == lightplate && [quality] == rare # [fhr] >= 10 && [fireresist]+[poisonresist] >= 40 && [maxhp] >= 20
+	[name] == lightplate && [quality] == rare # [fhr] >= 10 && [coldresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == lightplate && [quality] == rare # [fhr] >= 10 && [poisonresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == lightplate && [quality] == rare # [fhr] >= 10 && [poisonresist]+[coldresist] >= 40 && [maxhp] >= 20
+		
+	[name] == lightplate && [quality] == rare # [fhr] >= 10 && [fireresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == lightplate && [quality] == rare # [fhr] >= 10 && [fireresist]+[coldresist] >= 40 && [maxmana] >= 20
+	[name] == lightplate && [quality] == rare # [fhr] >= 10 && [fireresist]+[poisonresist] >= 40 && [maxmana] >= 20
+	[name] == lightplate && [quality] == rare # [fhr] >= 10 && [coldresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == lightplate && [quality] == rare # [fhr] >= 10 && [poisonresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == lightplate && [quality] == rare # [fhr] >= 10 && [poisonresist]+[coldresist] >= 40 && [maxmana] >= 20
+	
+	[name] == ghostarmor && [quality] == rare # [fhr] >= 10 && [fireresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == ghostarmor && [quality] == rare # [fhr] >= 10 && [fireresist]+[coldresist] >= 40 && [maxhp] >= 20
+	[name] == ghostarmor && [quality] == rare # [fhr] >= 10 && [fireresist]+[poisonresist] >= 40 && [maxhp] >= 20
+	[name] == ghostarmor && [quality] == rare # [fhr] >= 10 && [coldresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == ghostarmor && [quality] == rare # [fhr] >= 10 && [poisonresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == ghostarmor && [quality] == rare # [fhr] >= 10 && [poisonresist]+[coldresist] >= 40 && [maxhp] >= 20
+		
+	[name] == ghostarmor && [quality] == rare # [fhr] >= 10 && [fireresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == ghostarmor && [quality] == rare # [fhr] >= 10 && [fireresist]+[coldresist] >= 40 && [maxmana] >= 20
+	[name] == ghostarmor && [quality] == rare # [fhr] >= 10 && [fireresist]+[poisonresist] >= 40 && [maxmana] >= 20
+	[name] == ghostarmor && [quality] == rare # [fhr] >= 10 && [coldresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == ghostarmor && [quality] == rare # [fhr] >= 10 && [poisonresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == ghostarmor && [quality] == rare # [fhr] >= 10 && [poisonresist]+[coldresist] >= 40 && [maxmana] >= 20
+	
+	[name] == serpentskinarmor && [quality] == rare # [fhr] >= 10 && [fireresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == serpentskinarmor && [quality] == rare # [fhr] >= 10 && [fireresist]+[coldresist] >= 40 && [maxhp] >= 20
+	[name] == serpentskinarmor && [quality] == rare # [fhr] >= 10 && [fireresist]+[poisonresist] >= 40 && [maxhp] >= 20
+	[name] == serpentskinarmor && [quality] == rare # [fhr] >= 10 && [coldresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == serpentskinarmor && [quality] == rare # [fhr] >= 10 && [poisonresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == serpentskinarmor && [quality] == rare # [fhr] >= 10 && [poisonresist]+[coldresist] >= 40 && [maxhp] >= 20
+		
+	[name] == serpentskinarmor && [quality] == rare # [fhr] >= 10 && [fireresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == serpentskinarmor && [quality] == rare # [fhr] >= 10 && [fireresist]+[coldresist] >= 40 && [maxmana] >= 20
+	[name] == serpentskinarmor && [quality] == rare # [fhr] >= 10 && [fireresist]+[poisonresist] >= 40 && [maxmana] >= 20
+	[name] == serpentskinarmor && [quality] == rare # [fhr] >= 10 && [coldresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == serpentskinarmor && [quality] == rare # [fhr] >= 10 && [poisonresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == serpentskinarmor && [quality] == rare # [fhr] >= 10 && [poisonresist]+[coldresist] >= 40 && [maxmana] >= 20
+	
+	[name] == demonhidearmor && [quality] == rare # [fhr] >= 10 && [fireresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == demonhidearmor && [quality] == rare # [fhr] >= 10 && [fireresist]+[coldresist] >= 40 && [maxhp] >= 20
+	[name] == demonhidearmor && [quality] == rare # [fhr] >= 10 && [fireresist]+[poisonresist] >= 40 && [maxhp] >= 20
+	[name] == demonhidearmor && [quality] == rare # [fhr] >= 10 && [coldresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == demonhidearmor && [quality] == rare # [fhr] >= 10 && [poisonresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == demonhidearmor && [quality] == rare # [fhr] >= 10 && [poisonresist]+[coldresist] >= 40 && [maxhp] >= 20
+		
+	[name] == demonhidearmor && [quality] == rare # [fhr] >= 10 && [fireresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == demonhidearmor && [quality] == rare # [fhr] >= 10 && [fireresist]+[coldresist] >= 40 && [maxmana] >= 20
+	[name] == demonhidearmor && [quality] == rare # [fhr] >= 10 && [fireresist]+[poisonresist] >= 40 && [maxmana] >= 20
+	[name] == demonhidearmor && [quality] == rare # [fhr] >= 10 && [coldresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == demonhidearmor && [quality] == rare # [fhr] >= 10 && [poisonresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == demonhidearmor && [quality] == rare # [fhr] >= 10 && [poisonresist]+[coldresist] >= 40 && [maxmana] >= 20
+	
+	[name] == mageplate && [quality] == rare # [fhr] >= 10 && [fireresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == mageplate && [quality] == rare # [fhr] >= 10 && [fireresist]+[coldresist] >= 40 && [maxhp] >= 20
+	[name] == mageplate && [quality] == rare # [fhr] >= 10 && [fireresist]+[poisonresist] >= 40 && [maxhp] >= 20
+	[name] == mageplate && [quality] == rare # [fhr] >= 10 && [coldresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == mageplate && [quality] == rare # [fhr] >= 10 && [poisonresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == mageplate && [quality] == rare # [fhr] >= 10 && [poisonresist]+[coldresist] >= 40 && [maxhp] >= 20
+		
+	[name] == mageplate && [quality] == rare # [fhr] >= 10 && [fireresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == mageplate && [quality] == rare # [fhr] >= 10 && [fireresist]+[coldresist] >= 40 && [maxmana] >= 20
+	[name] == mageplate && [quality] == rare # [fhr] >= 10 && [fireresist]+[poisonresist] >= 40 && [maxmana] >= 20
+	[name] == mageplate && [quality] == rare # [fhr] >= 10 && [coldresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == mageplate && [quality] == rare # [fhr] >= 10 && [poisonresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == mageplate && [quality] == rare # [fhr] >= 10 && [poisonresist]+[coldresist] >= 40 && [maxmana] >= 20
+	
+	[name] == ornateplate && [quality] == rare # [fhr] >= 10 && [defense] >= 750 && [fireresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == ornateplate && [quality] == rare # [fhr] >= 10 && [defense] >= 750 && [fireresist]+[coldresist] >= 40 && [maxhp] >= 20
+	[name] == ornateplate && [quality] == rare # [fhr] >= 10 && [defense] >= 750 && [fireresist]+[poisonresist] >= 40 && [maxhp] >= 20
+	[name] == ornateplate && [quality] == rare # [fhr] >= 10 && [defense] >= 750 && [coldresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == ornateplate && [quality] == rare # [fhr] >= 10 && [defense] >= 750 && [poisonresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[name] == ornateplate && [quality] == rare # [fhr] >= 10 && [defense] >= 750 && [poisonresist]+[coldresist] >= 40 && [maxhp] >= 20
+		
+	[name] == ornateplate && [quality] == rare # [fhr] >= 10 && [defense] >= 750 && [fireresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == ornateplate && [quality] == rare # [fhr] >= 10 && [defense] >= 750 && [fireresist]+[coldresist] >= 40 && [maxmana] >= 20
+	[name] == ornateplate && [quality] == rare # [fhr] >= 10 && [defense] >= 750 && [fireresist]+[poisonresist] >= 40 && [maxmana] >= 20
+	[name] == ornateplate && [quality] == rare # [fhr] >= 10 && [defense] >= 750 && [coldresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == ornateplate && [quality] == rare # [fhr] >= 10 && [defense] >= 750 && [poisonresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[name] == ornateplate && [quality] == rare # [fhr] >= 10 && [defense] >= 750 && [poisonresist]+[coldresist] >= 40 && [maxmana] >= 20
+	
+	[type] == armor && [class] == exceptional && [quality] == rare # [defense] >= 750 && [strength] >= 10 && [maxhp] >= 20
+	[type] == armor && [class] == exceptional && [quality] == rare # [defense] >= 750 && [maxhp] >= 20 && [itemreqpercent] <= -20
+
+	[type] == armor && [class] == exceptional && [quality] >= normal # [defense] >= 10000 //money maker
+
+
+//helm
+
+	[type] == helm && [quality] == rare # [fhr] >= 10 && [fireresist]+[lightresist] >= 40 && [maxhp] >= 20 
+	[type] == helm && [quality] == rare # [fhr] >= 10 && [fireresist]+[coldresist] >= 40 && [maxhp] >= 20 
+	[type] == helm && [quality] == rare # [fhr] >= 10 && [fireresist]+[poisonresist] >= 40 && [maxhp] >= 20
+	[type] == helm && [quality] == rare # [fhr] >= 10 && [coldresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[type] == helm && [quality] == rare # [fhr] >= 10 && [poisonresist]+[lightresist] >= 40 && [maxhp] >= 20
+	[type] == helm && [quality] == rare # [fhr] >= 10 && [poisonresist]+[coldresist] >= 40 && [maxhp] >= 20
+	
+	[type] == helm && [quality] == rare # [fhr] >= 10 && [fireresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[type] == helm && [quality] == rare # [fhr] >= 10 && [fireresist]+[coldresist] >= 40 && [maxmana] >= 20
+	[type] == helm && [quality] == rare # [fhr] >= 10 && [fireresist]+[poisonresist] >= 40 && [maxmana] >= 20
+	[type] == helm && [quality] == rare # [fhr] >= 10 && [coldresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[type] == helm && [quality] == rare # [fhr] >= 10 && [poisonresist]+[lightresist] >= 40 && [maxmana] >= 20
+	[type] == helm && [quality] == rare # [fhr] >= 10 && [poisonresist]+[coldresist] >= 40 && [maxmana] >= 20
+
+	[type] == helm && [quality] == rare # [defense] >= 200 && [maxhp] >= 20 && ([itemlightradius] >= 2 || [fireresist]+[lightresist]+[coldresist] >= 40)
+	
+	
+//belt
+	[type] == belt && [quality] == rare # [fhr] >= 10 && [defense] >= 5 && [fireresist]+[lightresist] >= 40 && [maxhp] >= 30
+	[type] == belt && [quality] == rare # [fhr] >= 10 && [defense] >= 5 && [fireresist]+[coldresist] >= 40 && [maxhp] >= 30
+	[type] == belt && [quality] == rare # [fhr] >= 10 && [defense] >= 5 && [coldresist]+[lightresist] >= 40 && [maxhp] >= 30
+	[type] == belt && [quality] == rare # [fhr] >= 10 && [defense] >= 5 && [strength] >= 10 && [fireresist]+[poisonresist] >= 40 && [maxhp] >= 30
+	[type] == belt && [quality] == rare # [fhr] >= 10 && [defense] >= 5 && [strength] >= 10 && [poisonresist]+[lightresist] >= 40 && [maxhp] >= 30
+	[type] == belt && [quality] == rare # [fhr] >= 10 && [defense] >= 5 && [strength] >= 10 && [poisonresist]+[coldresist] >= 40 && [maxhp] >= 30
+	
+	[type] == belt && [quality] == rare # [fhr] >= 10 && [defense] >= 5 && [fireresist]+[lightresist] >= 40 && [maxmana] >= 30
+	[type] == belt && [quality] == rare # [fhr] >= 10 && [defense] >= 5 && [fireresist]+[coldresist] >= 40 && [maxmana] >= 30
+	[type] == belt && [quality] == rare # [fhr] >= 10 && [defense] >= 5 && [coldresist]+[lightresist] >= 40 && [maxmana] >= 30
+	[type] == belt && [quality] == rare # [fhr] >= 10 && [defense] >= 5 && [strength] >= 10 && [fireresist]+[poisonresist] >= 40 && [maxmana] >= 30
+	[type] == belt && [quality] == rare # [fhr] >= 10 && [defense] >= 5 && [strength] >= 10 && [poisonresist]+[lightresist] >= 40 && [maxmana] >= 30
+	[type] == belt && [quality] == rare # [fhr] >= 10 && [defense] >= 5 && [strength] >= 10 && [poisonresist]+[coldresist] >= 40 && [maxmana] >= 30
+	
+	[type] == belt && [quality] == rare # [defense] >= 70 && [strength] >= 15 && [maxhp] >= 40
+
+
+//gloves
+	[type] == gloves && [quality] == rare # [lifeleech]+[manaleech] >= 4 && [fireresist]+[lightresist]+[coldresist] >= 40
+	[type] == gloves && [quality] == rare # [strength]+[dexterity] >= 10 && [fireresist]+[lightresist]+[coldresist] >= 40
+	[type] == gloves && [quality] == rare # [defense] >= 70 && [strength] >= 10
+	[type] == gloves && [quality] == rare # [defense] >= 70 && [strength]+[dexterity] >= 15
+
+
+//boots 
+	[type] == boots && [quality] == rare # [fhr] >= 10 && [fireresist]+[lightresist]+[coldresist] >= 60
+	[type] == boots && [quality] == rare # [fireresist]+[lightresist]+[coldresist] >= 70
+	[type] == boots && [quality] == rare # [defense] >= 90 && [itemlightradius] >= 2
+
+
+//shields
+	[type] == shield && [quality] == rare # [fhr] >= 10 && [fbr] >= 30 && [fireresist]+[lightresist]+[coldresist] >= 45
+	[type] == shield && [quality] == rare # [itemaddclassskills] == 1 && [coldresist] >= 30 && [lightresist] >= 30
+	[type] == shield && [quality] == rare # [itemaddclassskills] >= 2 && [fhr] >= 10 && [fireresist]+[lightresist]+[coldresist] >= 45
+	[name] == boneshield && [quality] == rare # [fbr] >= 30 && [fireresist]+[lightresist]+[coldresist] >= 45 && [itemdamagetomana] >= 5
+	[name] == grimshield && [quality] == rare # [fbr] >= 30 && [fireresist]+[lightresist]+[coldresist] >= 45 && [itemdamagetomana] >= 5
+	[name] == pavise && [quality] == rare # [fbr] >= 30 && [defense] >= 140 && ([fireresist]+[lightresist]+[coldresist] >= 45 || [strength] >= 5)
+	
+
+//pally scepters
+	[type] == scepter && [quality] == magic # [paladinskills] == 2 && [skillblessedhammer] >= 2 && [skillconcentration] >= 2
+	//[type] == scepter && [quality] == magic # [paladinskills] == 2 && [skillblessedhammer] >= 2 && [skillfanaticism] >= 2
+	//[type] == scepter && [quality] == magic # [paladinskills] == 2 && [skillblessedhammer] >= 2 && [skillmight] >= 3
+	[type] == scepter && [quality] == magic # [paladinskills] == 2 && [skillblessedhammer] >= 2 && [skillmeditation] >= 3
+	[type] == scepter && [quality] == rare # [paladinskills] >= 1 && (([skillblessedhammer] >= 2 && [skillconcentration] >= 1) || ([skillblessedhammer] >= 1 && [skillconcentration] >= 2))
+	[type] == scepter && [quality] == rare # [paladinskills] == 2 && [skillblessedhammer] >= 2 && [skillfanaticism] >= 2
+	//[type] == scepter && [quality] == rare # [paladinskills] == 2 && [skillblessedhammer] >= 2 && [skillmight] >= 3
+	[type] == scepter && [quality] == rare # [paladinskills] == 2 && [skillblessedhammer] >= 2 && [skillmeditation] >= 3
+
+
+//misc weapons
+	[name] == lance && [quality] == rare # [enhanceddamage] >= 160
+	[name] == executionersword && [quality] == rare # [enhanceddamage] >= 160
+	[name] == gothicsword && [quality] == rare # [enhanceddamage] >= 160
+	[name] == battlehammer && [quality] == rare # [enhanceddamage] >= 120
+	[name] == naga && [quality] == rare # [enhanceddamage] >= 160
+	[name] == marteldefer && [quality] == rare # [enhanceddamage] >= 160
+	[name] == ancientaxe && [quality] == rare # [enhanceddamage] >= 180
+	[name] == partizan && [quality] == rare # [enhanceddamage] >= 180
+	[name] == gothicbow && [quality] == rare # [enhanceddamage] >= 160
+	[name] == runebow && [quality] == rare # [enhanceddamage] >= 160
+	//[type] == axe && [class] == normal && [quality] == rare # [barbarianskills] == 2
+	//[type] == sword && [class] == normal && [quality] == rare # [barbarianskills] == 2
+	//[type] == mace && [class] == normal && [quality] == rare # [barbarianskills] == 2
+	//[type] == club && [class] == normal && [quality] == rare # [barbarianskills] == 2
+	//[type] == hammer && [class] == normal && [quality] == rare # [barbarianskills] == 2
+	[name] == crystalsword && [quality] == rare # [barbarianskills] == 2
+	//[name] == waraxe && [quality] == rare # [barbarianskills] == 2
+	//[name] == broadsword && [quality] == rare # [barbarianskills] == 2
+	[type] == wand && [quality] == rare # [fcr] == 20 && [maxmana] >= 20 && [fireresist]+[lightresist]+[coldresist] >= 60
+	[type] == staff && [quality] == rare # [sorceressskills] == 2 && [fcr] == 20 && [skillfireball]+[skillenchant]+[skillblizzard]+[skillfirewall]+[skillchainlightning] >=2 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60
+
+
+//amulet
+	[type] == amulet && [quality] == rare # ([necromancerskills] >= 1 || [paladinskills] >= 1 || [sorceressskills] >= 1) && [fcr] == 10 && [fireresist]+[lightresist]+[coldresist] >= 45
+	[type] == amulet && [quality] == rare # [barbarianskills] >= 1 && [strength] >= 15 && ([lifeleech] >= 5 || [manaleech] >= 5 || [maxhp] >= 40 || [fireresist]+[lightresist]+[coldresist] >= 45)
+	[type] == amulet && [quality] == rare # [amazonskills] >= 1 && ([dexterity] >= 15 || [strength] >= 15) && [fireresist]+[lightresist]+[coldresist] >= 45
+
+
+
+//ring
+	[type] == ring && [quality] == rare # [fcr] == 10 && ([strength] >= 5 || [maxhp] >= 20 || [maxmana] >= 20) && [fireresist]+[lightresist]+[coldresist] >= 40
+	[type] == ring && [quality] == rare # [strength]+[dexterity] >= 15 && [fireresist]+[lightresist]+[coldresist] >= 40
+	[type] == ring && [quality] == rare # ([lifeleech] >= 5 || [manaleech] >= 5) && [attackrate] >= 75 && [fireresist]+[lightresist]+[coldresist] >= 40
+	[type] == ring && [quality] == rare # [fcr] == 10 && [maxmana] >= 45
+	[type] == ring && [quality] == rare # ([lifeleech] >= 5 || [manaleech] >= 5) && [strength] >= 5 && [maxhp] >= 20 
+	[type] == ring && [quality] == rare # [lifeleech]+[manaleech] >= 7 && [attackrate] >= 75
+	[type] == ring && [quality] == rare # [strength] >= 15
+	[type] == ring && [quality] == rare # [fcr] == 10 && [dexterity] >= 10 && [fireresist]+[lightresist]+[coldresist] >= 40
+	
+
+//imbues
+	//[name] == lance && [quality] == normal # [sockets] == 0 && [enhanceddamage] >= 5
+	//[name] == battlehammer && [quality] == normal # [sockets] == 0 && [enhanceddamage] >= 5
+	//[name] == marteldefer && [quality] == normal # [sockets] == 0 && [enhanceddamage] >= 5
+	//[name] == grimhelm && [quality] == normal # [sockets] == 0 && [enhanceddefense] >= 5
+	//[name] == ornateplate && [quality] == normal # [sockets] == 0 && [enhanceddefense] >= 5	
+
+
+//uniques
+
+//armors:
+	[name] == heavybelt && [quality] == unique # [enhanceddefense] >= 60 && [itemgoldbonus] >= 80 // goldwrap
+	[name] == chaingloves && [quality] == unique # [itemmagicbonus] >= 40 // chance guards
+	[name] == lightgauntlets && [quality] == unique # [enhanceddefense] >= 30 // magefist
+	[name] == boots && [quality] == unique // hotspurs
+	//[name] == greaves && [quality] == unique //tearhaunch
+	[name] == studdedleather && [quality] == unique # [defense] >= 60 // twitchthroe
+	[name] == ancientarmor && [quality] == unique // silks of the victor
+	[name] == fullplatemail && [quality] == unique # [enhanceddefense] >= 150 // goldskin
+	[name] == skullcap && [quality] == unique # [itemmagicbonus] >= 50 // tarnhelm
+
+//shields
+	[name] == gothicshield && [quality] == unique # [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 180 //the ward
+
+//weapons:
+	[name] == dagger && [quality] == unique // gull - 100% magic find
+	[name] == blade && [quality] == unique // spectral shard
+	[name] == maul && [quality] == unique # [enhanceddamage] >= 300 // bonesnap
+
+//ring
+	[type] == ring && [quality] == unique # [itemmaxmanapercent] >= 20 // stone of jordan
+
+
+//sets
+	[name] == heavybelt && [quality] == set # [defense] >=25 && [maxhp] != 20 //irathas belt
+	//[type] == amulet && [quality] == set # [poisonresist] >= 30 //irathas ammy
+	//[name] == lightgauntlets && [quality] == set # [coldresist] >= 30 //irathas gloves
+	//[name] == crown && [quality] == set # [lightresist] >= 30 //irathas helm
+	//[name] == quiltedarmor && [quality] == set // arctic furs
+	//[name] == lightbelt && [quality] == set // arctic binding
+	//[name] == lightgauntlets && [quality] == set # [maxhp] == 20 && [ias] == 10 // arctic mitts
+	//[name] == leathergloves && [quality] == set // death's hand
+	//[name] == sash && [quality] == set // death's guard
+	//[name] == belt && [quality] == set # [coldresist] == 20 && [maxhp] == 20 // hsarus' iron stay
+	//[name] == chainboots && [quality] == set // hsarus' iron heel
+	//[name] == greathelm && [quality] == set // sigon's visor
+	//[name] == gothicplate && [quality] == set // sigon's shelter
+	//[name] == greaves && [quality] == set // sigon's sabot
+	//[name] == towershield && [quality] == set // sigon's guard
+	//[name] == platedbelt && [quality] == set // sigon's warp
+	//[name] == gauntlets && [quality] == set // sigon's gage
+	//[name] == ringmail && [quality] == set // angelic mantle
+	//[type] == ring && [quality] == set # [maxhp] == 20 // angelic halo
+	//[type] == amulet && [quality] == set # [itemlightradius] == 3 && [itemdamagetomana] == 20 // angelic wings
+
+
+//misc
+	//[name] == flawlessskull
+	//[name] == perfectskull
+	[name] == superhealingpotion
+	[name] == supermanapotion
+	[name] == rejuvenationpotion
+	[name] == fullrejuvenationpotion
+	[type] == gold # [gold] >= 2000

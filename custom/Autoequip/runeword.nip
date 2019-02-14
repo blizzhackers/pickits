@@ -1,0 +1,4 @@
+[type] == weapon && [flag] == runeword
+[type] == armor && [flag] == runeword
+[type] == shield && [flag] == runeword
+[type] == helm && [flag] == runeword

@@ -1,0 +1,164 @@
+//~~~~~~~~~~~~~~~~~~~~~~~~~ need to work on charms, jewels, ammys and rings cuz prolly some lvlreq wrong ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~ jack ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~ vlld rings ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[type] == ring && [quality] == rare # [tohit] >= 75 && [hpregen] >= 4 && ([maxhp] >= 4 || [strength] == 2 || [dexterity] == 2 || [strength]+[dexterity] >= 2 ||[lightresist]+[fireresist] >= 20 || [lightresist]+[coldresist] >= 20 || [fireresist]+[coldresist] >= 20) && [itemlevelreq] <= 9
+[type] == ring && [quality] == rare # [tohit] >= 75 && [maxhp] >= 4 && [strength] == 2 && ([dexterity] == 2 || [lightresist]+[fireresist] >= 20 || [lightresist]+[coldresist] >= 20 || [fireresist]+[coldresist] >= 20) && [itemlevelreq] <= 9
+[type] == ring && [quality] == rare # [tohit] >= 75 && [maxhp] >= 4 && [dexterity] == 2 && ([dexterity] == 2 ||[lightresist]+[fireresist] >= 20 || [lightresist]+[coldresist] >= 20 || [fireresist]+[coldresist] >= 20) && [itemlevelreq] <= 9
+[type] == ring && [quality] == rare # [fcr] >= 10 && [tohit] >= 75 && ([strength] == 2 || [dexterity] == 2 || [strength]+[dexterity] >= 2 ||[lightresist]+[fireresist] >= 20 || [lightresist]+[coldresist] >= 20 || [fireresist]+[coldresist] >= 20 && [hpregen] >= 4) && [itemlevelreq] <= 9
+//[type] == ring && [quality] <= rare # [tohit] >= 75 && [strength] >= 1 && [dexterity] >= 1 && [itemlevelreq] <= 9
+[type] == ring && [quality] == rare # [dexterity] == 5 && [strength] == 5 && [tohit] >= 70 && [maxmana] >= 10 && [itemlevelreq] <= 18
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~ lld rings ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[type] == ring && [quality] == rare # [fcr] >= 10 && [strength]+[dexterity] >= 10 && ([maxmana] >= 70 || [hpregen] >= 3 || [energy] == 15 || [maxhp] >= 15 || [lightresist]+[fireresist] >= 40 || [lightresist]+[coldresist] >= 40 || [fireresist]+[coldresist] >= 40) && [itemlevelreq] <= 30
+[type] == ring && [quality] == rare # [fcr] >= 10 && [maxmana] >= 70 && ([hpregen] >= 3 || [energy] == 15 || [maxhp] >= 15 || [lightresist]+[fireresist] >= 40 || [lightresist]+[coldresist] >= 40 || [fireresist]+[coldresist] >= 40) && [itemlevelreq] <= 30
+[type] == ring && [quality] == rare # [fcr] >= 10 && [hpregen] >= 5 && ([maxhp] >= 20 || [lightresist]+[fireresist] >= 40 || [lightresist]+[coldresist] >= 40 || [fireresist]+[coldresist] >= 40) && [itemlevelreq] <= 30
+[type] == ring && [quality] == rare # [fcr] >= 10 && [maxhp] >= 20 && ([lightresist]+[fireresist] >= 40 || [lightresist]+[coldresist] >= 40 || [fireresist]+[coldresist] >= 40) && [itemlevelreq] <= 30
+[type] == ring && [quality] == rare # [fcr] >= 10 && [strength] >= 8 && ([maxmana] >= 70 || [hpregen] >= 5 || [maxhp] >= 18 || [lightresist]+[fireresist] >= 40 || [lightresist]+[coldresist] >= 40 || [fireresist]+[coldresist] >= 40) && [itemlevelreq] <= 30
+[type] == ring && [quality] == rare # [fcr] >= 10 && [dexterity] >= 8 && ([maxmana] >= 70 || [hpregen] >= 5 || [maxhp] >= 18 || [lightresist]+[fireresist] >= 40 || [lightresist]+[coldresist] >= 40 || [fireresist]+[coldresist] >= 40) && [itemlevelreq] <= 30
+[type] == ring && [quality] == rare # [tohit] >= 100 && [lifeleech] >= 3 && ([maxhp] >= 15 || [strength] >= 8 || [strength]+[dexterity] >= 10 || [dexterity] >= 8 || [lightresist]+[fireresist] >= 40 || [lightresist]+[coldresist] >= 40 || [fireresist]+[coldresist] >= 40 || [hpregen] >= 5 || [manaleech] >= 2) && [itemlevelreq] <= 30
+[type] == ring && [quality] == rare # [lifeleech] >= 3 && [maxhp] >= 15 && ([strength] >= 8 || [strength]+[dexterity] >= 10 || [dexterity] >= 8 || [lightresist]+[fireresist] >= 40 || [lightresist]+[coldresist] >= 40 || [fireresist]+[coldresist] >= 40 || [hpregen] >= 5 || [manaleech] >= 2) && [itemlevelreq] <= 30
+[type] == ring && [quality] == rare # [lifeleech] >= 3 && [strength] >= 8 && ([lightresist]+[fireresist] >= 40 || [lightresist]+[coldresist] >= 40 || [fireresist]+[coldresist] >= 40 || [hpregen] >= 5 || [manaleech] >= 2) && [itemlevelreq] <= 30
+[type] == ring && [quality] == rare # [lifeleech] >= 3 && [strength]+[dexterity] >= 10 && ([lightresist]+[fireresist] >= 40 || [lightresist]+[coldresist] >= 40 || [fireresist]+[coldresist] >= 40 || [hpregen] >= 5 || [manaleech] >= 2) && [itemlevelreq] <= 30
+//[type] == ring && [quality] <= rare # [strength] >= 7 && [dexterity] >= 4 && [itemlevelreq] <= 30
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~ lld amulets ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[type] == amulet && [quality] == rare # ([itemaddskilltab] == 2 || [itemaddclassskills] >= 1) && [fcr] == 10 && [coldresist]+[lightresist]+[fireresist] >= 30 && ([strength] >= 8 || [dexterity] >= 8 || [maxhp] >= 41 || [energy] >= 15 || [maxmana] >= 61) && [itemlevelreq] <= 30
+[type] == amulet && [quality] == rare # ([itemaddskilltab] == 2 || [itemaddclassskills] >= 1) && [fcr] == 10 && [strength] >= 8 && ([dexterity] >= 8 || [maxhp] >= 41 || [energy] >= 15 || [maxmana] >= 61) && [itemlevelreq] <= 30
+[type] == amulet && [quality] == rare # ([itemaddskilltab] == 2 || [itemaddclassskills] >= 1) && [fcr] == 10 && [dexterity] >= 8 && ([maxhp] >= 41 || [energy] >= 15 || [maxmana] >= 61) && [itemlevelreq] <= 30
+[type] == amulet && [quality] == rare # ([itemaddskilltab] == 2 || [itemaddclassskills] >= 1) && [fcr] == 10 && [maxhp] >= 41 && ([energy] >= 15 || [maxmana] >= 61) && [itemlevelreq] <= 30
+[type] == amulet && [quality] == rare # ([itemaddskilltab] == 2 || [itemaddclassskills] >= 1) && [fcr] == 10 && [energy] >= 15 && [maxmana] >= 61 && [itemlevelreq] <= 30
+[type] == amulet && [quality] == rare # [strength] == 5 && [dexterity] == 5 && [itemlevelreq] <= 9
+
+//~~~~~~~~~~~~~~~~~~~~~~~ low level weapons ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[name] == handscythe && [quality] <= rare # [skilllightningsentry] >= 3 && ([itemaddassassinskills] >= 1 || [trapsskilltab] >= 2) && ([itemlevelreq] <= 30 || [skillwakeoffire] >= 3 || [skillwakeofinferno] >= 3) && [itemlevelreq] <= 30	// this should include jeweler's + ias magic claws automatically, dont wanna limit too much
+([name] == scimitar || [name] == cutlass) && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 81 && [itemreplenishdurability] >= 1 && ([sockets] >= 2 || [ias] >= 20) && [itemlevelreq] <= 30
+([name] == kris || [name] == cinquedeas) && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 81 && [itemreplenishdurability] >= 1 && ([sockets] >= 2 || [ias] >= 20) && [itemlevelreq] <= 30
+([name] == waraxe || [name] == naga) && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 81 && [itemreplenishdurability] >= 1 && ([sockets] >= 2 || [ias] >= 20) && [itemlevelreq] <= 30
+([name] == flamberge || [name] == zweihander) && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 81 && [itemreplenishdurability] >= 1 && ([sockets] >= 2 || [ias] >= 20) && [itemlevelreq] <= 30
+([name] == warhammer || [name] == battlehammer) && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 81 && [itemreplenishdurability] >= 1 && ([sockets] >= 2 || [ias] >= 20) && [itemlevelreq] <= 30
+[name] == throwingspear && [quality] == rare && [flag] == ethereal # ([enhanceddamage] >= 31 || [maxdamage] >= 5 || [mindamage] >= 3) && [itemreplenishquantity] >= 1 && [ias] >= 10 && [itemlevelreq] <= 9
+[name] == bladetalons && [quality] == rare && [flag] == ethereal # ([enhanceddamage] >= 31 || [maxdamage] >= 5 || [mindamage] >= 3) && [itemreplenishdurability] >= 1 && [ias] >= 10 && [itemlevelreq] <= 9
+[type] == wand && [quality] <= rare # [poisonandboneskilltab] >= 1 && [fcr] >= 10 && [skillbonespear] >= 3 && [itemlevelreq] <= 18
+[type] == wand && [quality] <= rare # [poisonandboneskilltab] >= 2 && [fcr] >= 10 && ([skillbonespear] >= 3 || [skillbonespirit] >= 3) && [itemlevelreq] <= 30
+([name] == maidenjavelin || [name] == ceremonialjavelin || [name] == throwingspear || [name] == harpoon) && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 81 && [ias] >= 20 && [itemreplenishquantity] >= 1 && [itemlevelreq] <= 30
+([name] == maidenjavelin || [name] == ceremonialjavelin) && [quality] <= rare # [javelinandspearskilltab] >= 3 && [ias] >=20 && [itemlevelreq] <= 30
+([name] == javelin || [name] == warjavelin) && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 51 && [ias] >= 20 && [itemreplenishquantity] >= 1 && [itemlevelreq] <= 18
+([name] == shortbattlebow || [name] == shortwarbow || [name] == longwarbow || [name] == stagbow || [name] == shortsiegebow || [name] == runebow || [name] == gothicbow || [name] == ashwoodbow) && [quality] == rare # [enhanceddamage] >= 140 && [sockets] == 2 && [ias] >= 20 && [itemlevelreq] <= 30
+[type] == orb && [quality] <= rare && [class] <= exceptional # ([skillenchant] >= 3 || [skillfireball] >= 3) && [fireskilltab] >= 2 && [itemlevelreq] <= 30
+[type] == orb && [quality] <= rare && [class] <= exceptional # [skillblizzard] >= 3 && [coldskilltab] >= 2 && [itemlevelreq] <= 30
+[type] == orb && [quality] <= rare && [class] <= exceptional # ([skilllightning] >= 3 || [skillchainlightning] >= 3 || [skillnova] >= 3 || [skillenergyshield] >= 3) && [lightningskilltab] >= 2 && [itemlevelreq] <= 30
+
+//~~~~~~~~~~~~~~~~~~~~~~~ low level body armor ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+([name] == breastplate || [name] == cuirass || [name] == ancientarmor || [name] == ornateplate || [name] == lightplate || [name] == mageplate) && [quality] == rare && [flag] == ethereal # [enhanceddefense] >= 81 && [itemreplenishdurability] >= 1 && [itemlevelreq] <= 30
+([name] == breastplate || [name] == cuirass || [name] == ancientarmor || [name] == ornateplate || [name] == lightplate || [name] == mageplate) && [quality] <= magic && [flag] != ethereal # [maxhp] >= 80 && [sockets] >= 3 && [itemlevelreq] <= 30
+
+//~~~~~~~~~~~~~~~~~~~~~~~ low level helms ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+([name] == greathelm || [name] == mask || [name] == crown || [name] == wingedhelm || [name] == deathmask || [name] == grandcrown) && [quality] == magic && [flag] != ethereal # [sockets] >= 3 && [maxhp] >= 20 && [itemlevelreq] <= 30
+([name] == grimhelm || [name] == grandcrown) && [quality] == rare && [flag] == ethereal # [enhanceddefense] >= 81 && [itemreplenishdurability] >= 1 && [itemlevelreq] <= 30	// no need magic
+[type] == circlet && [quality] == magic && [flag] != ethereal # ([itemaddclassskills] >= 1 || [itemaddskilltab] >= 2) && ([fcr] >= 20 || [frw] >= 30) && [itemlevelreq] <= 30
+[type] == circlet && [quality] == rare && [flag] != ethereal # ([itemaddskilltab] >= 2 || [itemaddclassskills] >= 1) && ([fcr] >= 20 || [frw] >= 30) && ([itemlevelreq] <= 30 || [maxhp] >= 41 || [maxmana] >= 61 || [energy] >= 16 || [enhanceddamage] >= 20 || [hpregen] >= 6 || [itemhalffreezeduration] >= 1 || [itempoisonlengthresist] >= 75 || [fireresist] + [coldresist] + [lightresist] + [poisonresist] >= 32 || [sockets] >= 2) && [itemlevelreq] <= 30
+[type] == pelt && ([quality] == magic || [quality] == rare) # [elementalskilltab] >= 2 && ([skilltornado] >= 3 || [skillfissure] >= 3) && [itemlevelreq] <= 30	//no m/r hurricane elemental pelt yet
+[type] == pelt && ([quality] == magic || [quality] == rare) # [shapeshiftingskilltab] >= 2 && ([skillfury] >= 3 || [skillmaul] >= 3 || [skillrabies] >= 3 || [skillshockwave] >= 3) && ([itemlevelreq] <= 30 || [skilloaksage] >= 3 || [skillheartofwolverine] >= 3 || [skillwerewolf] >= 3 || [skillwerebear] >= 3 || [skilllycanthropy] >= 3 || [skillhurricane] >= 3) && [itemlevelreq] <= 30	//or m/r hurricane ss pelt, dont wanna limit staffmod too much
+[type] == pelt && ([quality] == magic || [quality] == rare) # [druidsummoningskilltab] >= 2 && [skillsummongrizzly] >= 3 && ([itemlevelreq] <= 30 || [skillshockwave] >= 3 || [skilloaksage] >= 3 || [skillheartofwolverine] >= 3 || [skillsummondirewolf] >= 3 || [skillsummonspiritwolf] >= 3 ||[skillrabies] >= 3 || [skillfireclaws] >= 3 || [skillwerewolf] >= 3 || [skillwerebear] >= 3 || [skilllycanthropy] >= 3 || [skillhurricane] >= 3) && [itemlevelreq] <= 30	//or m/r hurricane summon pelt
+[type] == pelt && ([quality] == normal || [quality] == superior) # ([sockets] == 0 || [sockets] == 3) && ([skilltornado] >= 3 || [skillfissure] >= 3) && [skillhurricane] >= 3 && [itemlevelreq] <= 30	//and white hurricane elemental pelt
+[type] == pelt && ([quality] == normal || [quality] == superior) # ([sockets] == 0 || [sockets] == 3) && ([skillfury] >= 3 || [skillmaul] >= 3 || [skillrabies] >= 3 || [skillshockwave] >= 3) && ([skilloaksage] >= 3 || [skillheartofwolverine] >= 3 || [skillwerewolf] >= 3 || [skillwerebear] >= 3 || [skilllycanthropy] >= 3 || [skillhurricane] >= 3) && [itemlevelreq] <= 30	//or white hurricane ss pelt, dont wanna limit staffmod too much
+[type] == pelt && ([quality] == normal || [quality] == superior) # ([sockets] == 0 || [sockets] == 3) && [skillsummongrizzly] >= 3 && ([skillshockwave] >= 3 || [skilloaksage] >= 3 || [skillheartofwolverine] >= 3 || [skillsummondirewolf] >= 3 || [skillsummonspiritwolf] >= 3 || [skillrabies] >= 3 || [skillfireclaws] >= 3 || [skillwerewolf] >= 3 || [skillwerebear] >= 3 || [skilllycanthropy] >= 3 || [skillhurricane] >= 3) && [itemlevelreq] <= 30	//or white hurricane summon pelt
+[type] == pelt && [quality] == magic # ([maxhp] >= 20 || [fhr] >= 10) && [sockets] >= 3 && [itemlevelreq] <= 30
+[type] == primalhelm && ([quality] == normal || [quality] == superior) # [skillbattleorders] >= 3 && [skillshout] >= 3 && ([skillwarcry] >= 3 || [skillbattlecommand] >= 3) && ([sockets] == 0 || [sockets] == 3)	//hybrid or regular delirium, no lvl or class restriction
+[type] == primalhelm && ([quality] == normal || [quality] == superior) && [class] <= exceptional # ([skillwhirlwind] >= 1 || [skillberserk] >= 1) && ([sockets] == 0 || [sockets] == 3) && [itemlevelreq] <= 30
+[type] == primalhelm && [quality] == rare && [class] <= exceptional # ([skillwhirlwind] >= 1 || [skillberserk] >= 1) && [itemlevelreq] <= 30
+[type] == primalhelm && [quality] == rare && [class] <= exceptional # ([barbarianskills] >= 1 || [warcriesskilltab] >= 1) && [skillbattleorders] >= 3 && ([sockets] >= 2 || [maxhp] >= 41 || [fhr] >= 10 || [skillshout] >= 3 || [skillwarcry] >= 3 || [skillbattlecommand] >= 3 || [skillironskin] >= 3 || [skillincreasedspeed] >= 3 || [skillnaturalresistance] >= 3) && [itemlevelreq] <= 30
+[type] == primalhelm && [quality] == rare && [class] <= exceptional # ([barbarianskills] >= 1 || [masteriesskilltab] >= 1) && ([maxhp] >= 41 || [fhr] >= 10) && ([sockets] >= 2 || [skillbattleorders] >= 3 || [skillshout] >= 3 || [skillwarcry] >= 3 || [skillbattlecommand] >= 3 || [skillironskin] >= 3 || [skillincreasedspeed] >= 3 || [skillnaturalresistance] >= 3) && [itemlevelreq] <= 30
+[type] == primalhelm && [quality] == rare && [class] <= exceptional # ([barbarianskills] >= 1 || [barbcombatskilltab] >= 1) && ([maxhp] >= 41 || [fhr] >= 10) && ([sockets] >= 2 || [skillbattleorders] >= 3 || [skillshout] >= 3 || [skillwarcry] >= 3 || [skillbattlecommand] >= 3 || [skillironskin] >= 3 || [skillincreasedspeed] >= 3 || [skillnaturalresistance] >= 3) && [itemlevelreq] <= 30
+[type] == primalhelm && [quality] == rare && [class] <= exceptional && [flag] != ethereal # [itemtohitpercentperlevel] > 1 && ([barbarianskills] >= 1 || [itemaddskilltab] >= 1) && [sockets] >= 2	//rare viso
+[type] == primalhelm && [quality] == rare && [class] <= exceptional && [flag] == ethereal # [itemtohitpercentperlevel] > 1 && ([barbarianskills] >= 1 || [itemaddskilltab] >= 1) && ([sockets] >= 2 || [itemreplenishdurability] >= 1)	//rare viso
+[type] == primalhelm && [quality] == magic && [class] <= exceptional # ([skillwhirlwind] >= 1 || [skillberserk] >= 1) && [itemlevelreq] <= 30
+[type] == primalhelm && [quality] == magic # [sockets] >= 3 && [maxhp] >= 41 && [itemlevelreq] <= 59	//no class restriction, up to lvl 59
+[type] == primalhelm && [quality] == magic && [class] <= exceptional # [warcriesskilltab] >= 2 && [skillbattleorders] >= 3 && [itemlevelreq] <= 30
+
+//~~~~~~~~~~~~~~~~~~~~~~~ low level shields ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+([type] == auricshields || [name] == largeshield || [name] == kiteshield || [name] == towershield || [name] == gothicshield || [name] == scutum || [name] == dragonshield || [name] == pavise || [name] == ancientshield) && [quality] == magic # [toblock] == 20 && [sockets] >= 3 && [itemlevelreq] <= 30
+([type] == auricshields || [name] == spikedshield || [name] == barbedshield) && [quality] == rare # [toblock] == 20 && [sockets] >= 2 && [palicombatskilltab] == 2 && [itemlevelreq] <= 30
+([type] == auricshields || [name] == boneshield || [name] == grimshield || [name] == spikedshield || [name] == barbedshield) && [quality] == rare # [toblock] == 20 && [sockets] >= 2 && [fhr] >= 17 && [itemlevelreq] <= 30
+([type] == auricshields || [name] == boneshield || [name] == grimshield || [name] == spikedshield || [name] == barbedshield) && [quality] == rare && [flag] == ethereal # [toblock] == 20 && ([enhanceddefense] >= 81 || [fhr] >= 17 || [sockets] >= 2) && [itemreplenishdurability] >= 1 && [itemlevelreq] <= 30
+([type] == auricshields || [name] == boneshield || [name] == kiteshield || [name] == towershield || [name] == gothicshield || [name] == spikedshield) && [quality] == rare && [flag] != ethereal # [toblock] == 20 && [sockets] >= 2 && [fhr] >= 17 && [itemlevelreq] <= 9
+([type] == auricshields || [name] == boneshield || [name] == kiteshield || [name] == towershield || [name] == gothicshield || [name] == spikedshield) && [quality] == rare && [flag] == ethereal # [toblock] == 20 && ([enhanceddefense] >= 31 || [fhr] >= 17 || [sockets] >= 2) && [itemreplenishdurability] >= 1 && [itemlevelreq] <= 9
+([name] == zombiehead || [name] == demonhead || [name] == gargoylehead || [name] == unravellerhead || [name] == preservedhead) && [quality] <= rare # [poisonandboneskilltab] >= 1 && [toblock] >= 20 && [skillbonespear] >= 2 && [itemlevelreq] <= 18
+[type] == voodooheads && [quality] == rare && [class] <= exceptional # [poisonandboneskilltab] == 2 && ([skillbonespear] == 3 || [skillbonespirit] == 3 || [skillpoisonnova] == 3) && ([itemlevelreq] <= 30 || [skillfiregolem] >= 1 || [skillrevive] >= 1 || [skilldecrepify] >= 1) && [itemlevelreq] <= 30	//dont wanna limit too much, only rare here
+[type] == voodooheads && [quality] == rare && [class] <= exceptional # [necromancersummoningskilltab] == 2 && ([skillraiseskeleton] == 3 || [skillskeletonmastery] == 3) && ([itemlevelreq] <= 30 || [skillfiregolem] >= 1 || [skillrevive] >= 1 || [skilldecrepify] >= 1) && [itemlevelreq] <= 30	//dont wanna limit too much, only rare here
+[type] == auricshields && ([quality] == normal || [quality] == superior) # (([enhanceddamage] == 65 && [tohit] == 121) || [fireresist] >= 45) && [itemlevelreq] <= 30
+
+//~~~~~~~~~~~~~~~~~~~~~~~ low level belts ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[type] == belt && [quality] == rare && [flag] != ethereal # [fhr] >= 17 && [strength] >= 7 && ([maxhp] >= 20 || [maxmana] >= 20) && [itemlevelreq] <= 30
+[type] == belt && [quality] == rare && [flag] != ethereal # [fhr] >= 24 && [strength] >= 13 && ([maxhp] >= 40 || [maxmana] >= 40) && [itemlevelreq] <= 49
+
+//~~~~~~~~~~~~~~~~~~~~~~~ low level jewels ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[type] == jewel && [quality] == magic # [maxdamage] >= 23 && [itemlevelreq] <= 30	//p is 24max
+
+//~~~ lvl 18 jewz ~~~
+//~~~ need entries for -req and dtm ~~~
+[type] == jewel && [quality] == magic # ([maxdamage] >= 19 || [mindamage]+[maxdamage] >= 18 || ([maxdamage] >= 14 && [enhanceddamage] >= 19)) && [itemlevelreq] <= 18	//p is 20max, 4min-15max, 15max-20ed
+[type] == jewel && [quality] == magic # [maxdamage] >= 14 && [tohit] >= 55 && [itemlevelreq] <= 18	//p is 15max-60ar
+[type] == jewel && [quality] == rare # (([maxdamage] >= 13 && [enhanceddamage] >= 15 && [tohit] >= 41) || ([mindamage]+[maxdamage] >= 17 && ([enhanceddamage] >= 15 || [tohit] >= 41))) && [itemlevelreq] <= 18	//p pure dmg 14max-4min 3 affix, same as lvl 9
+[type] == jewel && [quality] == rare # ([tohit] >= 41 && [enhanceddamage] >= 15 && ([strength] >= 3 || [dexterity] >= 5)) && [itemlevelreq] <= 18	//can do 2 stats(4str-6dex), or 1 stat and def
+
+//~~~ lvl 9 jewz complete ~~~
+[type] == jewel && [quality] == magic # [mindamage] >= 8 && [itemlevelreq] <= 9
+[type] == jewel && [quality] == magic # [maxdamage] >= 14 && [itemlevelreq] <= 9
+[type] == jewel && [quality] == magic # [mindamage]+[maxdamage] >= 13 && [itemlevelreq] <= 9	//scarlet jewel of wrath
+[type] == jewel && [quality] == magic # [maxdamage] >= 9 && [tohit] >= 35 && [itemlevelreq] <= 9	//p is 9max-40ar
+[type] == jewel && [quality] == magic # [maxdamage] >= 9 && [enhanceddamage] >= 20 && [itemlevelreq] <= 9	//p is 9max-20ed
+[type] == jewel && [quality] == rare # [mindamage]+[maxdamage] >= 18 && [itemlevelreq] <= 9	//p is 22 total 4 affix
+//fix maxdamage => 2 affix, and permute the rest. p is 40ar, 20ed, 14max, 4min, 3dex, 12dtm, -15req
+[type] == jewel && [quality] == rare # [maxdamage] >= 12 && [enhanceddamage] >= 15 && ([itemreqpercent] <= -15 || [mindamage] >= 3 || [tohit] >= 35 || [dexterity] >= 3 || [itemdamagetomana] >= 10) && [itemlevelreq] <= 9
+[type] == jewel && [quality] == rare # [maxdamage] >= 12 && [itemreqpercent] <= -15 && ([enhanceddamage] >= 15 || [mindamage] >= 3 || [tohit] >= 35 || [dexterity] >= 3 || [itemdamagetomana] >= 10) && [itemlevelreq] <= 9
+[type] == jewel && [quality] == rare # [maxdamage] >= 12 && [mindamage] >= 3 && ([enhanceddamage] >= 15 || [itemreqpercent] <= -15 || [tohit] >= 35 || [dexterity] >= 3 || [itemdamagetomana] >= 10) && [itemlevelreq] <= 9
+[type] == jewel && [quality] == rare # [maxdamage] >= 12 && [tohit] >= 35 && ([enhanceddamage] >= 15 || [itemreqpercent] <= -15 || [mindamage] >= 3 || [dexterity] >= 3 || [itemdamagetomana] >= 10) && [itemlevelreq] <= 9
+[type] == jewel && [quality] == rare # [maxdamage] >= 12 && [dexterity] >= 3 && ([enhanceddamage] >= 15 || [itemreqpercent] <= -15 || [mindamage] >= 3 || [tohit] >= 35 || [itemdamagetomana] >= 10) && [itemlevelreq] <= 9
+[type] == jewel && [quality] == rare # [maxdamage] >= 12 && [itemdamagetomana] >= 10 && ([enhanceddamage] >= 15 || [itemreqpercent] <= -15 || [mindamage] >= 3 || [tohit] >= 35 || [dexterity] >= 3) && [itemlevelreq] <= 9
+
+//~~~ need to make the stuff below more strict, starting from lvl 9 ~~~
+[type] == jewel && [quality] <= rare # [enhanceddamage] >= 10 && [mindamage]+[maxdamage] >= 14 && [itemlevelreq] <= 30
+[type] == jewel && [quality] <= rare # [maxdamage] >= 18 && [itemlevelreq] <= 30
+[type] == jewel && [quality] <= rare # [strength] >= 4 && [dexterity] >= 4 && [itemlevelreq] <= 30
+[type] == jewel && [quality] <= rare # [enhanceddamage] >= 18 && ([strength] == 6 || [dexterity] == 9) && [itemlevelreq] <= 30	// magic version should exist...
+[type] == jewel && [quality] == rare # [strength] >= 5 && [dexterity] >= 7 && [itemlevelreq] <= 30
+[type] == jewel && [quality] == rare # [maxdamage] >= 15 && [itemlevelreq] <= 30
+//need dtm, -req jewels, lewt has a lot...
+
+//~~~~~~~~~~~~~~~~~~~~~~~ low level small charms ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[name] == smallcharm && [quality] == magic # ([dexterity] == 1 || [strength] == 1) && ([tohit] >= 4 || [fireresist] >= 5 || [coldresist] >= 5 || [lightresist] >= 5 || [poisonresist] >= 5) && [itemlevelreq] <= 9
+[name] == smallcharm && [quality] == magic # [itemlevelreq] <= 30 && [maxmana] == 12 && ([dexterity] >= 2 || [strength] >= 2 || [frw] == 3 || [fhr] >= 5 || [firemaxdam] >= 8 || [coldmaxdam] >= 6 || [lightmaxdam] >= 18 || [poisonmaxdam] >= 51)
+[name] == smallcharm && [quality] == magic # [itemlevelreq] <= 30 && [maxhp] >= 15 && ([maxdamage] >= 2 || [maxmana] >= 8 || [tohit] >= 12 || [plusdefense] >= 15 || [fireresist] >= 8 || [coldresist] >= 8 || [lightresist] >= 8 || [poisonresist] >= 8 || [fireresist] + [coldresist] >= 8 || [firemaxdam] >= 3 || [coldmaxdam] >= 4 || [lightmaxdam] >= 11 || [poisonmaxdam] >= 51)
+[name] == smallcharm && [quality] == magic # [itemlevelreq] <= 30 && [fhr] == 5 && ([maxdamage] >= 3 || [maxmana] >= 12 || [tohit] >= 12 || [plusdefense] >= 20 || [fireresist] >= 9 || [coldresist] >= 9 || [lightresist] >= 9 || [poisonresist] >= 9 || [fireresist] + [coldresist] >= 10 || [firemaxdam] >= 3 || [coldmaxdam] >= 4 || [lightmaxdam] >= 11 || [poisonmaxdam] >= 51)
+
+//~~~~~~~~~~~~~~~~~~~~~~~ low level large charms ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[name] == largecharm && [quality] == magic # [maxhp] == 15 && ([maxmana] >= 2 || [tohit] >= 4 || [poisonmaxdam] >= 8 || [plusdefense] >= 2) && [itemlevelreq] <= 12
+[name] == largecharm && [quality] == magic # [maxhp] >= 18 && [maxmana] >= 20 && [itemlevelreq] <= 30
+[name] == largecharm && [quality] == magic # [maxdamage] >= 6 && ([maxhp] >= 18 || [fhr] >= 8 || [frw] >= 5 || [strength] >= 5 || [dexterity] >=5) && [itemlevelreq] <= 30
+[name] == largecharm && [quality] == magic # [maxhp] >= 18 && [maxmana] >= 20 && [itemlevelreq] <= 30
+
+//~~~~~~~~~~~~~~~~~~~~~~~ low level grand charms ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[name] == grandcharm && [quality] == magic # [maxdamage] >= 10 && ([frw] == 7 || [fhr] == 12 || [strength] == 6 || [dexterity] == 6)
+[name] == grandcharm && [quality] == magic # [maxdamage] >= 10 && [maxhp] >= 22 && [itemlevelreq] <= 30
+[name] == grandcharm && [quality] == magic # [maxdamage] >= 6 && ([maxhp] >= 18 || [frw] == 7 || [fhr] == 12 || [strength] == 6 || [dexterity] == 6) && [itemlevelreq] <= 18
+[name] == grandcharm && [quality] == magic # [maxhp] >= 23 && [maxmana] >= 40 && [itemlevelreq] <= 30
+
+//~~~~~~~~~~~~~~~~~~~~~~~ lld magic and rare sceptors ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[type] == scepter && ([quality] == magic || [quality] == rare) # [palicombatskilltab]+[skillholyshield] >= 5 && [itemlevelreq] <= 30
+[type] == scepter && ([quality] == magic || [quality] == rare) # [paladinskills]+[skillholyshield] >= 4 && [itemlevelreq] <= 30
+[type] == scepter && ([quality] == magic || [quality] == rare) # [palicombatskilltab]+[skillfistoftheheavens] >= 5 && [itemlevelreq] <= 30
+[type] == scepter && ([quality] == magic || [quality] == rare) # [paladinskills]+[skillfistoftheheavens] >= 4 && [itemlevelreq] <= 30
+
+//~~~~~~~~~~~~~~~~~~~~~~~ lld weapon bases ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[name] == ashwoodbow && [quality] == superior # [enhanceddamage] == 15 && [tohit] == 3 && [bowandcrossbowskilltab] == 3 && [sockets] != 1 && [sockets] != 2 && [sockets] != 3 && [sockets] != 4
+[name] == knout && [quality] == superior # [sockets] != 1 && [sockets] != 2 && [sockets] != 3 && [sockets] != 4 && [enhanceddamage] == 15
+[name] == naga && [quality] == superior # [sockets] != 1 && [sockets] != 2 && [sockets] != 3 && [sockets] != 4 && [enhanceddamage] == 15
+([name] == warscepter || [name] == divinescepter) && ([quality] == normal || [quality] == superior) # [sockets] != 1 && [sockets] != 2 && [sockets] != 3 && [sockets] != 4 && [skillconcentration] >= 3 && [skillblessedhammer] >= 3
+[name] == divinescepter && ([quality] == normal || [quality] == superior) # [sockets] != 1 && [sockets] != 2 && [sockets] != 3 && [sockets] != 4 && [skillcharge] >= 3 && ([skillmight] >= 3 || [skillfanaticism] >= 3)
+([name] == warscepter || [name] == divinescepter) && ([quality] == normal || [quality] == superior) # [sockets] != 1 && [sockets] != 2 && [sockets] != 3 && [sockets] != 4 && [skillfistoftheheavens] >= 3 && [skillconviction] >= 3
+[name] == divinescepter && ([quality] == normal || [quality] == superior) # [skillfanaticism] == 3 && [skillzeal] == 3 && [sockets] != 1 && [sockets] != 2 && [sockets] != 3 && [sockets] != 4
+([name] == warscepter || [name] == divinescepter) && ([quality] == normal || [quality] == superior) # (([skillfistoftheheavens] == 3 && [skillfanaticism] == 3) || [skillholyshield] == 3) && [sockets] != 1 && [sockets] != 2 && [sockets] != 3 && [sockets] != 4
+[name] == warscepter && ([quality] == normal || [quality] == superior) # [sockets] != 1 && [sockets] != 2 && [sockets] != 3 && [sockets] != 4 && [skillzeal] >= 3 && [skillconcentration] >= 3	//vlld

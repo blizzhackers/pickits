@@ -1,0 +1,214 @@
+//crankyankee's copy & paste
+//				charm's
+
+// perfect small charms
+
+[name] == cm1 && [quality] == magic # [plusdefense] >= 30 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [tohit] >= 36 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [maxmana] >= 17 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 20 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [fireresist] >= 11 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [coldresist] >= 11 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [lightresist] >= 11 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [poisonresist] >= 11 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [mindamage] >= 1 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3)   
+[name] == cm1 && [quality] == magic # [maxdamage] >= 4 && [tohit] >= 20
+[name] == cm1 && [quality] == magic # [maxdamage] >= 3 && [tohit] >= 20 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # (([firemaxdam] >= 29 || [lightmaxdam] >= 71 || [coldmaxdam] >= 20) && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3)) 
+[name] == cm1 && [quality] == magic # [firemaxdam] >= 42 || [lightmaxdam] >= 99 || [coldmaxdam] >= 29
+[name] == cm1 && [quality] == magic # [poisonlength]*[poisonmaxdam]/256 >= 141 // value from muddy_waters@epvp. this is probably a little lower than perfect. 
+
+// perfect prefix / good suffix small charms
+[name] == cm1 && [quality] == magic # [plusdefense] >= 30 && ([fhr] >= 5 || [itemgoldbonus] >= 7 || [maxdamage] >= 1 || [itemmagicbonus] >= 5 || [maxhp] >= 15 || [strength] >= 1 || [dexterity] >= 1 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [tohit] >= 36 && ([fhr] >= 5 || [itemgoldbonus] >= 7 || [maxdamage] >= 1 || [itemmagicbonus] >= 5 || [maxhp] >= 15 || [strength] >= 1 || [dexterity] >= 1 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [maxmana] >= 17 && ([fhr] >= 5 || [itemgoldbonus] >= 7 || [maxdamage] >= 1 || [itemmagicbonus] >= 5 || [maxhp] >= 15 || [strength] >= 1 || [dexterity] >= 1 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 20 && ([fhr] >= 5 || [itemgoldbonus] >= 7 || [maxdamage] >= 1 || [itemmagicbonus] >= 5 || [maxhp] >= 15 || [strength] >= 1 || [dexterity] >= 1 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [fireresist] >= 11 && ([fhr] >= 5 || [itemgoldbonus] >= 7 || [maxdamage] >= 1 || [itemmagicbonus] >= 5 || [maxhp] >= 15 || [strength] >= 1 || [dexterity] >= 1 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [coldresist] >= 11 && ([fhr] >= 5 || [itemgoldbonus] >= 7 || [maxdamage] >= 1 || [itemmagicbonus] >= 5 || [maxhp] >= 15 || [strength] >= 1 || [dexterity] >= 1 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [lightresist] >= 11 && ([fhr] >= 5 || [itemgoldbonus] >= 7 || [maxdamage] >= 1 || [itemmagicbonus] >= 5 || [maxhp] >= 15 || [strength] >= 1 || [dexterity] >= 1 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [poisonresist] >= 11 && ([fhr] >= 5 || [itemgoldbonus] >= 7 || [maxdamage] >= 1 || [itemmagicbonus] >= 5 || [maxhp] >= 15 || [strength] >= 1 || [dexterity] >= 1 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [mindamage] >= 1 && ([fhr] >= 5 || [itemgoldbonus] >= 7 || [maxdamage] >= 1 || [itemmagicbonus] >= 5 || [maxhp] >= 15 || [strength] >= 1 || [dexterity] >= 1 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [maxdamage] >= 3 && [tohit] >= 20 && ([fhr] >= 5 || [itemgoldbonus] >= 7 || [itemmagicbonus] >= 5 || [maxhp] >= 15 || [strength] >= 1 || [dexterity] >= 1 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # (([firemaxdam] >= 29 || [lightmaxdam] >= 71 || [coldmaxdam] >= 20) && ([fhr] >= 5 || [itemgoldbonus] >= 7 || [maxdamage] >= 1 || [itemmagicbonus] >= 5 || [maxhp] >= 15 || [strength] >= 1 || [dexterity] >= 1 || [frw] >= 3)) 
+[name] == cm1 && [quality] == magic # [firemaxdam] >= 32 || [lightmaxdam] >= 79 || [coldmaxdam] >= 19
+[name] == cm1 && [quality] == magic # [poisonlength]*[poisonmaxdam]/256 >= 91
+
+// good prefix / perfect suffix small charms
+[name] == cm1 && [quality] == magic # [plusdefense] >= 20 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [tohit] >= 26 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [maxmana] >= 12 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 16 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [fireresist] >= 9 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [coldresist] >= 9 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [lightresist] >= 9 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [poisonresist] >= 9 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [maxdamage] >= 1 && [tohit] >= 15 && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # (([firemaxdam] >= 19 || [lightmaxdam] >= 51 || [coldmaxdam] >= 15) && ([fhr] >= 5 || [itemgoldbonus] >= 10 || [maxdamage] >= 1 || [itemmagicbonus] >= 7 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 3)) 
+
+// good prefix / good suffix small charms
+
+[name] == cm1 && [quality] == magic # [plusdefense] >= 20 && ([fhr] >= 5 || [itemgoldbonus] >= 7 || [maxdamage] >= 1 || [itemmagicbonus] >= 5 || [maxhp] >= 15 || [strength] >= 1 || [dexterity] >= 1 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [tohit] >= 26 && ([fhr] >= 5 || [itemgoldbonus] >= 7 || [maxdamage] >= 1 || [itemmagicbonus] >= 5 || [maxhp] >= 15 || [strength] >= 1 || [dexterity] >= 1 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [maxmana] >= 12 && ([fhr] >= 5 || [itemgoldbonus] >= 7 || [maxdamage] >= 1 || [itemmagicbonus] >= 5 || [maxhp] >= 15 || [strength] >= 1 || [dexterity] >= 1 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 16 && ([fhr] >= 5 || [itemgoldbonus] >= 7 || [maxdamage] >= 1 || [itemmagicbonus] >= 5 || [maxhp] >= 15 || [strength] >= 1 || [dexterity] >= 1 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [fireresist] >= 9 && ([fhr] >= 5 || [itemgoldbonus] >= 7 || [maxdamage] >= 1 || [itemmagicbonus] >= 5 || [maxhp] >= 15 || [strength] >= 1 || [dexterity] >= 1 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [coldresist] >= 9 && ([fhr] >= 5 || [itemgoldbonus] >= 7 || [maxdamage] >= 1 || [itemmagicbonus] >= 5 || [maxhp] >= 15 || [strength] >= 1 || [dexterity] >= 1 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [lightresist] >= 9 && ([fhr] >= 5 || [itemgoldbonus] >= 7 || [maxdamage] >= 1 || [itemmagicbonus] >= 5 || [maxhp] >= 15 || [strength] >= 1 || [dexterity] >= 1 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [poisonresist] >= 9 && ([fhr] >= 5 || [itemgoldbonus] >= 7 || [maxdamage] >= 1 || [itemmagicbonus] >= 5 || [maxhp] >= 15 || [strength] >= 1 || [dexterity] >= 1 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # [maxdamage] >= 1 && [tohit] >= 15 && ([fhr] >= 5 || [itemgoldbonus] >= 7 || [itemmagicbonus] >= 5 || [maxhp] >= 15 || [strength] >= 1 || [dexterity] >= 1 || [frw] >= 3) 
+[name] == cm1 && [quality] == magic # (([firemaxdam] >= 19 || [lightmaxdam] >= 51 || [coldmaxdam] >= 15) && ([fhr] >= 5 || [itemgoldbonus] >= 7 || [maxdamage] >= 1 || [itemmagicbonus] >= 5 || [maxhp] >= 15 || [strength] >= 1 || [dexterity] >= 1 || [frw] >= 3)) 
+[name] == cm1 && [quality] == magic # [poisonlength]*[poisonmaxdam]/256 >= 43 // value from muddy_waters@epvp. this is probably the lowest possible. acceptable for lld 
+
+// perfect prefix only small charms
+
+//[name] == cm1 && [quality] == magic # [plusdefense] >= 30
+//[name] == cm1 && [quality] == magic # [tohit] >= 36
+[name] == cm1 && [quality] == magic # [maxmana] >= 17
+[name] == cm1 && [quality] == magic # [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 20
+//[name] == cm1 && [quality] == magic # [fireresist] >= 11
+//[name] == cm1 && [quality] == magic # [coldresist] >= 11
+//[name] == cm1 && [quality] == magic # [lightresist] >= 11
+//[name] == cm1 && [quality] == magic # [poisonresist] >= 11
+//[name] == cm1 && [quality] == magic # [maxdamage] >= 3 && [tohit] >= 20
+//[name] == cm1 && [quality] == magic # (([firemaxdam] >= 29 || [lightmaxdam] >= 71 || [coldmaxdam] >= 20))
+
+// perfect suffix only small charms
+
+//[name] == cm1 && [quality] == magic # [fhr] >= 5
+[name] == cm1 && [quality] == magic # [maxhp] >= 20
+//[name] == cm1 && [quality] == magic # [itemgoldbonus] >= 10
+//[name] == cm1 && [quality] == magic # [itemmagicbonus] >= 7
+//[name] == cm1 && [quality] == magic # [strength] >= 2
+//[name] == cm1 && [quality] == magic # [dexterity] >= 2
+//[name] == cm1 && [quality] == magic # [frw] >= 3
+
+// lld small charms
+
+//[name] == cm1 && [quality] == magic # ([2] >= 1 || [0] >= 1) && ([51] >= 4 || [58] >= 4 || [tohit] >= 3) && [92] <= 9 
+//[name] == cm1 && [quality] == magic # [maxmana] >= 12 && ([2] >= 2 || [0] >= 2 || [frw] >= 3 || [58] >= 25 || [51] >= 12 || [fhr] >= 5) &&  [92] <= 30
+//[name] == cm1 && [quality] == magic # [maxhp] >= 15 && ([maxmana] >= 5 || [tohit] >= 7 || [39] >= 5 || [41] >= 5 || [58] >= 15 || [51] >= 9 || [plusdefense] >= 14) && [92] <= 30
+//[name] == cm1 && [quality] == magic # [maxhp] >= 13 && ([maxmana] >= 7 || [tohit] >= 7 || [39] >= 9 || [41] >= 9 || [plusdefense] >= 18) && [92] <= 30
+//[name] == cm1 && [quality] == magic # [maxdamage] >= 3 && ([maxhp] >= 13 || [fhr] >= 5 || [frw] >= 3 || [0] >= 2 || [2] >= 2 || [58] >= 25 || [51] >= 12 || [79] >= 10) && [92] <= 30
+
+//***************************************************************************************************
+// perfect medium charms
+
+[name] == cm2 && [quality] == magic # [plusdefense] >= 60 && ([fhr] >= 8 || [itemgoldbonus] >= 22 || [maxdamage] >= 2 || [maxhp] >= 35 || [strength] >= 5 || [dexterity] >= 5 || [frw] >= 5) 
+[name] == cm2 && [quality] == magic # [tohit] >= 77 && ([fhr] >= 8 || [itemgoldbonus] >= 22 || [maxdamage] >= 2 || [maxhp] >= 35 || [strength] >= 5 || [dexterity] >= 5 || [frw] >= 5) 
+[name] == cm2 && [quality] == magic # [maxmana] >= 34 && ([fhr] >= 8 || [itemgoldbonus] >= 22 || [maxdamage] >= 2 || [maxhp] >= 35 || [strength] >= 5 || [dexterity] >= 5 || [frw] >= 5) 
+[name] == cm2 && [quality] == magic # [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 32 && ([fhr] >= 8 || [itemgoldbonus] >= 22 || [maxdamage] >= 2 || [maxhp] >= 35 || [strength] >= 5 || [dexterity] >= 5 || [frw] >= 5) 
+[name] == cm2 && [quality] == magic # [fireresist] >= 15 && ([fhr] >= 8 || [itemgoldbonus] >= 22 || [maxdamage] >= 2 || [maxhp] >= 35 || [strength] >= 5 || [dexterity] >= 5 || [frw] >= 5) 
+[name] == cm2 && [quality] == magic # [coldresist] >= 15 && ([fhr] >= 8 || [itemgoldbonus] >= 22 || [maxdamage] >= 2 || [maxhp] >= 35 || [strength] >= 5 || [dexterity] >= 5 || [frw] >= 5) 
+[name] == cm2 && [quality] == magic # [lightresist] >= 15 && ([fhr] >= 8 || [itemgoldbonus] >= 22 || [maxdamage] >= 2 || [maxhp] >= 35 || [strength] >= 5 || [dexterity] >= 5 || [frw] >= 5) 
+[name] == cm2 && [quality] == magic # [poisonresist] >= 15 && ([fhr] >= 8 || [itemgoldbonus] >= 22 || [maxdamage] >= 2 || [maxhp] >= 35 || [strength] >= 5 || [dexterity] >= 5 || [frw] >= 5) 
+[name] == cm2 && [quality] == magic # [mindamage] >= 2 && ([fhr] >= 8 || [itemgoldbonus] >= 22 || [maxhp] >= 35 || [strength] >= 5 || [dexterity] >= 5 || [frw] >= 5) 
+[name] == cm2 && [quality] == magic # [maxdamage] >= 2 && ([fhr] >= 8 || [itemgoldbonus] >= 22 || [maxhp] >= 35 || [strength] >= 5 || [dexterity] >= 5 || [frw] >= 5) 
+[name] == cm2 && [quality] == magic # [maxdamage] >= 8 && [tohit] >= 48
+[name] == cm2 && [quality] == magic # [maxdamage] >= 6 && [tohit] >= 48 && ([fhr] >= 8 || [itemgoldbonus] >= 22 || [maxhp] >= 35 || [strength] >= 5 || [dexterity] >= 5 || [frw] >= 5) 
+[name] == cm2 && [quality] == magic # [itemmagicbonus] >= 6 && ([fhr] >= 8 || [itemgoldbonus] >= 22 || [maxdamage] >= 2 || [maxhp] >= 35 || [strength] >= 5 || [dexterity] >= 5 || [frw] >= 5) 
+
+// good medium charms
+
+[name] == cm2 && [quality] == magic # [tohit] >= 50 && ([fhr] >= 8 || [itemgoldbonus] >= 15 || [maxdamage] >= 2 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 5) 
+[name] == cm2 && [quality] == magic # [maxmana] >= 25 && ([fhr] >= 8 || [itemgoldbonus] >= 15 || [maxdamage] >= 2 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 5) 
+[name] == cm2 && [quality] == magic # [mindamage] >= 1 && ([fhr] >= 8 || [itemgoldbonus] >= 15 || [maxdamage] >= 2 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 5) 
+[name] == cm2 && [quality] == magic # [maxdamage] >= 2 && [tohit] >= 30 && ([fhr] >= 8 || [itemgoldbonus] >= 15 || [maxdamage] >= 2 || [maxhp] >= 20 || [strength] >= 2 || [dexterity] >= 2 || [frw] >= 5) 
+
+// lld medium charms
+
+//[name] == cm2 && [quality] == magic # [maxhp] >= 15 && ([maxmana] >= 2 || [tohit] >= 4 || [58] >= 8 || [plusdefense] >= 2) && [92] <= 12 
+//[name] == cm2 && [quality] == magic # [maxdamage] >= 6 && ([maxhp] >= 18 || [fhr] >= 8 || [frw] >= 5 || [0] >= 5 || [2] >=5) && [92] <= 30
+//[name] == cm2 && [quality] == magic # [maxhp] >= 18 && [maxmana] >= 20 && [92] <= 30
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+// the suffix / prefix only and other sections like those in sc are here eliminated due the fact   //
+// the stats vary only a little to those in sc. using twice a sc with high stats would be better   //
+// than using one medium. so only the perfect charms are added here, besides those which are       //
+// really really worthy medium charms. 								   //
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//*****************************************************************************************************
+// perfect grand charms
+
+[name] == cm3 && [quality] == magic # [maxdamage] >= 14 && [tohit] >= 76
+[name] == cm3 && [quality] == magic # [maxdamage] >= 4 && ([tohit] >= 76 && [maxdamage] >= 10 || [plusdefense] >= 100 || [mindamage] >= 3 || [tohit] >= 132 || [itemmagicbonus] >= 12 || [maxmana] >= 59 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [fireresist] >= 30 || [lightresist] >= 30 || [coldresist] >= 30 || [poisonresist] >= 30) 
+[name] == cm3 && [quality] == magic # [dexterity] >= 6 && ([tohit] >= 76 && [maxdamage] >= 10 || [plusdefense] >= 100 || [mindamage] >= 3 || [tohit] >= 132 || [itemmagicbonus] >= 12 || [maxmana] >= 59 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [fireresist] >= 30 || [lightresist] >= 30 || [coldresist] >= 30 || [poisonresist] >= 30)
+[name] == cm3 && [quality] == magic # [strength] >= 6 && ([tohit] >= 76 && [maxdamage] >= 10 || [plusdefense] >= 100 || [mindamage] >= 3 || [tohit] >= 132 || [itemmagicbonus] >= 12 || [maxmana] >= 59 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [fireresist] >= 30 || [lightresist] >= 30 || [coldresist] >= 30 || [poisonresist] >= 30)
+[name] == cm3 && [quality] == magic # [maxhp] >= 45 && ([tohit] >= 76 && [maxdamage] >= 10 || [plusdefense] >= 100 || [mindamage] >= 3 || [tohit] >= 132 || [itemmagicbonus] >= 12 || [maxmana] >= 59 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [fireresist] >= 30 || [lightresist] >= 30 || [coldresist] >= 30 || [poisonresist] >= 30)
+[name] == cm3 && [quality] == magic # [itemgoldbonus] >= 40 && ([tohit] >= 76 && [maxdamage] >= 10 || [plusdefense] >= 100 || [mindamage] >= 3 || [tohit] >= 132 || [itemmagicbonus] >= 12 || [maxmana] >= 59 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [fireresist] >= 30 || [lightresist] >= 30 || [coldresist] >= 30 || [poisonresist] >= 30)
+[name] == cm3 && [quality] == magic # [fhr] >= 12 && ([tohit] >= 76 && [maxdamage] >= 10 || [plusdefense] >= 100 || [mindamage] >= 3 || [tohit] >= 132 || [itemmagicbonus] >= 12 || [maxmana] >= 59 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [fireresist] >= 30 || [lightresist] >= 30 || [coldresist] >= 30 || [poisonresist] >= 30)
+[name] == cm3 && [quality] == magic # [frw] >= 7 && ([tohit] >= 76 && [maxdamage] >= 10 || [plusdefense] >= 100 || [mindamage] >= 3 || [tohit] >= 132 || [itemmagicbonus] >= 12 || [maxmana] >= 59 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [fireresist] >= 30 || [lightresist] >= 30 || [coldresist] >= 30 || [poisonresist] >= 30)
+
+// good grand charms
+
+[name] == cm3 && [quality] == magic # [maxdamage] >= 10 && [tohit] >= 60
+[name] == cm3 && [quality] == magic # [maxdamage] >= 3 && ([tohit] >= 50 && [maxdamage] >= 7 || [plusdefense] >= 75 || [mindamage] >= 3 || [tohit] >= 100 || [itemmagicbonus] >= 8 || [maxmana] >= 40 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 40 || [fireresist] >= 20 || [lightresist] >= 20 || [coldresist] >= 20 || [poisonresist] >= 20) 
+[name] == cm3 && [quality] == magic # [dexterity] >= 4 && ([tohit] >= 50 && [maxdamage] >= 7 || [plusdefense] >= 75 || [mindamage] >= 3 || [tohit] >= 100 || [itemmagicbonus] >= 8 || [maxmana] >= 40 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 40 || [fireresist] >= 20 || [lightresist] >= 20 || [coldresist] >= 20 || [poisonresist] >= 20) 
+[name] == cm3 && [quality] == magic # [strength] >= 4 && ([tohit] >= 50 && [maxdamage] >= 7 || [plusdefense] >= 75 || [mindamage] >= 3 || [tohit] >= 100 || [itemmagicbonus] >= 8 || [maxmana] >= 40 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 40 || [fireresist] >= 20 || [lightresist] >= 20 || [coldresist] >= 20 || [poisonresist] >= 20) 
+[name] == cm3 && [quality] == magic # [maxhp] >= 25 && ([tohit] >= 50 && [maxdamage] >= 7 || [plusdefense] >= 75 || [mindamage] >= 3 || [tohit] >= 100 || [itemmagicbonus] >= 8 || [maxmana] >= 40 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 40 || [fireresist] >= 20 || [lightresist] >= 20 || [coldresist] >= 20 || [poisonresist] >= 20) 
+[name] == cm3 && [quality] == magic # [itemgoldbonus] >= 30 && ([tohit] >= 50 && [maxdamage] >= 7 || [plusdefense] >= 75 || [mindamage] >= 3 || [tohit] >= 100 || [itemmagicbonus] >= 8 || [maxmana] >= 40 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 40 || [fireresist] >= 20 || [lightresist] >= 20 || [coldresist] >= 20 || [poisonresist] >= 20) 
+[name] == cm3 && [quality] == magic # [fhr] >= 12 && ([tohit] >= 50 && [maxdamage] >= 7 || [plusdefense] >= 75 || [mindamage] >= 3 || [tohit] >= 100 || [itemmagicbonus] >= 8 || [maxmana] >= 40 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 40 || [fireresist] >= 20 || [lightresist] >= 20 || [coldresist] >= 20 || [poisonresist] >= 20) 
+[name] == cm3 && [quality] == magic # [frw] >= 7 && ([tohit] >= 50 && [maxdamage] >= 7 || [plusdefense] >= 75 || [mindamage] >= 3 || [tohit] >= 100 || [itemmagicbonus] >= 8 || [maxmana] >= 40 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 40 || [fireresist] >= 20 || [lightresist] >= 20 || [coldresist] >= 20 || [poisonresist] >= 20) 
+
+// perfect prefix / suffix only grand charm
+
+//[name] == cm3 && [quality] == magic # ([tohit] >= 76 && [maxdamage] >= 10 || [plusdefense] >= 100 || [mindamage] >= 3 || [tohit] >= 132 || [itemmagicbonus] >= 12 || [maxmana] >= 59 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 || [fireresist] >= 30 || [lightresist] >= 30 || [coldresist] >= 30 || [poisonresist] >= 30 || [poisonmindam] >= 100 || [coldmindam] >= 13 && [coldmaxdam] >= 25 || [firemindam] >= 18 && [firemaxdam] >= 36 || [lightmindam] >= 1 && [lightmaxdam] >= 79) 
+//[name] == cm3 && [quality] == magic # ([maxdamage] >= 4 || [dexterity] >= 6 [strength] >= 6 [maxhp] >= 45 [itemgoldbonus] >= 40 [fhr] >= 12 [frw] >= 7 [lightmindam] >= 1 && [lightmaxdam] >= 23 [coldmindam] >= 6 && [coldmaxdam] >= 11 [firemindam] >= 7 && [firemaxdam] >= 14)        
+
+// lld grand charms####
+
+//[name] == cm3 && [quality] == magic # [maxdamage] >= 10 && ([frw] >= 7 || [fhr] >= 12 || [0] >= 6 || [2] >= 6 || [79] >= 39) 
+//[name] == cm3 && [quality] == magic # [maxdamage] >= 10 && [maxhp] >= 22 && [92] <= 30
+//[name] == cm3 && [quality] == magic # [maxhp] >= 23 && [maxmana] >= 40 && [92] <= 30
+//[name] == cm3 && [quality] == magic # [maxdamage] >= 6 && ([maxhp] >= 18 || [frw] >= 7 || [fhr] >= 12 || [0] >= 6 || [2] >= 6) && [92] <= 18
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+// the suffix / prefix only and other sections like those in sc are here eliminated due the fact   //
+// the stats vary only a little to those in sc. using 3x a sc with high stats would be better      //
+// than using one medium. so only the perfect charms are added here, besides those which are       //
+// really really worthy grand charms. 								   //
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// skillers
+
+// ***** barbarian **********************************************************************************
+//[name] == cm3 && [quality] == magic # [masteriesskilltab] >= 1
+//[name] == cm3 && [quality] == magic # [barbcombatskilltab] >= 1
+//[name] == cm3 && [quality] == magic # [warcriesskilltab] >= 1
+// ***** assasin ************************************************************************************
+//[name] == cm3 && [quality] == magic # [trapsskilltab] >= 1
+//[name] == cm3 && [quality] == magic # [shadowdisciplinesskilltab] >= 1
+//[name] == cm3 && [quality] == magic # [martialartsskilltab] >= 1
+// ***** amazon *************************************************************************************
+//[name] == cm3 && [quality] == magic # [javelinandspearskilltab] >= 1
+//[name] == cm3 && [quality] == magic # [passiveandmagicskilltab] >= 1
+//[name] == cm3 && [quality] == magic # [bowandcrossbowskilltab] >= 1
+// ***** druid **************************************************************************************
+//[name] == cm3 && [quality] == magic # [shapeshiftingskilltab] >= 1
+//[name] == cm3 && [quality] == magic # [elementalskilltab] >= 1
+//[name] == cm3 && [quality] == magic # [druidsummoningskilltab] >= 1
+// ***** sorceress **********************************************************************************
+[name] == cm3 && [quality] == magic # [fireskilltab] >= 1
+[name] == cm3 && [quality] == magic # [coldskilltab] >= 1
+[name] == cm3 && [quality] == magic # [lightningskilltab] >= 1
+// ***** paladin ************************************************************************************
+[name] == cm3 && [quality] == magic # [palicombatskilltab] >= 1
+//[name] == cm3 && [quality] == magic # [offensiveaurasskilltab] >= 1
+//[name] == cm3 && [quality] == magic # [defensiveaurasskilltab] >= 1
+// ***** necromancer ********************************************************************************
+//[name] == cm3 && [quality] == magic # [poisonandboneskilltab] >= 1
+//[name] == cm3 && [quality] == magic # [cursesskilltab] >= 1
+//[name] == cm3 && [quality] == magic # [necromancersummoningskilltab] >= 1
+// ***** all skillers with adds *********************************************************************
+[name] == cm3 && [quality] == magic # [188] >= 1 && ([maxhp] >= 20 || [frw] >= 7 || [fhr] >= 12 || [strength] >= 6 || [dexterity] >= 6 || [itemgoldbonus] >= 35 || [maxdamage] >= 4)
+
+// unique charms
+
+// ***** small charms *******************************************************************************
+//[name] == cm1 && [quality] == unique // annihilus
+
+// ***** large charms *******************************************************************************
+//[name] == cm2 && [quality] == unique // hellfire torch
+
+// ***** grand charms *******************************************************************************
+//[name] == cm3 && [quality] == unique # [itemreducedprices] >= 15 && [itemmagicbonus] >= 40 // gheed's luck charm

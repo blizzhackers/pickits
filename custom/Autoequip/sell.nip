@@ -1,0 +1,36 @@
+//-----------------------------------------------------------------------------------------------------
+//		this is a list of items that you want your bot to pick up for money during the beginner stage.
+//
+// -----------------------------------------------------------------------------------------------------
+	
+//white weapons
+[type] == wand && ([quality] >= magic && [quality] <= rare) # [enhanceddamage] >= 2500 //never, so sold
+[type] == bow && ([quality] >= magic && [quality] <= rare) # [enhanceddamage] >= 2500 //never, so sold
+[type] == crossbow && ([quality] >= magic && [quality] <= rare) # [enhanceddamage] >= 2500 //never, so sold
+[type] == comboweapon && ([quality] >= magic && [quality] <= rare) # [enhanceddamage] >= 2500 //never, so sold
+//-----------------------------
+[type] == javelin && ([quality] >= magic && [quality] <= rare) # [itemreplenishquantity] > 1000 // never, so sold
+[type] == throwingknife && ([quality] >= magic && [quality] <= rare) # [itemreplenishquantity] > 1000 // never, so sold
+[type] == throwingaxe && ([quality] >= magic && [quality] <= rare) # [itemreplenishquantity] > 1000 // never, so sold
+[type] == thrownweapon && ([quality] >= magic && [quality] <= rare) # [itemreplenishquantity] > 1000 // never, so sold
+//----------------------------
+[type] == amazonbow && ([quality] >= magic && [quality] <= rare) # [enhanceddamage] >= 2500 //never, so sold
+[type] == amazonspear && ([quality] >= magic && [quality] <= rare) # [enhanceddamage] >= 2500 //never, so sold
+[type] == amazonjavelin && ([quality] >= magic && [quality] <= rare) # [enhanceddamage] >= 2500 //never, so sold
+([type] == handtohand || [type] == assassinclaw) && ([quality] >= magic && [quality] <= rare) # [enhanceddamage] >= 2500 //never, so sold
+//----------------------------
+[type] == voodooheads && ([quality] >= magic && [quality] <= rare) # [enhanceddefense] >= 2500 //never, so sold
+[type] == pelt && ([quality] >= magic && [quality] <= rare) # [enhanceddefense] >= 2500 //never, so sold
+//----------------------------
+[name] == minorhealingpotion
+[name] == lighthealingpotion
+[name] == minormanapotion
+[name] == lightmanapotion
+[name] == healingpotion
+[name] == manapotion
+[name] == greaterhealingpotion
+[name] == superhealingpotion
+[name] == greatermanapotion
+[name] == supermanapotion
+[name] == rejuvenationpotion
+[name] == fullrejuvenationpotion

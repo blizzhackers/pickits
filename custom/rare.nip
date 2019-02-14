@@ -1,0 +1,661 @@
+//crankyankee's copy & paste
+
+
+
+
+//				rare
+
+// ##### rings ######################################################################################
+
+[type] == ring && [quality] == rare # [fcr] == 10 && [tohit] >= 100 && [lifeleech]+[manaleech] >= 10
+[type] == ring && [quality] == rare # [fcr] == 10 && [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 70
+[type] == ring && [quality] == rare # [fcr] == 10 && [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 40
+[type] == ring && [quality] == rare # [fcr] == 10 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 36 && [maxmana] >= 70 && [strength]+[dexterity] >= 25
+[type] == ring && [quality] == rare # [fcr] == 10 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 36 && [maxmana] >= 70 && [maxhp] >= 30 && ([strength] >= 10 || [dexterity] >= 5)
+[type] == ring && [quality] == rare # [fcr] == 10 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 20 && ([maxmana] >= 60 || [maxhp] >= 25) && ([strength] >= 5 || [dexterity] >= 0)
+[type] == ring && [quality] == rare # [fcr] == 10 && [strength]+[dexterity] >= 20 
+[type] == ring && [quality] == rare # [fcr] == 10 && [strength]+[dexterity] >= 10 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 40
+[type] == ring && [quality] == rare # [fcr] == 10 && ([strength] >= 20 || [strength]+[dexterity] >= 20 || [dexterity] >= 15)
+[type] == ring && [quality] == rare # [fcr] == 10 && ([strength] >= 15 || [dexterity] >= 10 ) && ([maxmana] >= 50 || [maxhp] >= 30 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 40)
+[type] == ring && [quality] == rare # [fcr] == 10 && ([strength]+[maxhp]+[maxmana] >= 60 || [dexterity]+[maxhp]+[maxmana] >= 60 || [strength]+[dexterity]+[maxhp] >= 50 || [strength]+[dexterity]+[maxmana] >= 55)
+[type] == ring && [quality] == rare # [fcr] == 10 && ([strength]+[dexterity] >= 30 || [maxhp]+[maxmana] >= 80)
+[type] == ring && [quality] == rare # [tohit] >= 100 && [lifeleech]+[manaleech] >= 10 && ([coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 20 || [maxhp] >= 30 || [maxmana] >= 60 || [strength] >= 10 || [dexterity] >= 10)
+[type] == ring && [quality] == rare # [tohit] >= 100 && [lifeleech] >= 7 && ([coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 32 || [maxhp] >= 30 || [maxmana] >= 60 || [strength] >= 10 || [dexterity] >= 10)
+[type] == ring && [quality] == rare # [tohit] >= 100 && [lifeleech] >= 7 && [manaleech] >= 6 && ([coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 40 || [maxhp] >= 30 || [dexterity] >= 10 || [strength] >= 10 || [mindamage] >= 8)
+[type] == ring && [quality] == rare # [tohit] >= 100 && ([lifeleech] >= 7 || [manaleech] >= 6) && ([strength]+[dexterity] >= 20 || [dexterity] >= 15 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 40)
+[type] == ring && [quality] == rare # [tohit] >= 100 && [manaleech] >= 7 && ([coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 32 || [maxhp] >= 30 || [maxmana] >= 60 || [strength] >= 10 || [dexterity] >= 10)
+[type] == ring && [quality] == rare # [tohit] >= 100 && [mindamage] >= 8 && [maxdamage] == 4 && ([strength] >= 20 || [dexterity] >= 15 || [maxhp] >= 35) 
+[type] == ring && [quality] == rare # [tohit] >= 90 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 36 && [lifeleech]+[manaleech] >= 11
+[type] == ring && [quality] == rare # [tohit] >= 90 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 36 && ([lifeleech] >= 7 || [manaleech] >= 5) && ([strength] >= 10 || [dexterity] >= 5)
+[type] == ring && [quality] == rare # [tohit] >= 70 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 30 && [lifeleech]+[manaleech] >= 9
+[type] == ring && [quality] == rare # [tohit] >= 70 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 30 && ([lifeleech] >= 6 || [manaleech] >= 4) && ([strength] >= 5 || [dexterity] >= 0)
+[type] == ring && [quality] == rare # [tohit] >= 50 && [strength]+[dexterity] >= 10 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 30 
+[type] == ring && [quality] == rare # [strength] >= 20 && [dexterity] >= 15 && ([tohit] >= 100 || [mindamage] >= 8 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 20 || [lifeleech] >= 8  || [manaleech] >= 6 || [maxhp] >= 30 || [maxmana] >= 60)
+[type] == ring && [quality] == rare # [strength] >= 20 && [tohit] >= 100 && ([mindamage] >= 8 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 20 || [lifeleech] >= 8  || [manaleech] >= 6 || [maxhp] >= 30 || [maxmana] >= 60)
+[type] == ring && [quality] == rare # [strength] >= 20 && [mindamage] >= 8 && ([tohit] >= 100 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 20 || [lifeleech] >= 8  || [manaleech] >= 6 || [maxhp] >= 30 || [maxmana] >= 60)
+[type] == ring && [quality] == rare # [strength] >= 20 && [lifeleech] >= 8 && ([tohit] >= 100 || [mindamage] >= 8 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 20  || [manaleech] >= 6 || [maxhp] >= 30 || [maxmana] >= 60)
+[type] == ring && [quality] == rare # [strength] >= 20 && [manaleech] >= 6 && ([tohit] >= 100 || [mindamage] >= 8 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 20  || [lifeleech] >= 8 || [maxhp] >= 30 || [maxmana] >= 60)
+[type] == ring && [quality] == rare # [strength] >= 20 && [maxhp] >= 30 && ([tohit] >= 100 || [mindamage] >= 8 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 20  || [lifeleech] >= 8 || [manaleech] >= 6 || [maxmana] >= 60)
+[type] == ring && [quality] == rare # [strength] >= 20 && [maxmana] >= 60 && ([tohit] >= 100 || [mindamage] >= 8 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 20  || [lifeleech] >= 8 || [manaleech] >= 6 || [maxhp] >= 30)
+[type] == ring && [quality] == rare # [strength] >= 20 && [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 20 && ([tohit] >= 100 || [mindamage] >= 8 || [lifeleech] >= 8  || [manaleech] >= 6 || [maxhp] >= 30 || [maxmana] >= 60)
+[type] == ring && [quality] == rare # [strength] >= 20 && ([coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 50 || ([maxhp] >= 30 || [maxmana] >= 80) && [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 36)
+[type] == ring && [quality] == rare # [dexterity] >= 15 && [tohit] >= 100 && ([mindamage] >= 8 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 20 || [lifeleech] >= 8  || [manaleech] >= 6 || [maxhp] >= 30 || [maxmana] >= 60)
+[type] == ring && [quality] == rare # [dexterity] >= 15 && [mindamage] >= 8 && ([tohit] >= 100 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 20 || [lifeleech] >= 8  || [manaleech] >= 6 || [maxhp] >= 30 || [maxmana] >= 60)
+[type] == ring && [quality] == rare # [dexterity] >= 15 && [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 20 && ([tohit] >= 100 || [mindamage] >= 8 || [lifeleech] >= 8  || [manaleech] >= 6 || [maxhp] >= 30 || [maxmana] >= 60)
+[type] == ring && [quality] == rare # [dexterity] >= 15 && [lifeleech] >= 8 && ([tohit] >= 100 || [mindamage] >= 8 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 20  || [manaleech] >= 6 || [maxhp] >= 30 || [maxmana] >= 60)
+[type] == ring && [quality] == rare # [dexterity] >= 15 && [manaleech] >= 6 && ([tohit] >= 100 || [mindamage] >= 8 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 20  || [lifeleech] >= 8 || [maxhp] >= 30 || [maxmana] >= 60)
+[type] == ring && [quality] == rare # [dexterity] >= 15 && [maxhp] >= 30 && ([tohit] >= 100 || [mindamage] >= 8 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 20  || [lifeleech] >= 8 || [manaleech] >= 6 || [maxmana] >= 60)
+[type] == ring && [quality] == rare # [dexterity] >= 15 && [maxmana] >= 60 && ([tohit] >= 100 || [mindamage] >= 8 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 20  || [lifeleech] >= 8 || [manaleech] >= 6 || [maxhp] >= 30)
+[type] == ring && [quality] == rare # [dexterity] >= 15 && ([coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 50 || ([maxhp] >= 30 || [maxmana] >= 80) && [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 36)
+[type] == ring && [quality] == rare # [itemmagicbonus] >= 25 && ([maxmana] >= 90 || [maxhp] >= 40 || [strength] >= 20 || [dexterity] >= 15 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 40)
+[type] == ring && [quality] == rare # [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 90
+[type] == ring && [quality] == rare # [maxmana] >= 90 && [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 60
+
+// ##### amulets ####################################################################################
+
+[type] == amulet && [quality] == rare # [itemaddclassskills] == 2 && [fcr] == 10 && ([strength]+[maxhp]+[maxmana] >= 60 || [dexterity]+[maxhp]+[maxmana] >= 60 || [strength]+[dexterity]+[maxhp] >= 50 || [strength]+[dexterity]+[maxmana] >= 55)
+[type] == amulet && [quality] == rare # [itemaddclassskills] == 2 && [fcr] == 10 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 && [maxmana] >= 70 && [strength]+[dexterity] >= 35
+[type] == amulet && [quality] == rare # [itemaddclassskills] == 2 && [fcr] == 10 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 && [maxmana] >= 70 && [maxhp] >= 40 && ([strength] >= 20 || [dexterity] >= 10)
+[type] == amulet && [quality] == rare # [itemaddclassskills] == 2 && [fcr] == 10 && [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 60 && ([maxhp] >= 30 || [maxmana] >= 60 || [strength] >= 15 || [dexterity] >= 15)
+[type] == amulet && [quality] == rare # [itemaddclassskills] == 2 && [fcr] == 10 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 70 && [maxmana] >= 80 && [strength]+[dexterity] >= 40
+[type] == amulet && [quality] == rare # [itemaddclassskills] == 2 && [fcr] == 10 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 70 && [maxmana] >= 80 && [maxhp] >= 50 && ([strength] >= 25 || [dexterity] >= 15)
+[type] == amulet && [quality] == rare # [itemaddclassskills] == 2 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 && ([lifeleech]+[manaleech] >= 11 || [strength]+[dexterity] >= 35)
+[type] == amulet && [quality] == rare # [itemaddclassskills] == 2 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 60 && ([lifeleech] >= 5 || [manaleech] >= 7) && ([strength] >= 20 || [dexterity] >= 10)
+[type] == amulet && [quality] == rare # [itemaddclassskills] == 2 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 70 && ([lifeleech]+[manaleech] >= 13 || [strength]+[dexterity] >= 40)
+[type] == amulet && [quality] == rare # [itemaddclassskills] == 2 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 70 && ([lifeleech] >= 6 || [manaleech] >= 8) && ([strength] >= 25 || [dexterity] >= 15)
+[type] == amulet && [quality] == rare # [itemaddclassskills] == 2 && [strength]+[dexterity] >= 30
+[type] == amulet && [quality] == rare # [itemaddclassskills] == 2 && [strength] >= 21 && ([lifeleech] >=7 || [manaleech] >= 7 || [maxhp] >= 40)
+[type] == amulet && [quality] == rare # [itemaddclassskills] == 2 && [strength]+[dexterity] >= 20 && [coldresist] >= 35
+[type] == amulet && [quality] == rare # [itemaddclassskills] == 2 && [dexterity] >= 16 && ([lifeleech] >=7 || [manaleech] >= 7 || [maxhp] >= 40)
+[type] == amulet && [quality] == rare # [itemaddclassskills] == 2 && [lifeleech] >= 5 && [manaleech] >= 5
+[type] == amulet && [quality] == rare # ([barbcombatskilltab] == 2 || [warcriesskilltab] == 2) && [fcr] == 10 && ([strength]+[maxhp]+[maxmana] >= 60 || [dexterity]+[maxhp]+[maxmana] >= 60 || [strength]+[dexterity]+[maxhp] >= 50 || [strength]+[dexterity]+[maxmana] >= 55)
+[type] == amulet && [quality] == rare # ([barbcombatskilltab] == 2 || [warcriesskilltab] == 2) && [fcr] == 10 && [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 60 && ([maxhp] >= 30 || [maxmana] >= 60 || [strength] >= 15 || [dexterity] >= 15) 
+[type] == amulet && [quality] == rare # [barbarianskills] == 2 && [itemgoldbonus] >= 80 && [itemmagicbonus] >= 25
+[type] == amulet && [quality] == rare # ([trapsskilltab] == 2 || [martialartsskilltab] == 2) && [fcr] == 10 && ([strength]+[maxhp]+[maxmana] >= 60 || [dexterity]+[maxhp]+[maxmana] >= 60 || [strength]+[dexterity]+[maxhp] >= 50 || [strength]+[dexterity]+[maxmana] >= 55) 
+[type] == amulet && [quality] == rare # ([trapsskilltab] == 2 || [martialartsskilltab] == 2) && [fcr] == 10 && [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 60 && ([maxhp] >= 30 || [maxmana] >= 60 || [strength] >= 15 || [dexterity] >= 15)
+[type] == amulet && [quality] == rare # ([javelinandspearskilltab] == 2 || [bowandcrossbowskilltab] == 2) && [fcr] == 10 && ([strength]+[maxhp]+[maxmana] >= 60 || [dexterity]+[maxhp]+[maxmana] >= 60 || [strength]+[dexterity]+[maxhp] >= 50 || [strength]+[dexterity]+[maxmana] >= 55)
+[type] == amulet && [quality] == rare # ([javelinandspearskilltab] == 2 || [bowandcrossbowskilltab] == 2) && [fcr] == 10 && [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 60 && ([maxhp] >= 30 || [maxmana] >= 60 || [strength] >= 15 || [dexterity] >= 15)
+[type] == amulet && [quality] == rare # ([shapeshiftingskilltab] == 2 || [elementalskilltab] == 2 || [druidsummoningskilltab] == 2) && [fcr] == 10 && ([strength]+[maxhp]+[maxmana] >= 60 || [dexterity]+[maxhp]+[maxmana] >= 60 || [strength]+[dexterity]+[maxhp] >= 50 || [strength]+[dexterity]+[maxmana] >= 55)
+[type] == amulet && [quality] == rare # ([shapeshiftingskilltab] == 2 || [elementalskilltab] == 2 || [druidsummoningskilltab] == 2) && [fcr] == 10 && [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 60 && ([maxhp] >= 30 || [maxmana] >= 60 || [strength] >= 15 || [dexterity] >= 15)
+[type] == amulet && [quality] == rare # ([fireskilltab] == 2 || [coldskilltab] == 2 || [lightningskilltab] == 2) && [fcr] == 10 && ([strength]+[maxhp]+[maxmana] >= 60 || [dexterity]+[maxhp]+[maxmana] >= 60 || [strength]+[dexterity]+[maxhp] >= 50 || [strength]+[dexterity]+[maxmana] >= 55)
+[type] == amulet && [quality] == rare # ([fireskilltab] == 2 || [coldskilltab] == 2 || [lightningskilltab] == 2) && [fcr] == 10 && [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 60 && ([maxhp] >= 30 || [maxmana] >= 60 || [strength] >= 15 || [dexterity] >= 15)
+[type] == amulet && [quality] == rare # [palicombatskilltab] == 2 && [fcr] == 10 && ([strength]+[maxhp]+[maxmana] >= 60 || [dexterity]+[maxhp]+[maxmana] >= 60 || [strength]+[dexterity]+[maxhp] >= 50 || [strength]+[dexterity]+[maxmana] >= 55)
+[type] == amulet && [quality] == rare # [palicombatskilltab] == 2 && [fcr] == 10 && [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 60 && ([maxhp] >= 30 || [maxmana] >= 60 || [strength] >= 15 || [dexterity] >= 15)
+[type] == amulet && [quality] == rare # ([poisonandboneskilltab] == 2 || [necromancersummoningskilltab] == 2) && [fcr] == 10 && ([strength]+[maxhp]+[maxmana] >= 60 || [dexterity]+[maxhp]+[maxmana] >= 60 || [strength]+[dexterity]+[maxhp] >= 50 || [strength]+[dexterity]+[maxmana] >= 55)
+[type] == amulet && [quality] == rare # ([poisonandboneskilltab] == 2 || [necromancersummoningskilltab] == 2) && [fcr] == 10 && [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 60 && ([maxhp] >= 30 || [maxmana] >= 60 || [strength] >= 15 || [dexterity] >= 15)
+
+// ##### circlets ###################################################################################
+
+//[type] == circlet && [quality] == rare && [flag] != ethereal # ([83] >= 2 || [188] >= 2) && [fcr] == 20 && ([strength]+[dexterity] >= 15 || [maxhp] >= 35 || [sockets] == 2)
+//[type] == circlet && [quality] == rare && [flag] != ethereal # ([83] >= 2 || [188] >= 2) && [fcr] == 20 && [frw] >= 20
+//[type] == circlet && [quality] == rare && [flag] != ethereal # ([83] >= 2 || [188] >= 2) && [fcr] == 20 && [maxmana]+[maxhp] >= 60
+//[type] == circlet && [quality] == rare && [flag] != ethereal # ([83] >= 2 || [188] >= 2) && [fcr] == 20 && ([strength] == 30 || [dexterity] == 20)
+//[type] == circlet && [quality] == rare && [flag] != ethereal # ([83] >= 2 || [188] >= 2) && [225] >= 1 && [frw] >= 30
+//[type] == circlet && [quality] == rare && [flag] != ethereal # ([83] >= 2 || [188] >= 2) && [fcr] == 20 && ([strength]+[dexterity] >= 25 || [frw] >= 30 || [sockets] == 2 || [maxhp] >= 30) 
+//[type] == circlet && [quality] == rare && [flag] != ethereal # ([83] >= 2 || [188] >= 2) && [fcr] == 20 && [strength] >= 15 && ([frw] >= 30 || [sockets] == 2 || [maxhp]+[maxmana] >= 35) 
+//[type] == circlet && [quality] == rare && [flag] != ethereal # ([83] >= 2 || [188] >= 2) && [fcr] == 20 && [dexterity] >= 15 && ([frw] >= 30 || [sockets] == 2 || [maxhp]+[maxmana] >= 35) 
+//[type] == circlet && [quality] == rare && [flag] != ethereal # ([83] >= 2 || [188] >= 2) && [fcr] == 20 && ([strength] >= 20 || [dexterity] >= 15) 
+//[type] == circlet && [quality] == rare && [flag] != ethereal # ([83] >= 2 || [188] >= 2) && [225] >= 1 && ([strength] >= 20 || [dexterity] >= 15 || [frw] == 30) 
+//[type] == circlet && [quality] == rare && [flag] != ethereal # [sockets] >= 2 && [itemaddclassskills] >= 2 && [strength]+[dexterity] >= 35
+//[type] == circlet && [quality] == rare && [flag] != ethereal # [sockets] >= 2 && [itemaddclassskills] >= 2 && ([strength] >= 20 || [dexterity] >= 10) && ([frw] >= 30 || [fcr] >= 20)
+[type] == circlet && [quality] == rare && [flag] != ethereal # [amazonskills] == 2 && [frw] >= 20 && ([sockets] == 2 || [strength]+[dexterity] >= 15 || [maxmana]+[maxhp] >= 60)
+[type] == circlet && [quality] == rare # ([amazonskills] == 2 || [assassinskills] == 2 || [necromancerskills] == 2) && [frw] == 30 && [strength] >= 20 && ([dexterity] >= 15 || [maxmana] >= 40 || [maxhp] >= 20 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 40)
+[type] == circlet && [quality] == rare # ([amazonskills] == 2 || [assassinskills] == 2 || [necromancerskills] == 2) && [frw] == 30 && [dexterity] >= 15 && ([maxmana] >= 40 || [maxhp] >= 20 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 40)
+[type] == circlet && [quality] == rare # ([amazonskills] == 2 || [assassinskills] == 2 || [necromancerskills] == 2) && [frw] == 30 && [sockets] == 2
+[type] == circlet && [quality] == rare # ([amazonskills] == 2 || [assassinskills] == 2 || [necromancerskills] == 2) && [frw] == 30 && [sockets] == 2 && ([dexterity] >= 15 || [strength] >= 20 || [maxmana] >= 40 || [maxhp] >= 20 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 40)
+//[type] == circlet && [quality] == rare # [barbarianskills] == 2 && [fcr] == 20 && [strength] >= 20 && [dexterity] >= 15 && ([coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 60 || [maxmana] >= 60 || [itemtohitpercentperlevel] >= 1 || [sockets] >= 2)
+//[type] == circlet && [quality] == rare # [barbarianskills] == 2 && [fcr] == 20 && [strength] >= 20 && [maxhp] >= 40 && ([coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 60 || [maxmana] >= 60 || [itemtohitpercentperlevel] >= 1 || [sockets] >= 2)
+//[type] == circlet && [quality] == rare # [barbarianskills] == 2 && [fcr] == 20 && [dexterity] >= 15 && [maxhp] >= 40 && ([coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 60 || [maxmana] >= 60 || [itemtohitpercentperlevel] >= 1 || [sockets] >= 2)
+//[type] == circlet && [quality] == rare # [itemaddclassskills] == 2 && [barbarianskills] != 1 && [barbarianskills] != 2 && [fcr] == 20 && [sockets] == 2
+//[type] == circlet && [quality] == rare # [itemaddclassskills] == 2 && [barbarianskills] != 1 && [barbarianskills] != 2 && [fcr] == 20 && [strength] >= 20 && ([dexterity] >= 15 || [maxmana] >= 40 || [maxhp] >= 20 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 40)
+//[type] == circlet && [quality] == rare # [itemaddclassskills] == 2 && [barbarianskills] != 1 && [barbarianskills] != 2 && [fcr] == 20 && [dexterity] >= 15 && ([maxmana] >= 40 || [maxhp] >= 20 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 40)
+[type] == circlet && [quality] == rare # [paladinskills] == 2 && [itemtohitpercentperlevel] >= 1 && ([sockets] >= 2 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 40 || [maxhp] >= 50 || [maxmana] >= 60 || [strength] >= 20 || [dexterity] >= 15 || [fcr] == 20)
+[type] == circlet && [quality] == rare # [paladinskills] == 2 && [fcr] == 20 && ([dexterity] >= 15 || [maxhp] >= 40 || [maxmana] >= 60 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 40)
+[type] == circlet && [quality] == rare # [paladinskills] == 2 && [sockets] == 2 && (([strength]+[dexterity] >= 30 && [maxhp] >= 40) || [strength]+[dexterity] >= 40) 
+//[type] == circlet && [quality] == rare # [druidskills] == 2 && [frw] >= 30 && ([225] >= 1 || [sockets] == 2)
+//[type] == circlet && [quality] == rare # [assassinskills] == 2 && [frw] == 30 && [itemtohitpercentperlevel] >= 1 && ([sockets] >= 2 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 40 || [maxhp] >= 40 || [maxmana] >= 60 || [strength] >= 20 || [dexterity] >= 15 || [fcr] == 20)
+
+// ##### druid pelts ################################################################################
+
+[type] == pelt && [quality] == rare && [flag] != ethereal # ([druidskills] >= 2 || [elementalskilltab] >= 2) && [skilltornado] == 3 
+[type] == pelt && [quality] == rare && [flag] != ethereal # [sockets] == 2 && ([druidskills] >= 2 || [shapeshiftingskilltab] == 2) && [225] >= 1 && ([skillfireclaws] == 3 || [skillfury] == 3)  
+[type] == pelt && [quality] == rare # ([druidskills] == 2 || [elementalskilltab] >=2) && ([skilltornado] >= 3 || [skillfissure] == 3) 
+[type] == pelt && [quality] == rare # ([druidskills] == 2 || [druidsummoningskilltab] >= 2) && [skillsummongrizzly] >= 3 
+
+// ##### barb helms #################################################################################
+
+//[type] == primalhelm && [quality] == rare && [class] >= exceptional && [flag] != ethereal # [barbarianskills] >= 2 && ([skillbattleorders] >= 2 || [itemgoldbonus] >= 70) 
+//[type] == primalhelm && [quality] == rare && [flag] != ethereal # ([barbarianskills] == 2 || [warcriesskilltab] >= 2) && [skillbattleorders] >= 3 // ##### non class visionary helm ################
+
+// ##### artisans/jewellers shields #################################################################
+
+//[type] == shield && [quality] == rare && [flag] != ethereal # [sockets] >= 2 && [fbr] >= 30 && [fhr] >= 17
+
+// ##### paladin shields ############################################################################
+
+//[type] == auricshields && [quality] == rare && [flag] != ethereal # [sockets] == 2 && [paladinskills] >= 2 && [fbr] == 30
+//[type] == auricshields && [quality] == rare && [flag] == ethereal # [sockets] == 2 && [paladinskills] >= 2 && [fbr] >= 15 && [252] >= 1
+
+// ##### nec trophys ################################################################################
+
+[type] == voodooheads && [quality] == rare && [flag] != ethereal # ([necromancerskills] >= 2 || [poisonandboneskilltab] >= 2) && [fbr] >= 30 && ([sockets] == 2 || [fhr] >= 17) && [skillbonespear] == 3 
+
+// ##### gloves #####################################################################################
+
+[type] == gloves && [quality] == rare && [flag] != ethereal # [ias] >= 20 && [strength]+[dexterity] == 30
+[type] == gloves && [quality] == rare && [flag] != ethereal # [ias] >= 20 && [188] >= 2 && [0]+[2] >= 15 && [39]+[41]+[43] >= 30
+[type] == gloves && [quality] == rare && [flag] != ethereal # [ias] >= 20 && [strength]+[dexterity] >= 20 && [39]+[41]+[43] >= 20 
+[type] == gloves && [quality] == rare && [flag] != ethereal # [ias] >= 20 && ([188] >= 2 || [0] >=10 || [2] >= 10) && [39]+[41]+[43] >= 20 
+[type] == gloves && [quality] == rare && [flag] != ethereal # [javelinandspearskilltab] == 2 && [ias] == 10
+
+// ##### boots ######################################################################################
+
+[type] == boots && [quality] == rare && [flag] != ethereal # [frw] == 30 && [39]+[41]+[43] >= 75
+[type] == boots && [quality] == rare && [flag] != ethereal # [frw] == 30 && [39]+[41]+[43] >= 60
+[type] == boots && [quality] == rare && [flag] != ethereal # [frw] >= 10 && [39]+[41]+[43] >= 50 && ([79] >= 78 || [maxmana] >= 30)
+[type] == boots && [quality] == rare && [flag] != ethereal # [frw] >= 10 && [39]+[41]+[43] >= 45 && [79] >= 78
+[type] == boots && [quality] == rare && [flag] != ethereal # [frw] >= 20 && [2] >= 9 && [39]+[41]+[43] >= 60
+[type] == boots && [quality] == rare && [flag] != ethereal # [frw] >= 20 && [2] >= 6 && [39]+[41]+[43] >= 50 
+[type] == boots && [quality] == rare && [flag] != ethereal # [frw] >= 30 && [fhr] >= 10 && [39]+[41]+[43] >= 60
+[type] == boots && [quality] == rare && [flag] != ethereal # [frw] >= 30 && [fhr] >= 10 && [39]+[41]+[43] >= 45 
+
+// ##### belts ######################################################################################
+
+[type] == belt && [quality] == rare && [flag] != ethereal # [fhr] >= 24 && [strength] >= 24 && [maxhp] >= 50 && ([39]+[41]+[43] >= 30 || [itemgoldbonus] >= 78)
+[type] == belt && [quality] == rare && [flag] != ethereal # [fhr] >= 24 && [strength] >= 24 && ([maxhp] >= 50 || [itemgoldbonus] >= 78) 
+
+// ##### amazon jav & bow ###########################################################################
+
+[type] == amazonjavelin && [quality] == rare # [amazonskills] >= 2 && [javelinandspearskilltab] >= 2 && [ias] >= 30 
+[type] == amazonjavelin && [quality] == rare # [javelinandspearskilltab] >= 4 && [ias] >= 30 
+//[type] == amazonbow && [quality] == rare # [enhanceddamage] >= 220 && [218] >= 4 && [224] >= 33 && [ias] >= 10 && [itemskillonhit] >= 1 
+//[type] == amazonbow && [quality] == rare # [enhanceddamage] >= 360 && [ias] >= 10 && [ias] >= 10 
+
+// ##### scepter ####################################################################################
+
+//[type] == scepter && [quality] == rare # ([paladinskills] >= 1 || [palicombatskilltab] >= 2) && [skillconcentration]+[skillblessedhammer] >= 4
+[type] == scepter && [quality] == rare # ([paladinskills] >= 1 || [palicombatskilltab] >= 2) && [skillfistoftheheavens]+[skillconviction] >= 4
+//[type] == scepter && [quality] == rare # ([paladinskills] >= 1 || [palicombatskilltab] >= 2 || [offensiveaurasskilltab] >= 2) && [skillfanaticism] >= 2
+//[type] == scepter && [quality] == rare # ([paladinskills] >= 1 || [palicombatskilltab] >= 2) && [skillholyshield] >= 2
+
+// ##### +5-6 sorc orbs #############################################################################
+
+([name] >= eagleorb && [name] <= dimensionalshard && [type] != 85 && [type] != 86) && [quality] == rare # ([sorceressskills] == 2 || [fireskilltab] >= 2) && [skillfiremastery] >= 1 && ([skillfireball] == 3 || [skillenchant] == 3)
+([name] >= eagleorb && [name] <= dimensionalshard && [type] != 85 && [type] != 86) && [quality] == rare # ([sorceressskills] == 2 || [lightningskilltab] >= 2) && [skilllightningmastery] >= 1 && ([skilllightning] == 3 || [skillchainlightning] == 3)
+([name] >= eagleorb && [name] <= dimensionalshard && [type] != 85 && [type] != 86) && [quality] == rare # ([sorceressskills] == 2 || [coldskilltab] >= 2) && [skillcoldmastery] >= 1 && ([skillblizzard] == 3 || [skillfrozenorb] == 3)
+
+// ##### trap claws ################################################################################# 
+
+//([name] >= katar && [name] <= scissorssuwayyah) && [quality] == rare # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33 && [ias] >= 30 
+//([name] >= katar && [name] <= scissorssuwayyah) && [quality] == rare # [enhanceddamage] >= 360 && [ias] >= 30 
+//([name] >= handscythe && [name] <= scissorssuwayyah) && [quality] == rare # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33 && [ias] >= 10 && [skilllightningsentry] >= 1  
+//([name] >= handscythe && [name] <= scissorssuwayyah) && [quality] == rare # [enhanceddamage] >= 360 && [ias] >= 10 && [skilllightningsentry] >= 1 
+([name] >= handscythe && [name] <= scissorssuwayyah) && [quality] == rare # ([assassinskills] == 2 || [trapsskilltab] >=2) && [skilllightningsentry] == 3 
+
+// ##### eth fools/edam axes  #######################################################################
+
+//[name] == handaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == axe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == doubleaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == militarypick && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == waraxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == hatchet && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == cleaver && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == twinaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == crowbill && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == naga && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == tomahawk && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == smallcrescent && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == ettinaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == warspike && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == berserkeraxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+
+//[name] == handaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == axe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == doubleaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == militarypick && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == waraxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == hatchet && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == cleaver && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == twinaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == crowbill && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == naga && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == tomahawk && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == smallcrescent && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == ettinaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == warspike && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == berserkeraxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+
+// ##### eth fools/edam club`s ######################################################################
+
+//[name] == club && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == spikedclub && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == mace && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == morningstar && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == flail && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == warhammer && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == cudgel && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == barbedclub && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == flangedmace && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == jaggedstar && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == knout && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == battlehammer && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == truncheon && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == tyrantclub && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == reinforcedmace && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == devilstar && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == scourge && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == legendarymallet && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+
+//[name] == club && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == spikedclub && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == mace && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == morningstar && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == flail && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == warhammer && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == cudgel && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == barbedclub && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == flangedmace && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == jaggedstar && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == knout && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == battlehammer && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == truncheon && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == tyrantclub && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == reinforcedmace && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == devilstar && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == scourge && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == legendarymallet && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+
+// ##### eth fools/edam swords ######################################################################
+
+//[name] == shortsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == scimitar && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == sabre && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == falchion && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == crystalsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == broadsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == longsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == warsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == twohandedsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == claymore && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == giantsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == bastardsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == flamberge && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == greatsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == gladius && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == cutlass && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == shamshir && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == tulwar && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == dimensionalblade && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == battlesword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == runesword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == ancientsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == espandon && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == dacianfalx && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == tusksword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == gothicsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == zweihander && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == executionersword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == falcata && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == ataghan && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == elegantblade && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == hydraedge && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == phaseblade && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == conquestsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == crypticsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == mythicalsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == legendsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == highlandblade && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == balrogblade && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == championsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == colossusblade && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == colossussword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+
+//[name] == shortsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350 
+//[name] == scimitar && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == sabre && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == falchion && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == crystalsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350 
+//[name] == broadsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350 
+//[name] == longsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == warsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == twohandedsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == claymore && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == giantsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350 
+//[name] == bastardsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350 
+//[name] == flamberge && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == greatsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350 
+//[name] == gladius && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == cutlass && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == shamshir && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == tulwar && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == dimensionalblade && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == battlesword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350 
+//[name] == runesword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == ancientsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350 
+//[name] == espandon && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == dacianfalx && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350 
+//[name] == tusksword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == gothicsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350 
+//[name] == zweihander && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == executionersword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == falcata && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == ataghan && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == elegantblade && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == hydraedge && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == phaseblade && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == conquestsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == crypticsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == mythicalsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == legendsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == highlandblade && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == balrogblade && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == championsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == colossussword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == colossusblade && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+
+// ##### eth fools/edam daggers #####################################################################
+
+//[name] == dagger && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == dirk && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == kris && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == blade && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == poignard && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == rondel && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == cinquedeas && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == stiletto && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == boneknife && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == mithrilpoint && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == fangedknife && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == legendspike && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+
+//[name] == dagger && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == dirk && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == kris && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == blade && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == poignard && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == rondel && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == cinquedeas && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == stiletto && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == boneknife && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == mithrilpoint && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == fangedknife && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == legendspike && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+
+// ##### eth fools/edam + magic scepters ############################################################
+
+//[name] == scepter && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == grandscepter && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == warscepter && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == runescepter && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == holywatersprinkler && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == divinescepter && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == mightyscepter && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == seraphrod && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == caduceus && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+
+//[name] == scepter && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == grandscepter && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == warscepter && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == runescepter && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == holywatersprinkler && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == divinescepter && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == mightyscepter && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == seraphrod && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == caduceus && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+
+// ##### eth fools/edam throwing knife`s ############################################################
+
+//[name] == throwingknife && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == balancedknife && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == battledart && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == wardart && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == flyingknife && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == wingedknife && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+
+//[name] == throwingknife && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == balancedknife && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == battledart && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == wardart && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == flyingknife && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == wingedknife && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+
+// ##### eth fools/edam throwing axe`s ##############################################################
+
+//[name] == throwingaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == balancedaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == francisca && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == hurlbat && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == flyingaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == wingedaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+
+//[name] == balancedaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == throwingaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == hurlbat && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == francisca && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == flyingaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == wingedaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+
+// ##### eth fools/edam throwing spear`s + zon throwing spear`s #####################################
+
+//[name] == javelin && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == pilum && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == shortspear && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == glaive && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == throwingspear && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == maidenjavelin && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == warjavelin && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == greatpilum && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == simbilan && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == spiculum && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == harpoon && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == ceremonialjavelin && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == hyperionjavelin && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == stygianpilum && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == balrogspear && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == ghostglaive && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == wingedharpoon && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == matriarchaljavelin && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+
+//[name] == javelin && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == pilum && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == shortspear && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == glaive && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == throwingspear && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == maidenjavelin && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == warjavelin && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == greatpilum && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == simbilan && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == spiculum && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == harpoon && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == ceremonialjavelin && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == hyperionjavelin && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == stygianpilum && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == balrogspear && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == ghostglaive && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == wingedharpoon && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == matriarchaljavelin && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+
+// ##### eth fools/edam spears ######################################################################
+
+//[name] == spear && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == trident && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == brandistock && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == spetum && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == pike && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == warspear && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == fuscina && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == warfork && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == yari && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == lance && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == hyperionspear && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == stygianpike && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == mancatcher && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == ghostspear && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == warpike && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+
+//[name] == spear && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == trident && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == brandistock && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == spetum && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == pike && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == warspear && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == fuscina && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == warfork && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == yari && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == lance && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == hyperionspear && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == stygianpike && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == mancatcher && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == ghostspear && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == warpike && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+
+// ##### eth fools/edam polearms ####################################################################
+
+//[name] == bardiche && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == voulge && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == scythe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == poleaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == halberd && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == warscythe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == lochaberaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == bill && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == battlescythe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == partizan && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == becdecorbin && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == grimscythe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == ogreaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == colossusvoulge && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == thresher && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == crypticaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == greatpoleaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == giantthresher && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+
+//[name] == bardiche && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == voulge && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == scythe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == poleaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == halberd && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == warscythe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == lochaberaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == bill && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == battlescythe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == partizan && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == becdecorbin && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == grimscythe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == ogreaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == colossusvoulge && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == thresher && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == crypticaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == greatpoleaxe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+//[name] == giantthresher && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+
+// ##### fools/edam bows + zon bows #################################################################
+
+//[name] == shortbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == hunter'sbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == longbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == compositebow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == shortbattlebow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == longbattlebow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == shortwarbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == longwarbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == stagbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == reflexbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == edgebow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == razorbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == cedarbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == doublebow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == shortsiegebow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == largesiegebow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == runebow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == gothicbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == ashwoodbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == ceremonialbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == spiderbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == matriarchalbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == bladebow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == shadowbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == greatbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == diamondbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == crusaderbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == wardbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == hydrabow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+//[name] == grandmatronbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+
+//[name] == shortbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == hunter'sbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == longbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == compositebow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == shortbattlebow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == longbattlebow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == shortwarbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == longwarbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == stagbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == reflexbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == edgebow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == razorbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == cedarbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == doublebow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == shortsiegebow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == largesiegebow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == runebow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == gothicbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == ashwoodbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == ceremonialbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == spiderbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == matriarchalbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == bladebow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == shadowbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == greatbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == diamondbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == crusaderbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == wardbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == hydrabow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+//[name] == grandmatronbow && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 350
+
+// ##### fools/edam claws ###########################################################################
+
+[name] == katar && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+[name] == wristblade && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+[name] == hatchethands && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+[name] == cestus && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+[name] == claws && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+[name] == scissorssuwayyah && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+[name] == bladetalons && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+[name] == scissorskatar && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+[name] == quhab && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+[name] == wristspike && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+[name] == fascia && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+[name] == handscythe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+[name] == greaterclaws && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+[name] == greatertalons && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+[name] == scissorsquhab && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+[name] == suwayyah && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+[name] == wristsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+[name] == warfist && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+[name] == battlecestus && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+[name] == feralclaws && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+[name] == runictalons && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [218] >= 4 && [224] >= 33
+
+[name] == katar && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+[name] == hatchethands && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+[name] == wristblade && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+[name] == cestus && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+[name] == claws && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+[name] == bladetalons && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+[name] == scissorssuwayyah && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+[name] == scissorskatar && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+[name] == quhab && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+[name] == wristspike && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+[name] == fascia && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+[name] == handscythe && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+[name] == greaterclaws && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+[name] == greatertalons && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+[name] == scissorsquhab && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+[name] == suwayyah && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+[name] == wristsword && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+[name] == warfist && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+[name] == battlecestus && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+[name] == runictalons && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350
+[name] == feralclaws && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 350

@@ -4,30 +4,35 @@
 
 ### Guides
 
-* [NipGuide](https://github.com/blizzhackers/pickits/blob/master/NipGuide.md)
+* [NipGuide](https://github.com/blizzhackers/pickits/blob/master/NipGuide.md/#nip-guide)
 
 ### Tools
 
-* [NipCheck](nipcheck/readme.md)
+* [NipCheck](nipcheck/#nipcheck)
 
-* [Nipper](d2nt/tools/nipper/readme.md)
+* [Nipper](nipper/#nipper)
 
 ---
 
-### [Custom pickits](custom/readme.md)
+### [Custom pickits](custom/#custom-pickits)
 
-* [1](https://github.com/blizzhackers/pickits/blob/master/custom/1.nip)
+* ladder reset
 
 
+* other
+
+
+* classic
 
 
 ---
 
 ### d2nt based pickits
 
-/* Note: these d2nt pickits are perfectly compatible with d2bs/kolbot, [NTItemAlias.ntl](https://github.com/blizzhackers/pickits/blob/master/d2nt/NTItemAlias.ntl) is the same with [NTItemAlias.dbl](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/libs/NTItemAlias.dbl)
+\* Note: these d2nt pickits are perfectly compatible with d2bs/kolbot, [NTItemAlias.ntl](d2nt/NTItemAlias.ntl) is the same (minor differences) with [NTItemAlias.dbl](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/libs/NTItemAlias.dbl)
 
 d2nt had four sets of files: normal, advanced, expert and master
+
 normal, advanced and expert has pretty much the same items in them with the difference in how perfect they need to be to be kept.
 
 * [normal](https://github.com/blizzhackers/pickits/blob/master/d2nt/normal): [craft.nip](https://github.com/blizzhackers/pickits/blob/master/d2nt/normal/craft.nip), [key.nip](https://github.com/blizzhackers/pickits/blob/master/d2nt/normal/key.nip), [magic-rare.nip](https://github.com/blizzhackers/pickits/blob/master/d2nt/normal/magic-rare.nip), [normal.nip](https://github.com/blizzhackers/pickits/blob/master/d2nt/normal/normal.nip), [set.nip](https://github.com/blizzhackers/pickits/blob/master/d2nt/normal/set.nip), [unique.nip](https://github.com/blizzhackers/pickits/blob/master/d2nt/normal/unique.nip)

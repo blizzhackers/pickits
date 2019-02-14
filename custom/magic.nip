@@ -1,0 +1,165 @@
+//crankyankee's copy & paste
+
+
+
+
+//				magic
+
+// ##### rings ######################################################################################
+
+[type] == ring && [quality] == magic # ([fcr] >= 10 || [itemmagicbonus] >= 25) && (([fireresist] >= 15 && [lightresist] >= 15) || [maxmana] >= 120)
+[type] == ring && [quality] == magic # [itemmagicbonus] >= 40
+[type] == ring && [quality] == magic # ([strength] >= 20 || [dexterity] >= 20 || [maxhp] >= 40) && ([maxmana] >= 120 || [coldresist]+[lightresist]+[fireresist]+[poisonresist] >= 60)
+
+// ##### amulets ####################################################################################
+
+[type] == amulet && [quality] == magic # [itemmagicbonus] == 50
+[type] == amulet && [quality] == magic # ([itemaddclassskills] >= 2 || [itemaddskilltab] >= 3) && [maxhp] >= 100
+//[type] == amulet && [quality] == magic # [itemaddskilltab] >= 3 && ([fcr] >= 10 || [strength] >= 30)
+
+// **************************************************************************************************
+// ##### artisans/jewellers armor ###################################################################
+
+[type] == armor && [class] == elite && [quality] == magic && [flag] != ethereal # [sockets] == 4 && [maxhp] >= 90
+[type] == armor && [class] == elite && [quality] == magic && [flag] != ethereal # [sockets] == 4 && [fhr] >= 24
+[name] == ornateplate && [quality] == magic && [flag] != ethereal # [sockets] == 4 && [maxhp] >= 90
+[name] == chaosarmor && [quality] == magic && [flag] != ethereal # [sockets] == 4 && [maxhp] >= 90
+[name] == embossedplate && [quality] == magic && [flag] != ethereal # [sockets] == 4 && [maxhp] >= 90
+//[name] == ornateplate && [quality] == magic && [flag] != ethereal # [sockets] == 4 && [fhr] >= 24
+//[name] == chaosarmor && [quality] == magic && [flag] != ethereal # [sockets] == 4 && [fhr] >= 24
+//[name] == embossedplate && [quality] == magic && [flag] != ethereal # [sockets] == 4 && [fhr] >= 24
+[name] == ancientarmor && [quality] == magic && [flag] != ethereal # [sockets] == 4 && [maxhp] >= 90
+[name] == fullplatemail && [quality] == magic && [flag] != ethereal # [sockets] == 4 && [maxhp] >= 90
+[name] == gothicplate && [quality] == magic && [flag] != ethereal # [sockets] == 4 && [maxhp] >= 90
+//[name] == ancientarmor && [quality] == magic && [flag] != ethereal # [sockets] == 4 && [fhr] >= 24
+//[name] == fullplatemail && [quality] == magic && [flag] != ethereal # [sockets] == 4 && [fhr] >= 24
+//[name] == gothicplate && [quality] == magic && [flag] != ethereal # [sockets] == 4 && [fhr] >= 24
+[name] == mageplate && [quality] == magic && [flag] != ethereal # [sockets] == 3 && [maxhp] >= 90 
+//[name] == mageplate && [quality] == magic && [flag] != ethereal # [sockets] == 3 && [fhr] >= 24 
+[name] == lightplate && [quality] == magic && [flag] != ethereal # [sockets] == 3 && [maxhp] >= 90 
+//[name] == lightplate && [quality] == magic && [flag] != ethereal # [sockets] == 3 && [fhr] >= 24
+
+// ##### artisans/jewellers shields #################################################################
+
+[name] == ward && [quality] == magic && [flag] != ethereal # [sockets] == 4 && [fbr] >= 15
+[name] == aegis && [quality] == magic && [flag] != ethereal # [sockets] == 4 && [fbr] >= 15
+[name] == monarch && [quality] == magic && [flag] != ethereal # [sockets] == 4 && [fbr] >= 15
+[name] == trollnest && [quality] == magic && [flag] != ethereal # [sockets] == 3 && [fbr] >= 15
+[name] == bladebarrier && [quality] == magic && [flag] != ethereal # [sockets] == 3 && [fbr] >= 15
+[name] == hyperion && [quality] == magic && [flag] != ethereal # [sockets] == 3 && [fbr] >= 15
+[name] == luna && [quality] == magic && [flag] != ethereal # [sockets] == 2 && [fbr] >= 30
+[name] == heater && [quality] == magic && [flag] != ethereal # [sockets] == 2 && [fbr] >= 30
+[name] == ancientshield && [quality] == magic && [flag] != ethereal # [sockets] == 3 && [fbr] >= 30
+[name] == dragonshield && [quality] == magic && [flag] != ethereal # [sockets] == 3 && [fbr] >= 30
+[name] == pavise && [quality] == magic && [flag] != ethereal # [sockets] == 3 && [fbr] >= 30 
+[name] == scutum && [quality] == magic && [flag] != ethereal # [sockets] == 3 && [fbr] >= 30 
+[name] == towershield && [quality] == magic && [flag] != ethereal # [sockets] == 3 && [fbr] >= 30 
+[name] == gothicshield && [quality] == magic && [flag] != ethereal # [sockets] == 3 && [fbr] >= 30
+[name] == kiteshield && [quality] == magic && [flag] != ethereal # [sockets] == 3 && [fbr] >= 30
+[name] == largeshield && [quality] == magic && [flag] != ethereal # [sockets] == 3 && [fbr] >= 30
+
+// ##### paladin shields ############################################################################
+
+[type] == auricshields && [class] == elite && [quality] == magic && [flag] != ethereal # ([sockets] == 4 || [paladinskills] == 2 || [palicombatskilltab] == 3) && [fbr] >= 15
+[type] == auricshields && [class] == exceptional && [quality] == magic && [flag] != ethereal # ([sockets] == 4 || [paladinskills] == 2 || [palicombatskilltab] == 3) && [fbr] >= 30
+[type] == auricshields && [class] == normal && [quality] == magic && [flag] != ethereal # ([sockets] == 4 || [paladinskills] == 2 || [palicombatskilltab] == 3) && [fbr] >= 30
+
+// ##### necro trophys ##############################################################################
+
+[type] == voodooheads && [quality] == magic && [flag] != ethereal # ([necromancerskills] >= 2 || [poisonandboneskilltab] >= 3) && [fbr] >= 30 && [skillbonespear] == 3
+
+// **************************************************************************************************
+// ##### circlets ###################################################################################
+
+[type] == circlet && [quality] == magic && [flag] != ethereal # ([sockets] == 3 || [188] == 3) && ([strength] == 30 || [dexterity] == 30 || [maxhp] == 100 || [frw] >= 30 || [fcr] >= 20)
+
+// ##### non class visionary / fools / 3sox helm ####################################################
+
+[type] == circlet && [quality] == magic # [225] >= 1 && ([frw] == 30 || [74] == 15 || [maxhp] == 80 || [maxhp] == 100)
+[type] == helm && [class] == elite && [quality] >= magic # [defense] >= 300 && [itemtohitpercentperlevel] >= 1
+//[type] == helm && [quality] == magic # ([maxhp] >= 40 || [fhr] == 10) && [sockets] == 3
+
+// ##### visonary or 5-6 bo helms - arreat style only ###############################################
+
+([name] == 406 || [name] == 407 || [name] == 476 || [name] == 477 || [name] == 496 || [name] == 497) && [quality] >= magic # [sockets] == 2 && [225] >= 1 && ([barbarianskills] >= 2 || [warcriesskilltab] >= 2) 
+([name] == 406 || [name] == 407 || [name] == 476 || [name] == 477 || [name] == 496 || [name] == 497) && [quality] >= magic # ([barbarianskills] >= 2 || [warcriesskilltab] >= 2) && [skillbattleorders] == 3 
+
+// ##### barbarian bo helms magic - all #############################################################
+[type] == primalhelm && [quality] == magic && [flag] != ethereal # ([barbarianskills] == 2 || [warcriesskilltab] >= 2) && [skillbattleorders] >= 3 
+
+// ##### druid skill pelts section ##################################################################
+[type] == pelt && [quality] == magic && [flag] != ethereal # ([druidskills] == 2 || [elementalskilltab] >=2) && ([skilltornado] >= 3 || [skillfissure] == 3) 
+[type] == pelt && [quality] == magic && [flag] != ethereal # ([druidskills] == 2 || [druidsummoningskilltab] >= 2) && [skillsummongrizzly] >= 3 
+
+// **************************************************************************************************
+// ##### bo weapons + str ###########################################################################
+
+//([name] == 14 || [name] == 18 || [name] == 22 || [name] == 29 || [name] == 21 || [name] == 3 || [name] == 4) && [quality] == magic # [warcriesskilltab] >= 3 && [0] >= 12
+
+// ##### bo spears (color) ##########################################################################
+
+//[name] == throwing spear && [quality] == magic # [warcriesskilltab] >= 3 && [maxdamage] >= 11 //schwarz
+//[name] == throwing spear && [quality] == magic # [warcriesskilltab] >= 3 && ( [lifeleech] >= 6 || [manaleech] >= 6 ) //rot
+//[name] == throwing spear && [quality] == magic # [warcriesskilltab] >= 3 && [ias] >= 40 // gelb
+//[name] == throwing spear && [quality] == magic # [warcriesskilltab] >= 3 && [coldmindam] >= 2 // blau
+//[name] == throwing spear && [quality] == magic # [warcriesskilltab] >= 3 && [poisonmindam] >= 50 // grün
+//[name] == throwing spear && [quality] == magic # [warcriesskilltab] >= 3
+//[name] == glaive && [quality] == magic # [warcriesskilltab] >= 3 && [maxdamage] >= 11 //schwarz
+//[name] == glaive && [quality] == magic # [warcriesskilltab] >= 3 && ( [lifeleech] >= 6 || [manaleech] >= 6 ) //rot
+//[name] == glaive && [quality] == magic # [warcriesskilltab] >= 3 && [ias] >= 40 // gelb
+//[name] == glaive && [quality] == magic # [warcriesskilltab] >= 3 && [coldmindam] >= 2 // blau
+//[name] == glaive && [quality] == magic # [warcriesskilltab] >= 3 && [poisonmindam] >= 50 // grün
+//[name] == glaive && [quality] == magic # [warcriesskilltab] >= 3 
+
+// ##### scepters ###################################################################################
+
+//[type] == scepter && [quality] == magic # ([paladinskills] >= 1 || [palicombatskilltab] >= 2) && [skillconcentration]+[skillblessedhammer] >= 4
+[type] == scepter && [quality] == magic # ([paladinskills] >= 1 || [palicombatskilltab] >= 2) && [skillfistoftheheavens]+[skillconviction] >= 4
+//[type] == scepter && [quality] == magic # ([paladinskills] >= 1 || [palicombatskilltab] >= 2 || [offensiveaurasskilltab] >= 2) && [skillfanaticism] >= 2
+//[type] == scepter && [quality] == magic # ([paladinskills] >= 1 || [palicombatskilltab] >= 2) && [skillholyshield] >= 2
+
+// ##### amazon javs 4-6/30+ ias ####################################################################
+
+([name] == 285 || [name] == 295 || [name] == 305) && [quality] >= magic # [amazonskills] == 2 && [javelinandspearskilltab] >= 2 && [ias] >= 30
+([name] == 285 || [name] == 295 || [name] == 305) && [quality] >= magic # [javelinandspearskilltab] >= 4 && [ias] >= 30
+[type] == amazonjavelin && [quality] == magic # [amazonskills] >= 2 && [javelinandspearskilltab] >= 2 && [ias] >= 30 
+[type] == amazonjavelin && [quality] == magic # [javelinandspearskilltab] >= 4 && [ias] >= 30
+
+// ##### 2+sin || 2+traps / 2-3ls claws #############################################################
+
+[name] == greaterclaws && [quality] >= magic # ([assassinskills] == 2 || [trapsskilltab] >= 2) && [skilllightningsentry] == 3
+[name] == greatertalons && [quality] >= magic # ([assassinskills] == 2 || [trapsskilltab] >= 2) && [skilllightningsentry] == 3
+[name] == scissorsquhab && [quality] >= magic # ([assassinskills] == 2 || [trapsskilltab] >= 2) && [skilllightningsentry] == 3
+([name] >= handscythe && [name] <= scissorssuwayyah) && [quality] >= magic # ([assassinskills] == 2 || [trapsskilltab] >= 2) && [skilllightningsentry] == 3
+
+// ##### 2+sin || 2+traps / 2-3ls claws + ias #######################################################
+
+[name] == greaterclaws && [quality] == magic # ([assassinskills] == 2 || [trapsskilltab] >= 2) && [ias] >= 10 && [skilllightningsentry] == 3
+[name] == greatertalons && [quality] == magic # ([assassinskills] == 2 || [trapsskilltab] >= 2) && [ias] >= 10 && [skilllightningsentry] == 3
+[name] == scissorsquhab && [quality] == magic # ([assassinskills] == 2 || [trapsskilltab] >= 2) && [ias] >= 10 && [skilllightningsentry] == 3
+([name] >= handscythe && [name] <= scissorssuwayyah) && [quality] >= magic # ([assassinskills] == 2 || [trapsskilltab] >= 2) && [ias] >= 10 && [skilllightningsentry] == 3
+
+// ##### other sin skill claws ######################################################################
+
+//([type] == handtohand || [type] == assassinclaw || [type] == assassinitem)  && [quality] == magic # [assassinskills] == 2 && [skillvenom] == 3 
+//([type] == handtohand || [type] == assassinclaw || [type] == assassinitem)  && [quality] == magic # [shadowdisciplinesskilltab] == 3 && [skillvenom] == 3
+//([type] == handtohand || [type] == assassinclaw || [type] == assassinitem)  && [quality] == magic # [assassinskills] == 2 && [skillfade] == 3 
+//([type] == handtohand || [type] == assassinclaw || [type] == assassinitem)  && [quality] == magic # [shadowdisciplinesskilltab] == 3 && [skillfade] == 3
+//([type] == handtohand || [type] == assassinclaw || [type] == assassinitem)  && [quality] == magic # [assassinskills] == 2 && [skillshadowmaster] == 3 && [skillweaponblock] == 3
+//([type] == handtohand || [type] == assassinclaw || [type] == assassinitem)  && [quality] == magic # [shadowdisciplinesskilltab] == 3 && [skillshadowmaster] == 3 && [skillweaponblock] == 3
+//([type] == handtohand || [type] == assassinclaw || [type] == assassinitem)  && [class] == elite && [quality] == magic # [itemtohitperlevel] >= 1 && [ias] >= 20
+([type] == handtohand || [type] == assassinclaw || [type] == assassinitem)  && [class] >= exceptional && [quality] == magic # [itemtohitperlevel] >= 1 && [assassinskills]+[trapsskilltab]+[skilllightningsentry] >= 3
+
+// ##### +5-6 sorc orbs + fcr #######################################################################
+
+([name] >= eagleorb && [name] <= dimensionalshard && [type] != 85 && [type] != 86) && [quality] == magic # ([sorceressskills] == 2 || [fireskilltab] >= 2) && [skillfiremastery] >= 1 && ([skillfireball] == 3 || [skillenchant] == 3) && [fcr] >= 10
+([name] >= eagleorb && [name] <= dimensionalshard && [type] != 85 && [type] != 86) && [quality] == magic # ([sorceressskills] == 2 || [lightningskilltab] >= 2) && [skilllightningmastery] >= 1 && ([skilllightning] == 3 || [skillchainlightning] == 3) && [fcr] >= 10
+([name] >= eagleorb && [name] <= dimensionalshard && [type] != 85 && [type] != 86) && [quality] == magic # ([sorceressskills] == 2 || [coldskilltab] >= 2) && [skillcoldmastery] >= 1 && ([skillblizzard] == 3 || [skillfrozenorb] == 3) && [fcr] >= 10
+
+// **************************************************************************************************
+// ##### skill/ias magic gloves #####################################################################
+
+//[type] == gloves && [quality] == magic # [javelinandspearskilltab] == 3 && [ias] == 20 
+//[type] == gloves && [quality] == magic # [bowandcrossbowskilltab] == 3 && [ias] == 20 
+//[type] == gloves && [quality] == magic # [passiveandmagicskilltab] == 3 && [ias] == 20 
+//[type] == gloves && [quality] == magic # [martialartsskilltab] == 3 && [ias] == 20

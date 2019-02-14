@@ -10,8 +10,6 @@
 
 ### Ladder reset
 
-* [1](1.nip)
-
 
 ---
 

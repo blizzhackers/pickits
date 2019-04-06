@@ -90,9 +90,9 @@ NIP lines are of the format:
  NTIPAliasQuality	-> [quality]
  NTIPAliasFlag		-> [flag]
 
- [level]		= item level
- [prefix]	= number of a prefix that should be on the item, this and suffix number can be a bit hard to find
- [suffix]	= number of a suffix that should be on the item
+ [level]  = item level
+ [prefix] = number of a prefix that should be on the item, this and suffix number can be a bit hard to find
+ [suffix] = number of a suffix that should be on the item
 ```
 
 ##### things that go after \#
@@ -131,8 +131,8 @@ NIP lines are of the format:
 * **[maxquantity keywords]** = [maxquantity] (used to limit the quantity kept)
 * **[keyword]** must be surrounded by **[** and **]**
 * **[property keywords]** must be placed first
-* insert **# symbol** between [property keywords] and [stat keywords]
-* use **+ - \* /, (  )  &&  ||  >  >=  <  <=  ==  != symbols** for comparison
+* insert **# symbol** between **[property keywords]** and **[stat keywords]**
+* use **+   -   \*   /   (   )   &&   ||   >   >=   <   <=   ==   !=  symbols** for comparison
 * use **// symbol** for comment
 
 There is no getting around learning the NIP syntax. You simply have to bite the bullet and do it. No one here can learn it for you. While it is not the most user-friendly language, it is fairly easy to understand once you start working with it.
@@ -290,11 +290,11 @@ Any pickit line without requirements for **[stat]** will keep that item unidenti
 
 * **Q:** How come for viperskin you only have FireRes?
 
-  **A:** Unique items with all res only need one res to look for. If i have [fireresist] == 35, there is no need for it to look at any other qualifiers, Not like maras/vipers/metalgrids can spawn with 35fr,30LR,21Pr,30cr Same goes for charms, you only need 2 of the 4 Res to pickup an all res SC.
+  **A:** Unique items with all res only need one res to look for. If i have [fireresist] == 35, there is no need for it to look at any other qualifiers, Not like maras/vipers/metalgrids can spawn with 35FR,30LR,21PR,30CR. Same goes for charms, you only need 2 of the 4 Res to pickup an all res SC.
 
 * **Q:** What is the difference between [itemlevelreq] and [level]?
 
-  **A:** Well [level] is kinda odd as although its listed as a [stat] in NTItemAlias its actually used as a [property], so if you want items under a certain level you would use **[name] && [quality] # [itemlevelreq] <= **, and if you want to keep items of a certain Ilvl you would use **[name] && [quality] && [level]**
+  **A:** Well [level] is kinda odd as although its listed as a [stat] in NTItemAlias its actually used as a [property], so if you want items under a certain level you would use **[name] && [quality] # [itemlevelreq] <=**, and if you want to keep items of a certain Ilvl you would use **[name] && [quality] && [level]**
 
 ##### d2nt pickit errors
 

@@ -83,49 +83,56 @@ NIP lines are of the format:
 
 [type], [name], [class], [quality], [flag], [level], [prefix], [suffix]
 
-	* NTIPAliasType		-> [type] 
-	* NTIPAliasClassID	-> [name]
-	* NTIPAliasClass	-> [class]
-	* NTIPAliasQuality	-> [quality]
-	* NTIPAliasFlag		-> [flag]
-	* [level]	= item level
-	* [prefix]	= number of a prefix that should be on the item, this and suffix number can be a bit hard to find
-	* [suffix]	= number of a suffix that should be on the item
+```
+	NTIPAliasType		-> [type] 
+	NTIPAliasClassID	-> [name]
+	NTIPAliasClass		-> [class]
+	NTIPAliasQuality	-> [quality]
+	NTIPAliasFlag		-> [flag]
+
+	[level]		= item level
+	[prefix]	= number of a prefix that should be on the item, this and suffix number can be a bit hard to find
+	[suffix]	= number of a suffix that should be on the item
+```
 
 ##### things that go after \#
 
-* [stat keywords] : [Number or Alias]
-	* NTIPAliasStat		-> (skills,stats, etc)
+[stat keywords] : [Number or Alias]
 
-	* The odd-man out seems to be [level] as its used as [property], but in NTItemAlias.dbl it's listed as a **[stat]**
-	* [level] != [itemlevelreq]
+```
+	NTIPAliasStat		-> (skills,stats, etc)
+
+	The odd-man out seems to be [level] as its used as [property], but in NTItemAlias.dbl it's listed as a **[stat]**
+	[level] != [itemlevelreq]
+```
 
 ##### [comparison symbols](https://www.w3schools.com/JSREF/jsref_operators.asp):
 
 ```
-	== equals
-	> greater than
-	>= greater or equal to
-	< less than
-	<= less than or equal to
-	!= not equal to
-	&& and
-	|| or
-	() group things up
+	==	equals
+	>	greater than
+	>=	greater or equal to
+	<	less than
+	<=	less than or equal to
+	!=	not equal to
+	&&	and
+	||	or
+	()	group things up
 ```
 
 ### item-parser syntax information
 
-* [keyword] separates into two groups:
+[keyword] separates into two groups:
 
-	* [property keywords] = [type], [name], [class], [quality], [flag], [level], [prefix], [suffix]
-	* [stat keywords] = [{Number or NTItemAlias keyword}] or [Description] (description allow access to any text found in the item hover)
+* ***[property keywords]*** = [type], [name], [class], [quality], [flag], [level], [prefix], [suffix]
+* ***[stat keywords]*** = [{Number or NTItemAlias keyword}] or [Description] (description allow access to any text found in the item hover)
 
-* [maxquantity keywords] = [maxquantity] (used to limit the quantity kept)
-* [keyword] must be surrounded by **[** and **]**
-* [property keywords] must be placed first
+
+* **[maxquantity keywords]** = [maxquantity] (used to limit the quantity kept)
+* **[keyword]** must be surrounded by **[** and **]**
+* **[property keywords]** must be placed first
 * insert **#** symbol between [property keywords] and [stat keywords]
-* use +, -, \*, /, (, ), &&, ||, >, >=, <, <=, ==, != symbols for comparison
+* use **+, -, \*, /, (, ), &&, ||, >, >=, <, <=, ==, !=** symbols for comparison
 * use **//** symbol for comment
 
 There is no getting around learning the NIP syntax. You simply have to bite the bullet and do it. No one here can learn it for you. While it is not the most user-friendly language, it is fairly easy to understand once you start working with it.

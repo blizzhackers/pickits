@@ -250,14 +250,11 @@ Any pickit line without requirements for **[stat]** will keep that item unidenti
 
 ### pickit FAQ
 
-**Q:** Why does my bot pick up and stash junk?
+* **Q:** Why does my bot pick up and stash junk?
+* **A:** Because it's on your pickit. Check the Item Log on manager to check what lines are responsible for that.
 
-**A:** Because it's on your pickit. Check the Item Log on manager to check what lines are responsible for that.
-
-
-**Q:** How do I add trap claws?
-
-**A:** Same way you add anything else, only they are like orbs and have 2x different types. I use names just like I do with orbs.
+* **Q:** How do I add trap claws?
+* **A:** Same way you add anything else, only they are like orbs and have 2x different types. I use names just like I do with orbs.
 ```
 [name] == greaterclaws
 [name] == greatertalons
@@ -265,31 +262,21 @@ Any pickit line without requirements for **[stat]** will keep that item unidenti
 ([name] >= handscythe && [name] <= scissorssuwayyah)
 ```
 
+* **Q:** I noticed you use **[name] >= && [name] <=** just wondering why?
+* **A:** Simply easier than writing out each individual item name, but it has its drawbacks, for instance in the case of orbs I also wind up picking up all normal/exceptional amazon weapons(because they are between orbs) not a biggie on orbs but imagine if you put >= crystalsword(#29) and <= phaseblade(#225)
 
-**Q:** I noticed you use **[name] >= && [name] <=** just wondering why?
+* **Q:** Why does my bot keep picking up magic items when I have none on my pickit?
+* **A:** If you're certain you don't have any magics on your pickt it is usually caused by >= or <= on normal or rares
 
-**A:** Simply easier than writing out each individual item name, but it has its drawbacks, for instance in the case of orbs I also wind up picking up all normal/exceptional amazon weapons(because they are between orbs) not a biggie on orbs but imagine if you put >= crystalsword(#29) and <= phaseblade(#225)
-
-
-**Q:** Why does my bot keep picking up magic items when I have none on my pickit?
-
-**A:** If you're certain you don't have any magics on your pickt it is usually caused by >= or <= on normal or rares
-
-
-**Q:** How can I pick and sell items for gold
-
-**A:** By adding only an impossible affix after the #
+* **Q:** How can I pick and sell items for gold
+* **A:** By adding only an impossible affix after the #
 [class] == elite # [strength] >= 1000
 
+* **Q:** How come for viperskin you only have FireRes?
+* **A:** Unique items with all res only need one res to look for. If i have [fireresist] == 35, there is no need for it to look at any other qualifiers, Not like maras/vipers/metalgrids can spawn with 35fr,30LR,21Pr,30cr Same goes for charms, you only need 2 of the 4 Res to pickup an all res SC.
 
-**Q:** How come for viperskin you only have FireRes?
-
-**A:** Unique items with all res only need one res to look for. If i have [fireresist] == 35, there is no need for it to look at any other qualifiers, Not like maras/vipers/metalgrids can spawn with 35fr,30LR,21Pr,30cr Same goes for charms, you only need 2 of the 4 Res to pickup an all res SC.
-
-
-**Q:** What is the difference between [itemlevelreq] and [level]?
-
-**A:** Well [level] is kinda odd as although its listed as a [stat] in NTItemAlias its actually used as a [property], so If you want items under a certain level you would use [name] && [quality] # [itemlevelreq] <=
+* **Q:** What is the difference between [itemlevelreq] and [level]?
+* **A:** Well [level] is kinda odd as although its listed as a [stat] in NTItemAlias its actually used as a [property], so If you want items under a certain level you would use [name] && [quality] # [itemlevelreq] <=
 If you want to keep items of a certain Ilvl you would use [name] && [quality] && [level]
 
 ##### d2nt pickit errors

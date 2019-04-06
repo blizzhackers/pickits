@@ -61,7 +61,7 @@ It's important to check if your *.nip file is without errors. If you like you ca
 
 First off familiarize yourself with some important and useful information.
 
-[NTItemAlias.dbl](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/libs/NTItemAlias.dbl) (or [NTItemAlias.ntl](d2nt\NTItemAlias.ntl) in d2nt case) will answer 99% of item names/stats questions.
+[NTItemAlias.dbl](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/libs/NTItemAlias.dbl) (or [NTItemAlias.ntl](d2nt/NTItemAlias.ntl) in d2nt case) will answer 99% of item names/stats questions.
 
 **Remember**:
 

@@ -102,15 +102,17 @@ NIP lines are of the format:
 
 ##### [comparison symbols](https://www.w3schools.com/JSREF/jsref_operators.asp):
 
-* == equals
-* > greater than
-* >= greater or equal to
-* < less than
-* <= less than or equal to
-* != not equal to
-* && and
-* || or
-* () group things up
+```
+	== equals
+	> greater than
+	>= greater or equal to
+	< less than
+	<= less than or equal to
+	!= not equal to
+	&& and
+	|| or
+	() group things up
+```
 
 ### item-parser syntax information
 

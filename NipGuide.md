@@ -84,15 +84,15 @@ NIP lines are of the format:
 [type], [name], [class], [quality], [flag], [level], [prefix], [suffix]
 
 ```
-	NTIPAliasType		-> [type] 
-	NTIPAliasClassID	-> [name]
-	NTIPAliasClass		-> [class]
-	NTIPAliasQuality	-> [quality]
-	NTIPAliasFlag		-> [flag]
+ NTIPAliasType		-> [type] 
+ NTIPAliasClassID	-> [name]
+ NTIPAliasClass		-> [class]
+ NTIPAliasQuality	-> [quality]
+ NTIPAliasFlag		-> [flag]
 
-	[level]		= item level
-	[prefix]	= number of a prefix that should be on the item, this and suffix number can be a bit hard to find
-	[suffix]	= number of a suffix that should be on the item
+ [level]		= item level
+ [prefix]	= number of a prefix that should be on the item, this and suffix number can be a bit hard to find
+ [suffix]	= number of a suffix that should be on the item
 ```
 
 ##### things that go after \#
@@ -100,40 +100,40 @@ NIP lines are of the format:
 [stat keywords] : [Number or Alias]
 
 ```
-	NTIPAliasStat		-> (skills,stats, etc)
+ NTIPAliasStat		-> (skills,stats, etc)
 
-	The odd-man out seems to be [level] as its used as [property], but in NTItemAlias.dbl it's listed as a **[stat]**
-	[level] != [itemlevelreq]
+ The odd-man out seems to be [level] as its used as [property], but in NTItemAlias.dbl it's listed as a **[stat]**
+ [level] != [itemlevelreq]
 ```
 
 ##### [comparison symbols](https://www.w3schools.com/JSREF/jsref_operators.asp):
 
 ```
-	==	equals
-	>	greater than
-	>=	greater or equal to
-	<	less than
-	<=	less than or equal to
-	!=	not equal to
-	&&	and
-	||	or
-	()	group things up
+ ==	equals
+ >	greater than
+ >=	greater or equal to
+ <	less than
+ <=	less than or equal to
+ !=	not equal to
+ &&	and
+ ||	or
+ ()	group things up
 ```
 
 ### item-parser syntax information
 
 [keyword] separates into two groups:
 
-* ***[property keywords]*** = [type], [name], [class], [quality], [flag], [level], [prefix], [suffix]
-* ***[stat keywords]*** = [{Number or NTItemAlias keyword}] or [Description] (description allow access to any text found in the item hover)
+* **[property keywords]** = [type], [name], [class], [quality], [flag], [level], [prefix], [suffix]
+* **[stat keywords]** = [{Number or NTItemAlias keyword}] or [Description] (description allow access to any text found in the item hover)
 
 
 * **[maxquantity keywords]** = [maxquantity] (used to limit the quantity kept)
 * **[keyword]** must be surrounded by **[** and **]**
 * **[property keywords]** must be placed first
-* insert **#** symbol between [property keywords] and [stat keywords]
-* use **+, -, \*, /, (, ), &&, ||, >, >=, <, <=, ==, !=** symbols for comparison
-* use **//** symbol for comment
+* insert **# symbol** between [property keywords] and [stat keywords]
+* use **+ - \* /, (  )  &&  ||  >  >=  <  <=  ==  != symbols** for comparison
+* use **// symbol** for comment
 
 There is no getting around learning the NIP syntax. You simply have to bite the bullet and do it. No one here can learn it for you. While it is not the most user-friendly language, it is fairly easy to understand once you start working with it.
 
@@ -141,7 +141,7 @@ The NIP files you are using are configured in your character configuration file.
 
 Each NIP has 3 sections separated by **#** signs where the keywords associated with that section are found: 
 
-***{property} # {stats} # {maxquantity}***
+**{property} # {stats} # {maxquantity}**
 
 Each section is comprised of what are commonly called attribute-value pairs. An attribute-value pair is a keyword name that is assigned a value using an operator like this: 
 ```
@@ -151,7 +151,7 @@ These attribute-value pairs are then grouped using logical conjunctions like **&
 
 Now this was pretty straight forward to me, but to some it seems to be a little confusing.
 
-Think of [property] keywords as "constants" that will remain the same no matter what.
+Think of **[property]** keywords as "constants" that will remain the same no matter what.
 
 These all go before the # (was pretty easy for me as I already tend to use item #'s).
 
@@ -260,10 +260,10 @@ Any pickit line without requirements for **[stat]** will keep that item unidenti
 ### pickit FAQ
 
 * **Q:** Why does my bot pick up and stash junk?
-* **A:** Because it's on your pickit. Check the Item Log on manager to check what lines are responsible for that.
+  **A:** Because it's on your pickit. Check the Item Log on manager to check what lines are responsible for that.
 
 * **Q:** How do I add trap claws?
-* **A:** Same way you add anything else, only they are like orbs and have 2x different types. I use names just like I do with orbs.
+  **A:** Same way you add anything else, only they are like orbs and have 2x different types. I use names just like I do with orbs.
 ```
 [name] == greaterclaws
 [name] == greatertalons
@@ -272,21 +272,22 @@ Any pickit line without requirements for **[stat]** will keep that item unidenti
 ```
 
 * **Q:** I noticed you use **[name] >= && [name] <=** just wondering why?
-* **A:** Simply easier than writing out each individual item name, but it has its drawbacks, for instance in the case of orbs I also wind up picking up all normal/exceptional amazon weapons(because they are between orbs) not a biggie on orbs but imagine if you put >= crystalsword(#29) and <= phaseblade(#225)
+  **A:** Simply easier than writing out each individual item name, but it has its drawbacks, for instance in the case of orbs I also wind up picking up all normal/exceptional amazon weapons(because they are between orbs) not a biggie on orbs but imagine if you put >= crystalsword(#29) and <= phaseblade(#225)
 
 * **Q:** Why does my bot keep picking up magic items when I have none on my pickit?
-* **A:** If you're certain you don't have any magics on your pickt it is usually caused by >= or <= on normal or rares
+  **A:** If you're certain you don't have any magics on your pickt it is usually caused by >= or <= on normal or rares
 
 * **Q:** How can I pick and sell items for gold
-* **A:** By adding only an impossible affix after the #
+  **A:** By adding only an impossible affix after the #
+```
 [class] == elite # [strength] >= 1000
+```
 
 * **Q:** How come for viperskin you only have FireRes?
-* **A:** Unique items with all res only need one res to look for. If i have [fireresist] == 35, there is no need for it to look at any other qualifiers, Not like maras/vipers/metalgrids can spawn with 35fr,30LR,21Pr,30cr Same goes for charms, you only need 2 of the 4 Res to pickup an all res SC.
+  **A:** Unique items with all res only need one res to look for. If i have [fireresist] == 35, there is no need for it to look at any other qualifiers, Not like maras/vipers/metalgrids can spawn with 35fr,30LR,21Pr,30cr Same goes for charms, you only need 2 of the 4 Res to pickup an all res SC.
 
 * **Q:** What is the difference between [itemlevelreq] and [level]?
-* **A:** Well [level] is kinda odd as although its listed as a [stat] in NTItemAlias its actually used as a [property], so If you want items under a certain level you would use [name] && [quality] # [itemlevelreq] <=
-If you want to keep items of a certain Ilvl you would use [name] && [quality] && [level]
+  **A:** Well [level] is kinda odd as although its listed as a [stat] in NTItemAlias its actually used as a [property], so if you want items under a certain level you would use **[name] && [quality] # [itemlevelreq] <= **, and if you want to keep items of a certain Ilvl you would use **[name] && [quality] && [level]**
 
 ##### d2nt pickit errors
 

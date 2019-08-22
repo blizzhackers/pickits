@@ -4,13 +4,13 @@
 
 ### Guides
 
-* [NipGuide](https://github.com/blizzhackers/pickits/blob/master/NipGuide.md/#nip-guide)
+* [NipGuide](https://github.com/blizzhackers/pickits/blob/master/NipGuide.md/#nip-guide): about pickit and pickit lines syntaxes
 
 ### Tools
 
-* [NipCheck](nipcheck/#nipcheck)
+* [NipCheck](nipcheck/#nipcheck): notepad++ plugin for finding errors in *.nip files, by [@noah-](https://github.com/noah-)
 
-* [Nipper](nipper/#nipper)
+* [Nipper](nipper/#nipper): by [@frickaline](https://github.com/frickaline)
 
 ---
 
@@ -29,11 +29,13 @@
 
 ### d2nt based pickits
 
-\* Note: these d2nt pickits are perfectly compatible with d2bs/kolbot, [NTItemAlias.ntl](d2nt/NTItemAlias.ntl) is the same (minor differences) with [NTItemAlias.dbl](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/libs/NTItemAlias.dbl)
+* Note: these d2nt pickits are perfectly compatible with d2bs/kolbot, [NTItemAlias.ntl](d2nt/NTItemAlias.ntl) is the same (minor differences) with [NTItemAlias.dbl](https://github.com/kolton/d2bot-with-kolbot/blob/master/d2bs/kolbot/libs/NTItemAlias.dbl)
 
-d2nt had four sets of files: normal, advanced, expert and master
+* d2nt had four sets of files: normal, advanced, expert and master
 
-normal, advanced and expert has pretty much the same items in them with the difference in how perfect they need to be to be kept.
+* normal, advanced and expert have pretty much the same items in them with the difference about requirements, meaning that how perfect they need to be in order to be kept.
+
+* keep in mind that any pickit file should be customized by yourself, according to the phase of the ladder (EarlyLadder, MiddleLadder, EndLadder), or trading prices, or w/e other needs you have for your chars, but also that it's better to read the [NipGuide](https://github.com/blizzhackers/pickits/blob/master/NipGuide.md/#nip-guide) before starting the customization of pickit files.
 
 * [normal](https://github.com/blizzhackers/pickits/blob/master/d2nt/normal): [craft.nip](https://github.com/blizzhackers/pickits/blob/master/d2nt/normal/craft.nip), [key.nip](https://github.com/blizzhackers/pickits/blob/master/d2nt/normal/key.nip), [magic-rare.nip](https://github.com/blizzhackers/pickits/blob/master/d2nt/normal/magic-rare.nip), [normal.nip](https://github.com/blizzhackers/pickits/blob/master/d2nt/normal/normal.nip), [set.nip](https://github.com/blizzhackers/pickits/blob/master/d2nt/normal/set.nip), [unique.nip](https://github.com/blizzhackers/pickits/blob/master/d2nt/normal/unique.nip)
 

@@ -108,7 +108,7 @@ NIP lines are of the format:
 
 ##### [comparison symbols](https://www.w3schools.com/JSREF/jsref_operators.asp):
 
-```
+```javascript
  ==	equals
  >	greater than
  >=	greater or equal to
@@ -162,13 +162,13 @@ If you were writing a line for all rare boots, the constants would be **[type] &
 Now think of **[stat]** keywords as "variables" things that you may want to be flexible with. Like above, it doesn't mean that it can't have a set value.
 
 For example we can use **boots**, so if we want a **rare** ones we will write:
-```
+```javascript
 [type] == boots && [quality] == rare
 ```
 , but we also want them to have some **fasterrunwalk** and a little **fireresist**, so **# [stat] && [stat]** should be added.
 
 Finally, it would look like this:
-```
+```javascript
 [type] == boots && [quality] == rare # [frw] >= 10 && [fireresist] >= 10
 ```
 
@@ -177,11 +177,11 @@ Now, if you can't determine what goes before the **#** and what goes after the *
 You can tell whether its a **[property]** or a **[stat]** simply by locating its alias, everything has an alias, just a matter of finding it.
 	
 Now, we can use the same example for boots, but this time we want rare boots with **fastrunwalk** and **fireresist** stats, and either **coldresist** or **lightresist** or **dex**
-```
+```javascript
 [type] == boots && [quality] == rare # [frw] >= 10 && [fireresist] >= 10 && ([lightresist] >= 10 || [coldresist] >= 10 || [dexterity] >= 1)
 ```
 or we can write the same line, changing the condition for **coldresist + lightresist** to be >= 10
-```
+```javascript
 [type] == boots && [quality] == rare # [frw] >= 10 && [fireresist] >= 10 && ([lightresist]+[coldresist] >= 10 || [dexterity] >= 1)
 ```
 It's the same premise for any item, so once you have it figured out its pretty easy. Using the same example lets say I wanted only boots of exceptional quality.
@@ -191,18 +191,18 @@ It's the same premise for any item, so once you have it figured out its pretty e
 **class** = **property** so it goes before the **#**
 
 So the same boots, but only exceptional versions becomes:
-```
+```javascript
 [type] == boots && [class] == exceptional && [quality] == rare # [frw] >= 10 && [fireresist] >= 10 && ([lightresist] >= 10 || [coldresist] >= 10 || [dexterity] >= 1)
 ```
 Adding too many qualifiers to any one line will make it harder for a novice to find any mistakes they have made. Remember the simpler it is for you to read, the better.
 
 Don't be afraid of using simple qualifiers. I hate writing rings/ammys/circlets and usually just use a couple of your standard catch-all lines.
-```
+```javascript
 [type] == circlet && [quality] == rare # ([itemaddclassskills] >= 2 || [itemaddskilltab] >= 2) && [fcr] == 20 && ([strength] >= 10 || [dexterity] >= 10 || [frw] >= 30 || [sockets] == 2 || [maxhp]+[maxmana] >= 35)
 ```
 
 Now is that gonna grab junk? yea probably but look at this line
-```
+```javascript
 [type] == circlet && [quality] == rare # ([itemaddclassskills] >= 2 || [itemaddskilltab] >= 2) && [fcr] == 20 && ([strength] >= 15 || [dexterity] >= 15) && ([frw] >= 30 || [sockets] == 2 || [maxhp]+[maxmana] >= 35)
 ```
 Guess what happens if your bot finds a rare Circlet with 2skills/20fcr/12str OR 12dex and 2soc?
@@ -210,7 +210,7 @@ Guess what happens if your bot finds a rare Circlet with 2skills/20fcr/12str OR 
 A good basic catch all should simply have 2 stats you want and a selection of other stats.
 
 For instance, this pickit line for rare Amazon helms:
-```
+```javascript
 [type] == circlet && [quality] == rare && [flag] != ethereal # [amazonskills] == 2 && [frw] == 30 && [sockets] == 2
 ```
 
@@ -218,7 +218,7 @@ For instance, this pickit line for rare Amazon helms:
 
 ##### ring
 taking this line as an example:
-```
+```javascript
 [type] == ring && [quality] == rare # [lifeleech] >= 4 && [tohit] >= 80 && [dexterity] >= 10 && [maxhp] >= 20
 ```
 item must be of type ring, must be of quality rare
@@ -233,7 +233,7 @@ So a ring with LifeLeech, Dexterity and Life wont be kept by this line as it is 
 
 ##### max quantity
 this line:
-```
+```javascript
 [name] == helrune # # [maxquantity] == 3
 ```
 is for hel runes to be kept, to be precise 3 of them in stash and then don't bother with hel runes until less than 3 in stash.
@@ -242,7 +242,7 @@ the two # # seperate properties, stats and maxquantity. If no stats are on the i
 
 ##### druid pelt
 One last example on how the () works in a line:
-```
+```javascript
 [type] == pelt && [quality] == rare && [flag] != ethereal # ([druidskills] >= 2 || [elementalskilltab] >= 2) && [skilltornado] >= 3 && [fhr] >= 10 && [sockets] >= 2
 ```
 This line looks for:
@@ -251,7 +251,7 @@ a druid helm (called pelt), [type] == pelt that is rare, [quality] == rare and t
 
 ### how to keep items unid
 Any pickit line without requirements for **[stat]** will keep that item unidentified. If it doesn't, check other lines from active pickit files to see if you not doubled that item. use notepad++ < Find in Files > tool. Example: 
-```
+```javascript
 [name] == corona && [quality] == unique
 [name] == ring && [quality] == unique
 [name] == amulet && [quality] == unique
@@ -266,7 +266,7 @@ Any pickit line without requirements for **[stat]** will keep that item unidenti
 * **Q:** How do I add trap claws?
 
   **A:** Same way you add anything else, only they are like orbs and have 2x different types. I use names just like I do with orbs.
-```
+```javascript
 [name] == greaterclaws
 [name] == greatertalons
 [name] == scissorsquhab
@@ -284,7 +284,7 @@ Any pickit line without requirements for **[stat]** will keep that item unidenti
 * **Q:** How can I pick and sell items for gold
 
   **A:** By adding only an impossible affix after the #
-```
+```javascript
 [class] == elite # [strength] >= 1000
 ```
 
@@ -337,26 +337,26 @@ Now, let's talk about fast cash. Not a lot of cash, but fast cash.
 
 By now, everyone should know what a token is. It's always a good idea to have this in your pickit. Now we go over to the char config.
 
-```
+```javascript
 Config.Cubing = true; // Set to true to enable cubing.
 Config.Recipes.push([Recipe.Token]); // Make Token of Absolution
 ```
 
 Why? I let my bot run for one day. I came back to a stash full of tokens. While they can be a pain to move around, they sell for 1 fg each. 20 tokens = 20 fg. It may not seem like much, but 20 fg/day = 120/week.
 
-```
+```javascript
 [type] == amulet && [quality] == magic # [itemaddskilltab] >= 3
 ```
 
 While your bot is looking for them, you sell a lot of amulets, filling up your gold really quick.
 
-```
+```javascript
 [name] == coronet || [name] == circlet || [name] == tiara || [name] == diadem) && [quality] >= magic # [itemaddclassskills] >= 2
 ```
 
 Same thing here. Magic versions of these can have +3 all class skills, rares can have +2 with some pretty sweet effects. They generally attract some attention.
 
-```
+```javascript
 [name] == cm3 && [quality] == 4 # [palicombatskilltab] == 1 && [maxhp] >=30
 ```
 
@@ -366,7 +366,7 @@ This line is abbreviated. It's Paladin combat skills grand charm with >= 30 life
 
 Of course, if you are looking for that godly gear, you'll need to beef up your lines.
 
-```
+```javascript
 [type] == gloves && [quality] == rare # [IAS] == 20 && [itemaddskilltab] >= 2 && ([strength]+[dexterity] >= 18 ||[lifeleech] >= 3 || [manaleech] >= 3 || [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 40)
 ```
 
@@ -382,13 +382,13 @@ Remember, what works for one person may not work for you. Even if you use a pre-
 
 Example:
 
-```
+```javascript
 [name] == slayerguard && [quality] == unique # [enhanceddefense] >= 200
 ```
 
 This line is for Arreat's Face with perfect defense. While this is ideal, it's rare. You can drop it to
 
-```
+```javascript
 [name] == slayerguard && [quality] == unique # [enhanceddefense] >= 180
 ```
 
@@ -409,7 +409,7 @@ anthrax     86    150     86*150/256 =  50  150/25 =  6
 Total      385    300    385*300/256 = 451  300/25 = 12
 ```
 
-```
+```javascript
 //prefix
 //septic    +  15 poison damage over 3 seconds
 //foul      +  50 poison damage over 4 seconds

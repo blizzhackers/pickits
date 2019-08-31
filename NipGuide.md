@@ -26,6 +26,8 @@
 
 * [how to keep items unid](#how-to-keep-items-unid)
 
+* [charged skill items](#charged-skill-items)
+
 * [pickit FAQ](#pickit-faq)
 
 * [d2nt pickit errors](#d2nt-pickit-errors)
@@ -255,6 +257,27 @@ Any pickit line without requirements for **[stat]** will keep that item unidenti
 [name] == corona && [quality] == unique
 [name] == ring && [quality] == unique
 [name] == amulet && [quality] == unique
+```
+
+### charged skill items
+
+the default lines 1301-1302 from NTItemAlias.dbl
+```javascript
+NTIPAliasStat["itemchargedskill"] = 204;
+NTIPAliasStat["teleportcharges"] = [204,3461];
+```
+but in default LLD.nip and shopbot.nip you can find some examples for **itemchargedskill**:
+```javascript
+[name] == warscepter && [quality] <= rare && [flag] != ethereal # ([enhanceddamage] >= 40 || [tohit] >= 80 || [enhanceddamage] >= 30 && [tohit] >= 40) && [itemchargedskill] == 96 && [itemlevelreq] <= 9 // sacrifice
+
+[type] == staff && [class] <= exceptional && [quality] == rare # [itemchargedskill] == 54 && [fcr] == 20 && [itemlevelreq] <= 30
+
+[name] == warscepter # ([enhanceddamage] >= 40 || [tohit] >= 80 || [enhanceddamage] >= 30 && [tohit] >= 40) && [itemchargedskill] == 96 && [itemlevelreq] <= 9 // [H]Akara, [H]Drognan, [H]Ormus, [H]Jamella, [H]Malah; level 95+ char for level 11 charges
+```
+
+so, you should use ... skillID from ...\kolbot\sdk\skills.txt
+```javascript
+... [itemchargedskill] == xx ...
 ```
 
 ### pickit FAQ

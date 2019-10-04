@@ -19,6 +19,9 @@ Note that you cannot create an invalid NIP line in Nipper. You can create NIPs t
 
 ### Installation
 
+Use the [nipper.zip](https://github.com/blizzhackers/pickits/raw/master/nipper/nipper.zip) file included in this repo
+other version for download: http://www.mediafire.com/file/147s9ar7nsi5772/Nipper.zip/file (posted on bh topic)
+
 The Oracle Java Runtime Environment is required to run Nipper. If you have the JRE installed, you can simply double click on Nipper.jar to run the application. Otherwise, you could open nipper using windows command prompt, adding the corect path for app:
 
 ```
@@ -30,6 +33,8 @@ If you don't have the Java runtime environment installed, you will have to insta
 "C:\Program Files (x86)\Java\jre1.8.0_191\bin\java.exe" -jar nipper.jar
 ```
 jre1.8.0_191 <-- needs to be changed after every java update, according to the new java version.
+
+
 
 ### Usage
 
@@ -184,7 +189,7 @@ Locate your newly added keyword in the same place as all the other keywords, on 
 
 ![17](assets/nipper17.jpg)
 
-##### hystory
+##### history
 
 [bh shared topic](https://web.archive.org/web/20161029231618/http://www.blizzhackers.cc:80/viewtopic.php?f=182&t=495003)
 

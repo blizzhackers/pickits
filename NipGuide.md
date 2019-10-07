@@ -28,6 +28,8 @@
 
 * [charged skill items](#charged-skill-items)
 
+* [additional skill effect](#additional-skill-effect)
+
 * [pickit FAQ](#pickit-faq)
 
 * [d2nt pickit errors](#d2nt-pickit-errors)
@@ -261,7 +263,7 @@ Any pickit line without requirements for **[stat]** will keep that item unidenti
 
 ### charged skill items
 
-the default lines 1301-1302 from NTItemAlias.dbl
+the default lines 1301 - 1302 from NTItemAlias.dbl
 ```javascript
 NTIPAliasStat["itemchargedskill"] = 204;
 NTIPAliasStat["teleportcharges"] = [204,3461];
@@ -279,6 +281,33 @@ so, you should use ... skillID from ...\kolbot\sdk\skills.txt
 ```javascript
 ... [itemchargedskill] == xx ...
 ```
+
+### additional skill effect
+
+the default lines 1288 - 1297 from NTItemAlias.dbl
+```javascript
+NTIPAliasStat["itemskillonattack"] = 195;
+NTIPAliasStat["itemskillonkill"] = 196;
+NTIPAliasStat["itemskillondeath"] = 197;
+...
+NTIPAliasStat["itemskillonhit"] = 198;
+...
+NTIPAliasStat["itemskillonlevelup"] = 199;
+...
+NTIPAliasStat["itemskillongethit"] = 201;
+```
+according to the [previous chapter](#charged-skill-items) you should use in the pickit line stat field (after #) the desired effect ==  skillID (...\kolbot\sdk\skills.txt):
+```javascript
+
+... # [itemskillonattack] == xx
+... # [itemskillonkill] == xx
+... # [itemskillondeath] == xx
+... # [itemskillonhit] == xx
+... # [itemskillonlevelup] == xx
+... # [itemskillongethit] == xx
+
+```
+
 
 ### pickit FAQ
 

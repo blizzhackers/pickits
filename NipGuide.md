@@ -525,4 +525,4 @@ so in the case of the above mentioned 100/5
 100 poison damage over 5 = [poisonmaxdam] >= 164 && [poisonlength] >= 5
 ```
 
-additional https://diablo2.diablowiki.net/Guide:Calculating_poison_damage_v1.10,_by_onderduiker
+additional https://diablo2.diablowiki.net/Guide:Calculating_Poison_Damage_v1.10,_by_onderduiker

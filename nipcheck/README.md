@@ -25,9 +25,9 @@ by [@noah-](https://github.com/noah-)
 
 ### installation
 
-1. extract NipCheck.dll in C:\Program Files (x86)\Notepad++\plugins\
+1. extract NipCheck.dll in a new created subfolder ...\Notepad++\plugins\NipCheck\
 
-1. extract NIP.xml in C:\Program Files (x86)\Notepad++\plugins\APIs\
+1. extract NIP.xml in ...\Notepad++\plugins\APIs\
 
 1. extract userDefineLang.xml in C:\Users\<your user>\AppData\Roaming\Notepad++\
 
@@ -42,11 +42,18 @@ Once you open Notepad++, go to Settings > Preferences... and set the following s
 ### using NipCheck
 
 Open a nip file in np++. Go to Plugins > NipCheck > Run. Alternative way to start it is to use the diablo 2 icon on your np++ commands bar.
-If NipCheck plugin isn't listed, that can happen after you upgrade np++ to a newer version, go to > Settings > Import pluging(s)... and browse to the 
-NipCheck.dll, restart np++ and it's ok.
+If NipCheck plugin isn't listed, that can happen after you upgrade np++ to a newer version, go to > Settings > Import pluging(s)... and browse to the NipCheck.dll, restart np++ and it's ok.
 
 Here is an image showing auto-complete, syntax highlighting, and error checking:
 ![nipcheck2](assets/nipcheck2.png)
+
+### known bugs
+
+In case of **plusmaxdamage** NipCheck will show:
+```
+Syntax Errors: Argument invalid in ArithmeticOperator.Eval - Invalid Expression: lhs
+```
+NIP.xml doesn’t include **plusmaxdamage**, but even if you add it, maybe an additional entry should be added in NipCheck.dll.
 
 ### history
 

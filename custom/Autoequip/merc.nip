@@ -3,8 +3,8 @@
 [type] == helm && ([quality] == magic || [quality] == rare || [quality] == unique) && [flag] != ethereal # [defense] >= 30 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 10
 
 // armor
-[type] == armor && ([quality] == magic || [quality] == rare || [quality] == unique) && [flag] == ethereal # [defense] >= 150  && [fireresist]+[lightresist]+[coldresist] >= 20
-[type] == armor && ([quality] == magic || [quality] == rare || [quality] == unique) && [flag] != ethereal # [defense] >= 150  && [fireresist]+[lightresist]+[coldresist] >= 20
+[type] == armor && ([quality] == magic || [quality] == rare || [quality] == unique) && [flag] == ethereal # [defense] >= 150 && [fireresist]+[lightresist]+[coldresist] >= 20
+[type] == armor && ([quality] == magic || [quality] == rare || [quality] == unique) && [flag] != ethereal # [defense] >= 150 && [fireresist]+[lightresist]+[coldresist] >= 20
 
 // weapon
 [type] == polearm && ([quality] == magic || [quality] == rare || [quality] == unique) && [flag] != ethereal # [maxdamage] >= 45 && ([enhanceddamage] >= 80 || [lifeleech] >= 1 || [itemmaxdamageperlevel] >= 1 )

@@ -1,10 +1,9 @@
 //-----------------------------------------------------------------------------------------------------
-//		this is a list of magic and rare items that you want your bot to pick up.
-//		note that you will (obviously) find more rare items listed in the rare.nip file.
+// this is a list of magic and rare items that you want your bot to pick up.
+// note that you will (obviously) find more rare items listed in the rare.nip file.
 //
-//		any item on this list which starts with //[ will not be picked up at all
-//		any item on this list which starts with [ 	will be picked up, then kept unid'ed or checked and then kept if it's good enough.
-//		more detailed instructions can be found at: http://www.projectetal.com/wiki/index.php/nip_config
+// any item on this list which starts with //[ will not be picked up at all
+// any item on this list which starts with [ will be picked up, then kept unid'ed or checked and then kept if it's good enough.
 // -----------------------------------------------------------------------------------------------------
 
 //rare/magic jewels

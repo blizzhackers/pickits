@@ -1,10 +1,9 @@
 //-----------------------------------------------------------------------------------------------------
-//		this is a list of charms that you want your bot to pick up.
-//		unid'ed charms for cubing are listed in unid.nip and unique charms can be found in unid.nip and unique.nip
+// this is a list of charms that you want your bot to pick up.
+// unid'ed charms for cubing are listed in unid.nip and unique charms can be found in unid.nip and unique.nip
 //
-//		any item on this list which starts with //[ will not be picked up at all
-//		any item on this list which starts with [ 	will be picked up, then kept unid'ed or checked and then kept if it's good enough.
-//		more detailed instructions can be found at: http://www.projectetal.com/wiki/index.php/nip_config
+// any item on this list which starts with //[ will not be picked up at all
+// any item on this list which starts with [ will be picked up, then kept unid'ed or checked and then kept if it's good enough.
 // -----------------------------------------------------------------------------------------------------
 
 //all skill gc's

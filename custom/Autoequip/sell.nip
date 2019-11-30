@@ -1,8 +1,8 @@
 //-----------------------------------------------------------------------------------------------------
-//		this is a list of items that you want your bot to pick up for money during the beginner stage.
+// this is a list of items that you want your bot to pick up for money during the beginner stage.
 //
 // -----------------------------------------------------------------------------------------------------
-	
+ 
 //white weapons
 [type] == wand && ([quality] >= magic && [quality] <= rare) # [enhanceddamage] >= 2500 //never, so sold
 [type] == bow && ([quality] >= magic && [quality] <= rare) # [enhanceddamage] >= 2500 //never, so sold

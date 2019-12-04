@@ -4,6 +4,11 @@
 
 ---
 
+pickit files were shared by users on blizzhackers.cc & projectetal.com
+
+
+---
+
 # Custom pickits
 
 ---
@@ -20,3 +25,8 @@
 ---
 
 ### Classic
+
+
+---
+
+### [autoequip - autosmurf](/autosmurf/#autosmurf)

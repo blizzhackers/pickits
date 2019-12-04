@@ -24,7 +24,7 @@
 
 * classic
 
-* [autoequip - autosmurf](https://github.com/blizzhackers/pickits/tree/master/custom/autosmurf/Readme.md/#autosmurf)
+* [autoequip - autosmurf](https://github.com/blizzhackers/pickits/tree/master/custom/autosmurf/#autosmurf)
 
 
 ---

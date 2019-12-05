@@ -1,0 +1,14 @@
+// weapon
+// meditationaura > ll > ias > res > damage
+([type] == spear || [type] == polearm) && [quality] <= magic && [flag] != runeword # # [merctier] == /*meditationaura*/((item.getStatEx(151,120)) * 10000) + /*lifeleech*/((item.getStatEx(60)) * 10000) + /*ias*/((item.getStatEx(93)) * 1000) + /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 100) + /*maxdamage*/((item.getStatEx(24)) * 1)
+([type] == spear || [type] == polearm) && ([quality] >= set || [flag] == runeword) # # [merctier] == /*meditationaura*/((item.getStatEx(151,120)) * 1000000) + /*lifeleech*/((item.getStatEx(60)) * 100000) + /*ias*/((item.getStatEx(93)) * 10000) + /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 1000) + /*maxdamage*/((item.getStatEx(24)) * 1)
+
+// head
+// ll > allsk > ias > str+dex > def
+[type] == helm && [quality] <= magic && [flag] != runeword # # [merctier] == /*lifeleech*/(item.getStatEx(60) * 10000) + /*allskill*/((item.getStatEx(127)) * 10000) + /*ias*/(item.getStatEx(93) * 1000) + /*str+dex*/((item.getStatEx(0) + item.getStatEx(2)) * 100) + /*defense*/(item.getStatEx(31) * 1)
+[type] == helm && ([quality] >= set || [flag] == runeword) # # [merctier] == /*lifeleech*/(item.getStatEx(60) * 100000) + /*allskill*/((item.getStatEx(127)) * 100000) + /*ias*/(item.getStatEx(93) * 10000) + /*str+dex*/((item.getStatEx(0) + item.getStatEx(2)) * 1000) + /*defense*/(item.getStatEx(31) * 1)
+
+// armor
+// skill > ias > res > def
+[type] == armor && [quality] <= magic && [flag] != runeword # # [merctier] == /*all+anyclass*/((item.getStatEx(127) + item.getStatEx(83)) * 10000) + /*ias*/((item.getStatEx(93)) * 1000) + /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 100) + /*defense*/((item.getStatEx(31)) * 1)
+[type] == armor && ([quality] >= set || [flag] == runeword) # # [merctier] == /*all+anyclass*/((item.getStatEx(127) + item.getStatEx(83)) * 100000) + /*ias*/((item.getStatEx(93)) * 10000) + /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 1000) + /*defense*/((item.getStatEx(31)) * 1)

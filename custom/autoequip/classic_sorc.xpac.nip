@@ -1,0 +1,48 @@
+// amulet
+// all/sorc/cold > res > str+dex > life+mana > fcr
+// iratha > rare
+[type] == amulet && [quality] <= rare # [itemchargedskill] >= 0 # [tier] == /*allskill+sorcskill+coldskill*/((item.getStatEx(127) + item.getStatEx(83,1) + item.getStatEx(188,10)) * 1000) + /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 1000) + /*str+dex*/((item.getStatEx(0) + item.getStatEx(2)) * 100) + /*maxhp+maxmana*/((item.getStatEx(7) + item.getStatEx(9)) * 10) + /*fcr*/(item.getStatEx(105) * 1)
+[type] == amulet && [quality] == set # [itemchargedskill] >= 0 # [tier] == /*pr*/(item.getStatEx(45) * 10e10)
+
+// ring
+// res
+[name] == ring && [quality] <= rare # [itemchargedskill] >= 0 # [tier] == /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 1000)
+[name] == ring && [quality] >= set # [itemchargedskill] >= 0 # [tier] == /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 10000)
+
+// helm
+// hp/hplvl + mp/mplvl > res > defense
+// iratha > rare
+[type] == helm && [quality] <= rare # [itemchargedskill] >= 0 # [tier] == /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 100) + /*defense*/(item.getStatEx(31) * 1)
+[name] == crown && [quality] == set # [itemchargedskill] >= 0 # [tier] == /*fr+lr*/((item.getStatEx(39) + item.getStatEx(41)) * 10e10)
+
+// armor
+// res > str+dex > life > defense
+// twitch > rare
+[type] == armor && [quality] < unique # [itemchargedskill] >= 0 # [tier] == /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 10000)
+[name] == studdedleather && [quality] == unique # [itemchargedskill] >= 0 # [tier] == /*str+dex*/((item.getStatEx(0) + item.getStatEx(2)) * 10e10)
+
+// belt
+// res > str+dex > life+mana > fhr > defense
+// iratha > rare
+[type] == belt && [quality] <= rare # [itemchargedskill] >= 0 # [tier] == /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 10000)
+[name] == heavybelt && [quality] == set # [itemchargedskill] >= 0 # [tier] == /*mindmg*/(item.getStatEx(21) * 10e10)
+
+// boots
+// res - prioritize pr on boots since we prioritize fr/cr/lr on rings to hit max all resist
+[type] == boots && [flag] != ethereal && [quality] >= magic # [itemchargedskill] >= 0 # [tier] == /*pr*/(item.getStatEx(45) * 10e10) + /*cr+lr*/((item.getStatEx(41) + item.getStatEx(43)) * 10000)
+
+// gloves
+// iratha > rare
+// res > all/sorc/cold > str+dex > hp/hplvl + mp/mplvl > defense
+[type] == gloves && [quality] <= rare # [itemchargedskill] >= 0 # [tier] == /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 10000)
+[name] == lightgauntlets && [quality] == set # [itemchargedskill] >= 0 # [tier] == /*cr*/(item.getStatEx(43) * 10e10)
+
+// weapon
+// all/sorc/cold > res > life+mana > str+dex > fcr
+([type] == wand || [type] == sword || [type] == knife) && [quality] <= rare # [itemchargedskill] >= 0 && [secondarymaxdamage] >= 0 # [tier] == /*fr+cr+lr+pr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43) + item.getStatEx(45)) * 1000)
+
+// shield
+// res > str+dex > ctb+fbr > def
+// ward > rare
+[type] == shield && [quality] <= rare # [itemchargedskill] >= 0 # [tier] == /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 10000)
+[name] == gothicshield && [quality] == unique # [itemchargedskill] >= 0 # [tier] == /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 10e10)

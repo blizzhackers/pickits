@@ -16,16 +16,19 @@
 
 ### [Custom pickits](custom/#custom-pickits)
 
-* ladder reset
+Some pickit files were shared in the past on blizzhackers.cc and projectetal.com by many users, and some were added from [autosmurf](https://github.com/blizzhackers/autosmurf/tree/master/d2bs/kolbot/pickit/autosmurf) and sonic [repo1](https://github.com/SetupSonic/clean-sonic/tree/master/pickit) + [repo2](https://github.com/SetupSonic/d2bot-with-kolbot-sonic/tree/master/d2bs/kolbot/pickit/Sonic) :
 
+* [expansion](https://github.com/blizzhackers/pickits/tree/master/custom/expansion):
 
-* other
+	* [ladder](https://github.com/blizzhackers/pickits/tree/master/custom/expansion/ladder)
 
+	* [nonladder](https://github.com/blizzhackers/pickits/tree/master/custom/expansion/nonladder)
 
-* classic
+* [classic](https://github.com/blizzhackers/pickits/tree/master/custom/classic)
 
-* [autoequip - autosmurf](https://github.com/blizzhackers/pickits/tree/master/custom/autosmurf/#autosmurf)
+* [autosmurf](https://github.com/blizzhackers/pickits/tree/master/custom/autosmurf/#autosmurf)
 
+* [autoequip](https://github.com/blizzhackers/pickits/tree/master/custom/autoequip#autoequip)
 
 ---
 

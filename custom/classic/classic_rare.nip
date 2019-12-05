@@ -1,0 +1,68 @@
+// spaceleak - very strict pickit
+
+[type] == amulet && [quality] == rare # [amazonskills]+[sorceressskills]+[necromancerskills]+[paladinskills]+[barbarianskills] == 2 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 64
+
+
+//------ rings ------
+
+// fcr
+[type] == ring && [quality] == rare # [fcr] == 10 && [maxhp] >= 25 && [fireresist]+[coldresist]+[lightresist] >= 45
+[type] == ring && [quality] == rare # [fcr] == 10 && [strength] >= 1 && [fireresist]+[coldresist]+[lightresist] >= 45
+[type] == ring && [quality] == rare # [fcr] == 10 && [dexterity] >= 1 && [fireresist]+[coldresist]+[lightresist] >= 45
+[type] == ring && [quality] == rare # [fcr] == 10 && [dexterity] >= 5 && [strength] >= 5 && ([fireresist] >= 15 || [coldresist] >= 15 || [lightresist] >= 20)
+
+// melee
+
+//------ belts ------
+([name] == sharkskinbelt || [name] == demonhidesash) && [quality] == rare # [fhr] >= 10 && [maxhp] >= 20 && [coldresist] >= 20 && [fireresist] >= 20 && [lightresist] >= 20
+([name] == sharkskinbelt || [name] == demonhidesash) && [quality] == rare # [strength] >= 10 && [maxhp] >= 35 && [coldresist] >= 20 && [fireresist] >= 20 && [lightresist] >= 20
+[name] == warbelt && [quality] == rare # [enhanceddefense] >= 90 && [strength] >= 15 && [maxhp] >= 40
+
+//------ armor ------
+
+([name] == quiltedarmor || [name] == leatherarmor || [name] == hardleatherarmor || [name] == studdedleather || [name] == ringmail || [name] == ghostarmor || [name] == serpentskinarmor || [name] == demonhidearmor) && [quality] == rare # [fhr] >= 10 && [maxhp] >= 15 && [coldresist] >= 20 && [fireresist] >= 20 && [lightresist] >= 20
+[name] == ornateplate && [quality] == rare # [enhanceddefense] >= 90 && [maxhp] >= 40 && [strength] >= 10
+[name] == ornateplate && [quality] == rare # [enhanceddefense] >= 80 && [maxhp] >= 40 && [itemreqpercent] < 0 && [coldresist] >= 20 && [fireresist] >= 20 && [lightresist] >= 20
+[name] == mageplate && [quality] == rare # [enhanceddefense] >= 80 && [maxhp] >= 40 && [coldresist] >= 20 && [fireresist] >= 20 && [lightresist] >= 20
+
+//------ boots ------
+
+[type] == boots && [quality] == rare # [frw] == 30 && [fhr] == 10 && [coldresist] >= 35 && [fireresist] >= 35 && [lightresist] >= 35
+[type] == boots && [quality] == rare # [frw] == 30 && [coldresist] >= 25 && [fireresist] >= 25 && [lightresist] >= 25
+
+//------ gloves ------
+
+[type] == gloves && [quality] == rare # ([strength] >= 5 || [dexterity] >= 5) && [coldresist] >= 20 && [fireresist] >= 20 && [lightresist] >= 20
+[name] == wargauntlets && [quality] == rare # [enhanceddefense] >= 90 && [strength] >= 5 && ([itemtohitpercent] == 5 || [tohit] >= 5)
+
+//------ helms ------
+
+([name] == bonehelm || [name] == warhat || [name] == sallet || [name] == skullcap || [name] == crown || [name] == cap) && [quality] == rare # [fhr] >= 10 && [maxhp] >= 20 && [coldresist] >= 20 && [fireresist] >= 20 && [lightresist] >= 20
+[name] == grimhelm && [quality] == rare # [maxhp] >= 20 && [enhanceddefense] >= 70 && [coldresist] >= 20 && [fireresist] >= 20 && [lightresist] >= 20
+[name] == grimhelm && [quality] == rare # [enhanceddefense] >= 85 && [maxhp] >= 30 && ([itemtohitpercent] == 5 || [tohit] >= 5)
+[type] == helm && [quality] == rare # [fhr] >= 10 && [maxhp] >= 1 && [itemlightradius] == 2 && [coldresist] >= 20 && [fireresist] >= 20 && [lightresist] >= 20 // banana
+
+//------ weapons ------
+
+([name] == lance || [name] == marteldefer || [name] == battlehammer || [name] == naga || [name] == ancientaxe) && [quality] == rare # [enhanceddamage] >= 165
+([name] == executionersword || [name] == lance) && [quality] == rare # [enhanceddamage] >= 170 && [itemreqpercent] < 0
+[name] == grimscythe && [quality] == rare # [enhanceddamage] >= 185 && [itemreqpercent] < 0
+[name] == gothicbow && [quality] == rare # [enhanceddamage] >= 160 && [ias] >= 20
+[type] == wand && [quality] == rare # [fcr] == 20 && [coldresist] >= 35 && [fireresist] >= 35 && [lightresist] >= 35
+[type] == wand && [quality] <= rare # [fcr] == 20 && [necromancerskills] == 2 && [skillbonespear] >= 3
+[type] == scepter && [quality] <= rare # [paladinskills] == 2 && [skillblessedhammer] == 3 && [skillconcentration] == 3
+([type] == mace || [type] == club || [type] == sword) && [quality] == rare # [barbarianskills] == 2 && [coldresist] >= 25 && [fireresist] >= 25 && [lightresist] >= 25
+[type] == staff && [quality] <= rare # [sorceressskills] == 2 && ([skillblizzard] == 3 || [skillenchant] == 3 || [skillfireball] == 3) && [fcr] == 20
+
+//------ shields ------
+
+([name] == boneshield || [name] == grimshield || [name] == spikedshield) && [quality] == rare # [fbr] >= 30 && [fireresist] >= 10 && [lightresist] >= 10 && [coldresist] >= 10 && [poisonresist] == 0
+([name] == boneshield || [name] == grimshield) && [quality] == rare # [fhr] >= 17 && [fbr] >= 30 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 64
+([name] == boneshield || [name] == grimshield) && [quality] == rare && [color] != lightpurple # [fbr] >= 30 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 64
+([name] == spikedshield || [name] == barbedshield) && [quality] == rare && [color] != lightpurple # [fhr] >= 10 && [fbr] >= 30 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 64
+
+([name] == pavise || [name] == grimshield) && [quality] == rare # [fbr] >= 30 && [enhanceddefense] >= 90 && ([strength] >= 3 || [plusmaxdamage] >= 1)
+[name] == grimshield && [quality] == rare # [fbr] >= 30 && [enhanceddefense] >= 70 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 64
+
+([name] == boneshield || [name] == grimshield || [name] == barbedshield || [name] == spikedshield) && [quality] == rare # [paladinskills] == 2 && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 64
+

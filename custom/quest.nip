@@ -1,0 +1,46 @@
+//[type] == staminapotion
+//[type] == antidotepotion
+//[type] == thawingpotion
+
+[name] == scrollofinifuss
+[name] == keytothecairnstones
+[name] == horadricmalus
+[name] == bookofskill
+[name] == horadriccube
+[name] == shaftofthehoradricstaff
+[name] == topofthehoradricstaff # # [tier] == 0
+[name] == horadricstaff
+[name] == ajadefigurine
+[name] == thegoldenbird
+[name] == potionoflife
+[name] == thegidbinn
+[name] == lamesen'stome
+[name] == khalim'seye
+[name] == khalim'sheart
+[name] == khalim'sbrain
+[name] == khalim'sflail
+[name] == khalim'swill
+//[name] == mephisto'ssoulstone
+//[name] == hellforgehammer
+
+[type] == gold #
+
+[name] == minormanapotion && me.charlvl < 12
+[name] == lightmanapotion && me.charlvl < 24
+[name] == manapotion 
+[name] == greatermanapotion 
+[name] == supermanapotion 
+
+[name] == minorhealingpotion && me.charlvl < 12
+[name] == lighthealingpotion && me.charlvl < 24
+[name] == healingpotion && me.charlvl < 35
+[name] == greaterhealingpotion
+[name] == superhealingpotion
+
+[name] == rejuvenationpotion
+[name] == fullrejuvenationpotion
+
+[name] == scrolloftownportal # # [maxquantity] == 20
+[name] == scrollofidentify # # [maxquantity] == 20
+[name] == tomeoftownportal # # [maxquantity] == 1
+[name] == tomeofidentify # # [maxquantity] == 1

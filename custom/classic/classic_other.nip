@@ -1,0 +1,269 @@
+//	=====================================================================================================================
+//	=== unique =============================================================================================================
+//	=====================================================================================================================
+
+//------ amulets ------
+//[name] == amulet && [quality] == unique
+// noko
+//[name] == amulet && [quality] == unique # [fireresist] == 50
+// oak
+//[name] == amulet && [quality] == unique # [fireresist] == 10
+// eye
+//[name] == amulet && [quality] == unique # [itemallskills] == 1
+
+//------ rings ------
+
+//[name] == ring && [quality] == unique
+// nagel # 15 - 30
+//[name] == ring && [quality] == unique # [itemmagicbonus] == 30
+// soj
+[name] == ring && [quality] == unique # [maxmana] == 20
+// manald # 5 - 8, ml 4 - 7
+//[name] == ring && [quality] == unique # [hpregen] == 8 && [manaleech] >= 7
+
+//------ belts ------
+
+// lenymo
+//[name] == sash && [quality] == unique # [fireresist] >= 5
+// snakecord # 20 - 30
+//[name] == lightbelt && [quality] == unique # [enhanceddefense] >= 30
+// nightsmoke # 30 - 50
+//[name] == belt && [quality] == unique # [enhanceddefense] >= 50
+// goldwrap # ed 40 - 60, gf 50 - 80
+[name] == heavybelt && [quality] == unique # [enhanceddefense] >= 40 && [itemgoldbonus] >= 80
+// bladebuckle # ed 80 - 100
+//[name] == platedbelt && [quality] == unique # [enhanceddefense] >= 80
+
+
+//------ boots ------
+
+// hotspur # ed 10 - 20
+[name] == boots && [quality] == unique # [enhanceddefense] >= 10
+// gorefoot # ed 20 - 30
+//[name] == heavyboots && [quality] == unique # [enhanceddefense] >= 30
+// treads # ed 30 - 40
+//[name] == chainboots && [quality] == unique # [enhanceddefense] >= 40
+// goblintoe # ed 50 - 60
+//[name] == lightplatedboots && [quality] == unique # [enhanceddefense] >= 60
+// tearhunch # ed 60 - 80
+//[name] == greaves && [quality] == unique # [enhanceddefense] >= 80
+
+
+//------ gloves ------
+
+// brocs # ed 10 - 20
+//[name] == leathergloves && [quality] == unique # [enhanceddefense] >= 10
+// bloodfist # ed 10 - 20
+//[name] == heavygloves && [quality] == unique # [enhanceddefense] >= 20
+// chancies # ed 20 - 30, gf 25 - 40
+[name] == chaingloves && [quality] == unique # [enhanceddefense] >= 20 && [itemmagicbonus] >= 40
+// magefist # ed 20 - 30
+[name] == lightgauntlets && [quality] == unique # [enhanceddefense] >= 30
+// frost # ed 10 - 20
+//[name] == gauntlets && [quality] == unique # [enhanceddefense] >= 20
+
+
+//------ helms ------
+
+// biggins
+//[name] == cap && [quality] == unique # [enhanceddamage] >= 30
+// tarn # mf 30 - 50
+[name] == skullcap && [quality] == unique # [itemmagicbonus] >= 50
+// coif
+//[name] == helm && [quality] == unique # [lightresist] == 15
+// dusk keep # ed 30 - 50, def 10 - 20
+//[name] == fullhelm && [quality] == unique # [enhanceddefense] >= 50 && [defense] >= 20
+// face of horror
+//[name] == mask && [quality] == unique # [lightresist] == 10
+// wormskull
+//[name] == bonehelm && [quality] == unique # [poisonresist] >= 25
+// undead # ed 30 - 60, dmg vs undead 50 - 100
+[name] == crown && [quality] == unique # [enhanceddefense] >= 60 && [itemundeadtohit] >= 100
+// howltusk
+//[name] == greathelm && [quality] == unique # [enhanceddefense] >= 80
+
+
+//------ armor ------
+
+// greyform
+//[name] == quiltedarmor && [quality] == unique # [fireresist] >= 20
+// blinkbats
+//[name] == leatherarmor && [quality] == unique # [fhr] >= 40
+// centerion
+//[name] == hardleatherarmor && [quality] == unique # [maxhp] >= 15
+// twitch
+//[name] == studdedleather && [quality] == unique # [fhr] >= 20
+// darkglow # ed 70 - 100
+//[name] == ringmail && [quality] == unique # [enhanceddefense] >= 100
+// hawk # ed 80 - 100
+//[name] == scalemail && [quality] == unique # [enhanceddefense] >= 100
+// sparkling mail # ed 75 - 85, atld 10 - 14
+//[name] == chainmail && [quality] == unique # [enhanceddefense] >= 85 && [itemattackertakeslightdamage] >= 14
+// venomward # ed 60 - 100
+//[name] == breastplate && [quality] == unique # [enhanceddefense] >= 100
+// iceblink # ed 70 - 80
+//[name] == splintmail && [quality] == unique # [enhanceddefense] >= 80
+// boneflesh # ed 100 - 120
+//[name] == platemail && [quality] == unique # [enhanceddefense] >= 120
+// rattlecage
+//[name] == gothicplate && [quality] == unique # [tohit] == 45
+// rockfleece # ed 100 - 130
+//[name] == fieldplate && [quality] == unique # [enhanceddefense] >= 130
+// silks # ed 100 - 120
+//[name] == ancientarmor && [quality] == unique # [enhanceddefense] >= 120
+// gskin
+//[name] == fullplatemail && [quality] == unique # [fireresist] >= 35
+// heaven garb
+//[name] == lightplate && [quality] == unique # [fireresist] >= 10
+
+
+//------ shields ------
+
+// peta # ed 30 - 40
+//[name] == buckler && [quality] == unique # [enhanceddefense] >= 40
+// umba # ed 40 - 50
+//[name] == smallshield && [quality] == unique # [enhanceddefense] >= 50
+// stormguide # ed 50 - 60
+//[name] == largeshield && [quality] == unique # [enhanceddefense] >= 60
+// swordback # ed 30 - 60
+//[name] == spikedshield && [quality] == unique # [enhanceddefense] >= 60
+// steelclash # ed 60 - 100
+//[name] == kiteshield && [quality] == unique # [enhanceddefense] >= 100
+// eyeless # ed 30 - 40
+//[name] == boneshield && [quality] == unique # [enhanceddefense] >= 40
+// berrit # ed 80 - 120
+//[name] == towershield && [quality] == unique # [enhanceddefense] >= 120
+// ward # 30 - 50
+[name] == gothicshield && [quality] == unique # [fireresist] >= 50
+
+
+//------ weapons ------
+
+// gnasher # ed 60 - 70
+//[name] == handaxe && [quality] == unique # [enhanceddamage] >= 70
+// rclaw # ed 60 - 70
+//[name] == longbow && [quality] == unique # [enhanceddamage] >= 70
+// wizendraw # ed 70 - 80, ar 50 - 100
+[name] == longbattlebow && [quality] == unique # [enhanceddamage] >= 80 && [tohit] >= 100
+
+// gull
+//[name] == dagger && [quality] == unique
+// shard
+//[name] == blade && [quality] == unique
+// diggler
+//[name] == dirk && [quality] == unique
+// tan # ar 100 - 150
+//[name] == kris && [quality] == unique # [tohit] >= 150
+
+// bnsap # ed 200 - 300
+//[name] == maul && [quality] == unique # [enhanceddamage] >= 300
+// steeldriver # ed 150 - 250
+//[name] == greatmaul && [quality] == unique # [enhanceddamage] >= 250
+
+// crushflange # ed 50 - 60
+//[name] == mace && [quality] == unique # [enhanceddamage] >= 60
+// generals # ed 50 - 60
+//[name] == flail && [quality] == unique # [enhanceddamage] >= 60
+// hellplague # ed 70 - 80
+//[name] == longsword && [quality] == unique # [enhanceddamage] >= 80
+// torch
+//[name] == wand && [quality] == unique
+// maelstorm # 1 - 3 all skills
+[name] == yewwand && [quality] == unique # [skillironmaiden] >= 3 && [skillamplifydamage] >= 3 && [skillterror] >= 3 && [skillcorpseexplosion] >= 3
+// gravespine # mp 25 - 50
+//[name] == bonewand && [quality] == unique # [maxmana] >= 50
+// umes
+//[name] == grimwand && [quality] == unique # [maxmana] >= 40
+
+
+
+//	=====================================================================================================================
+//	=== set =============================================================================================================
+//	=====================================================================================================================
+
+//------ angelic raiment ------
+
+//[name] == ringmail && [quality] == set # [enhanceddefense] == 40 # [maxquantity] == 1
+//[name] == sabre && [quality] == set # [tohit] == 75 # [maxquantity] == 1
+//[name] == ring && [quality] == set # [maxhp] == 20 # [maxquantity] == 2
+//[name] == amulet && [quality] == set # [itemdamagetomana] == 20 # [maxquantity] == 1
+
+//------ arcanna's tricks ------
+
+//[name] == skullcap  && [quality] == set # [hpregen] == 4
+//[name] == lightplate && [quality] == set # [normaldamagereduction] == 3
+//[name] == warstaff && [quality] == set # [sorceressskills] == 1
+//[name] == amulet && [quality] == set # [maxmana] == 15
+
+//------ arctic gear ------
+
+//[name] == quiltedarmor && [quality] == set # [fireresist] == 10
+//[name] == lightbelt && [quality] == set # [coldresist] == 40
+//[name] == lightgauntlets && [quality] == set # [maxhp] == 20
+//[name] == shortwarbow && [quality] == set # [enhanceddamage] == 50
+
+//------ berserker's arsenal ------
+
+//[name] == helm && [quality] == set # [fireresist] == 25
+//[name] == splintmail && [quality] == set # [barbarianskills] == 1 # [maxquantity] == 1
+//[name] == doubleaxe && [quality] == set # [manaleech] == 5
+
+//------ cathan's traps ------
+
+//[name] == ring && [quality] == set # [lifeleech] == 6
+//[name] == chainmail && [quality] == set
+//[name] == mask && [quality] == set # [maxmana] == 20
+//[name] == amulet && [quality] == set # [fhr] == 10
+//[name] == battlestaff && [quality] == set
+
+//------ civerb's vestments ------
+
+
+
+//------ cleglaw's brace ------
+
+//------ death's disguise ------
+//[name] == leathergloves && [quality] == set
+//[name] == sash && [quality] == set
+
+//------ hsarus' defense ------
+
+//[name] == chainboots && [quality] == set
+
+//------ infernal tools ------
+
+//------ iratha's finery ------
+
+//[name] == crown && [quality] == set # [lightresist] == 30 && [fireresist] == 30 //# [maxquantity] == 1
+//[type] == amulet && [quality] == set # [poisonresist] == 30 //# [maxquantity] == 1
+//[name] == heavybelt && [quality] == set # [mindamage] == 5 //# [maxquantity] == 1
+//[name] == lightgauntlets && [quality] == set # [coldresist] == 30 //# [maxquantity] == 1
+
+//------ isenhart's armory ------
+
+//------ milabrega's regalia ------
+
+//------ sigon's complete steel ------
+
+//[name] == greathelm && [quality] == set # [maxmana] >= 30
+//[name] == gauntlets && [quality] == set # [strength] == 10
+//[name] == towershield && [quality] == set # [itemallskills] == 1
+//[name] == gothicplate && [quality] == set # [lightresist] == 30
+//[name] == greaves && [quality] == set # [coldresist] == 40
+//[name] == platedbelt && [quality] == set # [fireresist] == 20
+
+//------ tancred's battlegear ------
+
+//------ vidala's rig ------
+
+//------ others ------
+
+[name] == perfectamethyst
+[name] == perfectdiamond
+[name] == perfectemerald
+[name] == perfectruby
+[name] == perfectsapphire
+[name] == perfectskull
+[name] == perfecttopaz
+
+[type] == ring && [quality] == magic # [itemmagicbonus] >= 40

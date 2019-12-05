@@ -1,0 +1,14 @@
+// --small--
+[name] == smallcharm && [quality] == magic # [maxhp] >= 10 # [maxquantity] == 2 && [tier] == 1
+//[name] == smallcharm && [quality] == magic # [maxmana] >= 9 # [maxquantity] == 2 && [tier] == 1
+//[name] == smallcharm && [quality] == magic # [itemmagicbonus] >= 5 # [maxquantity] == 2 && [tier] == 1
+[name] == smallcharm && [quality] == magic # [fireresist]+[lightresist]+[coldresist] >= 9 # [maxquantity] == 3 && [tier] == 1
+[name] == smallcharm && [quality] == magic # [fireresist] >= 5 # [maxquantity] == 1 && [tier] == 1
+[name] == smallcharm && [quality] == magic # [lightresist] >= 5 # [maxquantity] == 1 && [tier] == 1
+[name] == smallcharm && [quality] == magic # [coldresist] >= 5 # [maxquantity] == 2 && [tier] == 1
+[name] == smallcharm && [quality] == magic # [maxhp] == 20 && ([fireresist] > 3 && [lightresist] > 3 || [fireresist] > 5 || [lightresist] > 5 || [coldresist] > 5) # [maxquantity] == 4 && [tier] == 1
+[name] == smallcharm && [quality] == unique # [fireresist] > 3 # [maxquantity] == 1 && [tier] == 1
+
+// --grand--
+[name] == grandcharm && [quality] == magic # [coldskilltab] == 1 # [maxquantity] == 1 && [tier] == 1
+[name] == grandcharm && [quality] == unique # [itemmagicbonus] >= 35 || [itemgoldbonus] >= 150 # [maxquantity] == 1 && [tier] == 1

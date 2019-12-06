@@ -49,11 +49,13 @@ Here is an image showing auto-complete, syntax highlighting, and error checking:
 
 ### known bugs
 
-In case of **plusmaxdamage** NipCheck will show:
+In case of expressions **plusmaxdamage** and **plusskillferalrage** NipCheck will show:
 ```
 Syntax Errors: Argument invalid in ArithmeticOperator.Eval - Invalid Expression: lhs
 ```
 NIP.xml doesn’t include **plusmaxdamage**, but even if you add it, maybe an additional entry should be added in NipCheck.dll.
+
+Also expression **tier**, used in autobuild **xpac.nip** files isn't included.
 
 ### history
 

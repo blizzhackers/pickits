@@ -25,10 +25,10 @@
 [name] == heavygloves && [quality] == unique && [flag] != ethereal # [maxhp] > 0 # [tier] == 6
 [name] == lightgauntlets && [quality] == unique && [flag] != ethereal # [fcr] > 0 # [tier] == 7
 [name] == chaingloves && [quality] == unique && [flag] != ethereal # [fcr] > 0 # [tier] == 8
-[type] == gloves && [quality] == rare && [flag] != ethereal # [strength] + [dexterity] >= 15 && [hpregen] + [maxmana] >= 0 && [hpregen] + [maxmana] < 10 && [coldresist] >= 10 && [fireresist] >= 10 && [lightresist] >= 10 # [tier] == 31
-[type] == gloves && [quality] == rare && [flag] != ethereal # [strength] + [dexterity] >= 15 && [hpregen] + [maxmana] >= 10 && [hpregen] + [maxmana] < 20 && [coldresist] >= 10 && [fireresist] >= 10 && [lightresist] >= 10 # [tier] == 32
-[type] == gloves && [quality] == rare && [flag] != ethereal # [strength] + [dexterity] >= 15 && [hpregen] + [maxmana] >= 20 && [hpregen] + [maxmana] < 30 && [coldresist] >= 10 && [fireresist] >= 10 && [lightresist] >= 10 # [tier] == 33
-[type] == gloves && [quality] == rare && [flag] != ethereal # [strength] + [dexterity] >= 15 && [hpregen] + [maxmana] >= 30 && [coldresist] >= 10 && [fireresist] >= 10 && [lightresist] >= 10 # [tier] == 34
+[type] == gloves && [quality] == rare && [flag] != ethereal # [strength] + [dexterity] >= 15 && [hpregen] + [maxmana] >= 0 && [hpregen] + [maxmana] < 10 && ([coldresist] >= 10) + ([fireresist] >= 10) + ([lightresist] >= 10) >= 2 # [tier] == 31
+[type] == gloves && [quality] == rare && [flag] != ethereal # [strength] + [dexterity] >= 15 && [hpregen] + [maxmana] >= 10 && [hpregen] + [maxmana] < 20 && ([coldresist] >= 10) + ([fireresist] >= 10) + ([lightresist] >= 10) >= 2 # [tier] == 32
+[type] == gloves && [quality] == rare && [flag] != ethereal # [strength] + [dexterity] >= 15 && [hpregen] + [maxmana] >= 20 && [hpregen] + [maxmana] < 30 &&([coldresist] >= 10) + ([fireresist] >= 10) + ([lightresist] >= 10) >= 2 # [tier] == 33
+[type] == gloves && [quality] == rare && [flag] != ethereal # [strength] + [dexterity] >= 15 && [hpregen] + [maxmana] >= 30 && ([coldresist] >= 10) + ([fireresist] >= 10) + ([lightresist] >= 10) >= 2 # [tier] == 34
 
 [name] == chaingloves && [quality] == unique && [flag] != ethereal # [itemmagicbonus] >= 25 && [itemmagicbonus] <= 30 # [tier] == 96
 [name] == chaingloves && [quality] == unique && [flag] != ethereal # [itemmagicbonus] > 30 && [itemmagicbonus] <= 35 # [tier] == 97
@@ -146,12 +146,12 @@
 [type] == ring && [quality] == rare # [maxhp]+[maxmana] >= 110 && ([strength] > 0 || [fcr] > 0) && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 32 # [tier] == 11
 [type] == ring && [quality] == rare # [maxhp]+[maxmana] >= 120 &&([strength] > 0 || [fcr] > 0) && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 32 # [tier] == 12
 [type] == ring && [quality] == rare # [maxhp]+[maxmana] >= 130 && ([strength] > 0 || [fcr] > 0) && [fireresist]+[lightresist]+[coldresist]+[poisonresist] >= 32 # [tier] == 12
-[name] == ring && ([quality] == magic || [quality] == rare) # [maxhp] >= 30 && [strength] >= 5 && [strength] < 10 && [coldresist] >= 10 && [fireresist] >= 10 && [lightresist] >= 10 # [tier] == 23
-[name] == ring && ([quality] == magic || [quality] == rare) # [maxhp] >= 30 && [strength] >= 5 && [strength] < 10 && [coldresist] >= 10 && [fireresist] >= 10 && [lightresist] >= 10 # [tier] == 24
-[name] == ring && ([quality] == magic || [quality] == rare) # [maxhp] >= 30 && [strength] >= 10 && [strength] < 15 && [coldresist] >= 10 && [fireresist] >= 10 && [lightresist] >= 10 # [tier] == 25
-[name] == ring && ([quality] == magic || [quality] == rare) # [maxhp] >= 30 && [strength] >= 10 && [strength] < 15 && [coldresist] >= 10 && [fireresist] >= 10 && [lightresist] >= 10 # [tier] == 26
-[name] == ring && ([quality] == magic || [quality] == rare) # [maxhp] >= 30 && [strength] >= 15 && [coldresist] >= 10 && [fireresist] >= 10 && [lightresist] >= 10 # [tier] == 27
-[name] == ring && ([quality] == magic || [quality] == rare) # [maxhp] >= 30 && [strength] >= 15 && [coldresist] >= 10 && [fireresist] >= 10 && [lightresist] >= 10 # [tier] == 28
+[name] == ring && ([quality] == magic || [quality] == rare) # [maxhp] >= 30 && [strength] >= 5 && [strength] < 10 && ([coldresist] >= 10) + ([fireresist] >= 10) + ([lightresist] >= 10) >= 1 # [tier] == 23
+[name] == ring && ([quality] == magic || [quality] == rare) # [maxhp] >= 30 && [strength] >= 5 && [strength] < 10 && ([coldresist] >= 10) + ([fireresist] >= 10) + ([lightresist] >= 10) >= 1 # [tier] == 24
+[name] == ring && ([quality] == magic || [quality] == rare) # [maxhp] >= 30 && [strength] >= 10 && [strength] < 15 && ([coldresist] >= 10) + ([fireresist] >= 10) + ([lightresist] >= 10) >= 1 # [tier] == 25
+[name] == ring && ([quality] == magic || [quality] == rare) # [maxhp] >= 30 && [strength] >= 10 && [strength] < 15 && ([coldresist] >= 10) + ([fireresist] >= 10) + ([lightresist] >= 10) >= 2 # [tier] == 26
+[name] == ring && ([quality] == magic || [quality] == rare) # [maxhp] >= 30 && [strength] >= 15 && ([coldresist] >= 10) + ([fireresist] >= 10) + ([lightresist] >= 10) >= 2# [tier] == 27
+[name] == ring && ([quality] == magic || [quality] == rare) # [maxhp] >= 30 && [strength] >= 15 && ([coldresist] >= 10) + ([fireresist] >= 10) + ([lightresist] >= 10) >= 2 # [tier] == 28
 [type] == ring && [quality] == unique # [itemmagicbonus] == 30 # [tier] == 29 // perfect nagel
 [name] == ring && [quality] == unique # [maxmana] == 20 # [tier] == 101 // stone of jordan
 [type] == ring && [quality] == magic # [itemmagicbonus] >= 35 && [itemmagicbonus] < 38 # [tier] == 102
@@ -176,9 +176,9 @@
 [name] == russetarmor && [quality] == unique # # [tier] == 14
 [name] == mesharmor && [quality] == unique # # [tier] == 15
 [name] == russetarmor && [quality] == unique && [flag] == ethereal # # [tier] == 16
-[type] == armor && [quality] == rare # [enhanceddefense] >= 50 && [maxhp] >= 10 && [maxhp] < 30 && [coldresist] >= 10 && [fireresist] >= 10 && [lightresist] >= 10 # [tier] == 19
-[type] == armor && [quality] == rare # [enhanceddefense] >= 50 && [maxhp] >= 30 && [maxhp] < 50 && [coldresist] >= 10 && [fireresist] >= 10 && [lightresist] >= 10 # [tier] == 20
-[type] == armor && [quality] == rare # [enhanceddefense] >= 50 && [maxhp] >= 50 && [coldresist] >= 10 && [fireresist] >= 10 && [lightresist] >= 10 #[tier] == 21
+[type] == armor && [quality] == rare # [enhanceddefense] >= 50 && [maxhp] >= 10 && [maxhp] < 30 && ([coldresist] >= 10) + ([fireresist] >= 10) + ([lightresist] >= 10) >= 2 # [tier] == 19
+[type] == armor && [quality] == rare # [enhanceddefense] >= 50 && [maxhp] >= 30 && [maxhp] < 50 && ([coldresist] >= 10) + ([fireresist] >= 10) + ([lightresist] >= 10) >= 2 # [tier] == 20
+[type] == armor && [quality] == rare # [enhanceddefense] >= 50 && [maxhp] >= 50 && ([coldresist] >= 10) + ([fireresist] >= 10) + ([lightresist] >= 10) >= 2 #[tier] == 21
 [name] == fullplatemail && [quality] == unique # [fireresist] > 1 # [tier] == 96
 [name] == ancientarmor && [quality] == unique # [enhanceddefense] <= 110 # [tier] == 97
 [name] == ancientarmor && [quality] == unique # [enhanceddefense] > 110 && [enhanceddefense] < 120 # [tier] == 98
@@ -194,7 +194,10 @@
 ([type] == axe || [type] == mace || [type] == sword) && [quality] == unique # # [tier] == 11
 [type] == sword && [flag] == runeword # [itemallskills] == 2 # [tier] == 101
 
-// shield
+// 2 hand weapons (swords)+(axes)+(maces) if need to be excluded -> will be added in the weapon lines before #
+// && (([name] != flb || [name] != gsd || [name] != 9fb || [name] != 9gd || [name] != 7fb || [name] != 7gd) || ([name] != lax || [name] != bax || [name] != btx || [name] != gax || [name] != gix || [name] != gla || [name] != 9ba || [name] != 9bt || [name] != 9ga || [name] != 9gi || [name] != 71a || [name] != 7ba || [name] != 7bt || [name] != 7ga || [name] != 7gi) || ([name] != whm || [name] != mau || [name] != gma || [name] != 9wh || [name] != 9m9 || [name] != 9gm || [name] != 7wh || [name] != 7m7 || [name] != 7gm))
+
+// shield - comment every shield line if you get issues with autoequip when you have 2 hand weapon already weared
 [type] == shield # [fireresist]+[lightresist]+[coldresist] >= 10 || [maxhp] > 9 # [tier] == 1
 [type] == shield # [fireresist]+[lightresist]+[coldresist] >= 20 || [maxhp] > 19 # [tier] == 2
 [type] == shield # [fireresist]+[lightresist]+[coldresist] >= 40 || [maxhp] > 29 # [tier] == 3

@@ -1,4 +1,4 @@
-//white non-eth armor
+// white non-eth armor
 //[name] == archonplate && [quality] <  superior && [flag] != ethereal # ([sockets] == 3 || [sockets] == 4) # [maxquantity] == 1
 //[name] == duskshroud 	&& [quality] <  superior && [flag] != ethereal # ([sockets] == 3 || [sockets] == 4) # [maxquantity] == 1
 //[name] == mageplate 	&& [quality] <  superior && [flag] != ethereal # [sockets] == 3 					# [maxquantity] == 1
@@ -21,7 +21,7 @@
 //[name] == sacredarmor 	&& [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 0 || [itemmaxdurabilitypercent] == 15) && ([sockets] == 3 || [sockets] == 4)
 //[name] == russetarmor 	&& [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 0 || [itemmaxdurabilitypercent] == 15) && ([sockets] == 0 || [sockets] == 3 || [sockets] == 4)
 
-//white eth armor
+// white eth armor
 [name] == duskshroud 	&& [quality] <= superior && [flag] == ethereal # [defense] >= 1000 && [sockets] == 4	
 [name] == wyrmhide 		&& [quality] <= superior && [flag] == ethereal # [defense] >= 1000 && [sockets] == 4
 [name] == scarabhusk 	&& [quality] <= superior && [flag] == ethereal # [defense] >= 1000 && [sockets] == 4
@@ -38,7 +38,7 @@
 [name] == shadowplate 	&& [quality] <= superior && [flag] == ethereal # [defense] >= 1000 && [sockets] == 4
 [name] == sacredarmor 	&& [quality] <= superior && [flag] == ethereal # [defense] >= 1000 && ([sockets] == 2 || [sockets] == 4)
 
-//white shields
+// white shields
 //[name] == monarch 	&& [quality] <= superior && [flag] != ethereal # [sockets] == 4  										  # [maxquantity] == 1
 //[type] == auricshields 	&& [quality] <= superior && [flag] != ethereal # [fireresist] >= 42 && ([sockets] == 0 || [sockets] == 4) # [maxquantity] == 1
 //[type] == auricshields 	&& [quality] <= superior && [flag] == ethereal # [fireresist] >= 42 && ([sockets] == 0 || [sockets] == 4) # [maxquantity] == 1
@@ -49,14 +49,14 @@
 [name] == monarch 		&& [quality] <= superior && [flag] != ethereal # [enhanceddefense] >= 15 && ([itemmaxdurabilitypercent] == 0 || [itemmaxdurabilitypercent] == 15) && ([sockets] == 0 || [sockets] == 4)
 [name] == monarch 		&& [quality] <= superior && [flag] == ethereal # [defense] >= 333 && [sockets] == 4
 
-//white helms
+// white helms
 //[type] == helm 		&& [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 0 || [itemmaxdurabilitypercent] == 15) && ([sockets] == 0 || [sockets] == 3)
 //[type] == circlet 	&& [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && ([itemmaxdurabilitypercent] == 0 || [itemmaxdurabilitypercent] == 15) && ([sockets] == 0 || [sockets] == 3)
 [name] == corona 		&& [quality] <  superior && [flag] == ethereal # [defense] >= 247 && [sockets] == 0
 [name] == bonevisage 	&& [quality] <  superior && [flag] == ethereal # [defense] >= 235 && [sockets] == 0
 [type] == pelt 			&& [quality] <= superior && [flag] != ethereal # [skilltornado] == 3 && ([skillcyclonearmor] >= 3 || [skillhurricane] >= 3 || [skilloaksage] >= 3) && ([sockets] == 0 || [sockets] == 3)
 
-//white weapons
+// white weapons
 //[name] == broadsword 		&& [quality] <= superior && [flag] != ethereal # [sockets] == 4 # [maxquantity] == 1
 //[name] == longsword 		&& [quality] <= superior && [flag] != ethereal # [sockets] == 4 # [maxquantity] == 1
 //[name] == crystalsword 	&& [quality] <= superior && [flag] != ethereal # [sockets] == 4 # [maxquantity] == 1

@@ -1,4 +1,7 @@
 // weapon
+// amplify > ias > damage
+me.diff == 0 && me.act == 1 && [type] == bow # # [MercTier] == item.getStatEx(93) * 8 + item.getStatEx(60) * 8 + item.getStatEx(24) * 4 + item.getStatEx(31) * 4 + item.getStatEx(39) * 2 + item.getStatEx(41) * 2 + item.getStatEx(43) * 2
+// weapon
 // meditationaura > ll > ias > res > damage
 ([type] == spear || [type] == polearm) && [quality] <= magic && [flag] != runeword # # [merctier] == /*meditationaura*/((item.getStatEx(151,120)) * 10000) + /*lifeleech*/((item.getStatEx(60)) * 10000) + /*ias*/((item.getStatEx(93)) * 1000) + /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 100) + /*maxdamage*/((item.getStatEx(24)) * 1)
 ([type] == spear || [type] == polearm) && ([quality] >= set || [flag] == runeword) # # [merctier] == /*meditationaura*/((item.getStatEx(151,120)) * 1000000) + /*lifeleech*/((item.getStatEx(60)) * 100000) + /*ias*/((item.getStatEx(93)) * 10000) + /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 1000) + /*maxdamage*/((item.getStatEx(24)) * 1)

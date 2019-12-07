@@ -6,7 +6,7 @@
 // any item on this list which starts with [ will be picked up, then kept unid'ed or checked and then kept if it's good enough.
 // -----------------------------------------------------------------------------------------------------
 
-//rare rings
+// rare rings
 [type] == ring && [quality] == rare # [itemmagicbonus] >= 25
 //[type] == ring && [quality] == rare # [fcr] >= 10 && ([dexterity] >= 10 || [strength] >= 15) && [maxhp] >= 15
 //[type] == ring && [quality] == rare # [fcr] >= 10 && ([dexterity] >= 13 || [strength] >= 17) && [hpregen] >= 7
@@ -28,27 +28,27 @@
 [type] == ring && [quality] == rare # [manaleech]+[lifeleech] >= 10 && (([coldresist]+[fireresist] >= 30) || ([coldresist]+[lightresist] >= 30) || ([fireresist]+[lightresist] >= 30))
 //[type] == ring && [quality] == rare # [manaleech]+[lifeleech] >= 10 && [maxhp] >= 35
 
-//rare mf amulet
+// rare mf amulet
 [type] == amulet && [quality] == rare # [itemmagicbonus] >= 35
 
-//rare visionary circlet
+// rare visionary circlet
 [type] == circlet && [quality] == rare # [itemtohitpercentperlevel] > 1
 
-//rare visionary barb helm
+// rare visionary barb helm
 [type] == primalhelm && [quality] == rare # [itemtohitpercentperlevel] > 1
 
-//rare visionary helm
+// rare visionary helm
 [type] == helm && [quality] == rare # [itemtohitpercentperlevel] > 1
 
-//rare battle order helm
+// rare battle order helm
 [type] == primalhelm && [quality] == rare # [warcriesskilltab] >= 2
 [type] == primalhelm && [quality] == rare # [barbarianskills] == 2
 
-//rare shields
+// rare shields
 [type] == auricshields && [quality] == rare && [flag] != ethereal # ([paladinskills] == 2 || [palicombatskilltab] == 2)
 [type] == auricshields && [quality] == rare && [flag] == ethereal # [paladinskills] >= 2 && [itemreplenishdurability] >= 1
 
-//rare gloves
+// rare gloves
 [type] == gloves && [quality] == rare && [flag] != ethereal # [dexterity] >= 15 || [strength] >= 15
 [type] == gloves && [quality] == rare && [flag] != ethereal # [ias] == 20 && ([dexterity] >= 10 || [strength] >= 13)
 [type] == gloves && [quality] == rare && [flag] != ethereal # [ias] == 20 && ([bowandcrossbowskilltab] == 2 || [passiveandmagicskilltab] == 2 || [javelinandspearskilltab] == 2)
@@ -56,17 +56,17 @@
 [type] == gloves && [quality] == rare && [flag] == ethereal # [ias] == 20 && ([dexterity] >= 10 || [strength] >= 13) && [itemreplenishdurability] >= 1
 [type] == gloves && [quality] == rare && [flag] == ethereal # [ias] == 20 && ([bowandcrossbowskilltab] == 2 || [passiveandmagicskilltab] == 2 || [javelinandspearskilltab] == 2) && [itemreplenishdurability] >= 1
 
-//rare boots
+// rare boots
 [type] == boots && [quality] == rare && [flag] != ethereal # [frw] >= 30 && (([coldresist]+[fireresist] >= 70) || ([coldresist]+[lightresist] >= 70) || ([fireresist]+[lightresist] >= 70))
 [type] == boots && [quality] == rare && [flag] != ethereal # (([coldresist]+[fireresist]+[lightresist] >= 75) || ([coldresist]+[fireresist]+[poisonresist] >= 90) || ([coldresist]+[lightresist]+[poisonresist] >= 90) || ([fireresist]+[lightresist]+[poisonresist] >= 90))
 [type] == boots && [quality] == rare && [flag] == ethereal # [frw] >= 30 && (([coldresist]+[fireresist] >= 70) || ([coldresist]+[lightresist] >= 70) || ([fireresist]+[lightresist] >= 70)) && [itemreplenishdurability] >= 1
 [type] == boots && [quality] == rare && [flag] == ethereal # [frw] >= 30 && (([coldresist]+[fireresist]+[lightresist] >= 75) || ([coldresist]+[fireresist]+[poisonresist] >= 90) || ([coldresist]+[lightresist]+[poisonresist] >= 90) || ([fireresist]+[lightresist]+[poisonresist] >= 90)) && [itemreplenishdurability] >= 1
 
-//rare belts
+// rare belts
 [type] == belt && [quality] == rare && [flag] != ethereal # [strength] >= 20 && [maxhp] >= 40
 //[type] == belt && [quality] == rare && [flag] == ethereal # [fhr] == 24 && [strength] >= 20 && [maxhp] >= 40 && [itemreplenishdurability] >= 1
 
-//rare melee weapons
+// rare melee weapons
 //[type] == axe && [quality] == rare && [flag] != ethereal # [ias] >= 20 && [enhanceddamage] >= 300 || [itemmaxdamageperlevel] >= 1 && [enhanceddamage] >= 250
 //[type] == sword && [quality] == rare && [flag] != ethereal # [ias] >= 20 && [enhanceddamage] >= 300 || [itemmaxdamageperlevel] >= 1 && [enhanceddamage] >= 250
 //[type] == mace && [quality] == rare && [flag] != ethereal # [ias] >= 20 && [enhanceddamage] >= 300 || [itemmaxdamageperlevel] >= 1 && [enhanceddamage] >= 250
@@ -75,17 +75,17 @@
 [type] == polearm && [quality] == rare && [flag] != ethereal # [ias] >= 20 && [enhanceddamage] >= 300 || [itemmaxdamageperlevel] >= 1 && [enhanceddamage] >= 250
 //[type] == knife && [quality] == rare && [flag] != ethereal # [ias] >= 20 && [enhanceddamage] >= 300 || [itemmaxdamageperlevel] >= 1 && [enhanceddamage] >= 250
 
-//rare bows
+// rare bows
 //[type] == bow && [quality] == rare # [ias] >= 20 && [enhanceddamage] >= 300 || [itemmaxdamageperlevel] >= 1 && [enhanceddamage] >= 250
 //[type] == amazonbow && [quality] == rare # [ias] >= 20 && [enhanceddamage] >= 300 || [itemmaxdamageperlevel] >= 1 && [enhanceddamage] >= 250
 
-//rare javelins
+// rare javelins
 //[type] == javelin && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 300 || [itemmaxdamageperlevel] >= 1 && [enhanceddamage] >= 250
 //[type] == javelin && [quality] == rare && [flag] == ethereal # ([enhanceddamage] >= 300 || [itemmaxdamageperlevel] >= 1 && [enhanceddamage] >= 250) && [itemreplenishquantity] >= 1
 //[type] == amazonjavelin && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 300 || [itemmaxdamageperlevel] >= 1 && [enhanceddamage] >= 250
 //[type] == amazonjavelin && [quality] == rare && [flag] == ethereal # ([enhanceddamage] >= 300 || [itemmaxdamageperlevel] >= 1 && [enhanceddamage] >= 250) && [itemreplenishquantity] >= 1
 
-//rare throwing weapons
+// rare throwing weapons
 //[type] == thrownweapon && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 300 || [itemmaxdamageperlevel] >= 1 && [enhanceddamage] >= 250
 //[type] == thrownweapon && [quality] == rare && [flag] == ethereal # ([enhanceddamage] >= 300 || [itemmaxdamageperlevel] >= 1 && [enhanceddamage] >= 250) && [itemreplenishquantity] >= 1
 //[type] == throwingknife && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 300 || [itemmaxdamageperlevel] >= 1 && [enhanceddamage] >= 250
@@ -93,7 +93,7 @@
 //[type] == throwingaxe && [quality] == rare && [flag] != ethereal # [enhanceddamage] >= 300 || [itemmaxdamageperlevel] >= 1 && [enhanceddamage] >= 250
 //[type] == throwingaxe && [quality] == rare && [flag] == ethereal # ([enhanceddamage] >= 300 || [itemmaxdamageperlevel] >= 1 && [enhanceddamage] >= 250) && [itemreplenishquantity] >= 1
 
-//rare claws
+// rare claws
 //[type] == assassinclaw && [quality] == rare # [ias] >= 20 && [enhanceddamage] >= 250
 //[type] == assassinclaw && [quality] == rare && [flag] == ethereal # [enhanceddamage] >= 250 && [itemreplenishdurability] >= 1
 //[type] == handtohand && [quality] == rare # [ias] >= 20 && [enhanceddamage] >= 250

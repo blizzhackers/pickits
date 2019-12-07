@@ -1,9 +1,9 @@
-//utility
+// utility
 [type] == gold # [gold] >= 750
 [name] == scrolloftownportal 
 [name] == scrollofidentify
 
-//ubers
+// ubers
 [name] == keyofterror
 [name] == keyofhate
 [name] == keyofdestruction
@@ -14,14 +14,14 @@
 //[name] == baalseye
 //[name] == diabloshorn
 
-//tokens
+// tokens
 [name] == twistedessenceofsuffering 		# # [maxquantity] == 2
 [name] == chargedessenceofhatred 			# # [maxquantity] == 2
 [name] == burningessenceofterror 			# # [maxquantity] == 2
 [name] == festeringessenceofdestruction 	# # [maxquantity] == 2
 [name] == tokenofabsolution 				# # [maxquantity] == 5
 
-//runes
+// runes
 [name] == elrune 	# # [maxquantity] == 1
 [name] == eldrune 	# # [maxquantity] == 1
 [name] == tirrune 	# # [maxquantity] == 1
@@ -56,7 +56,7 @@
 [name] == chamrune 	# # [maxquantity] == 10
 [name] == zodrune 	# # [maxquantity] == 10
 
-//gems
+// gems
 //[name] == chippedamethyst 	# # [maxquantity] == 1
 //[name] == chippeddiamond 		# # [maxquantity] == 1
 //[name] == chippedemerald 		# # [maxquantity] == 1
@@ -93,7 +93,7 @@
 [name] == perfectskull 			# # [maxquantity] == 10
 [name] == perfecttopaz 			# # [maxquantity] == 10
 
-//potions
+// potions
 [name] == superhealingpotion
 [name] == supermanapotion
 [name] == rejuvenationpotion

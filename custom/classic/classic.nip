@@ -16,7 +16,7 @@
 //------ rings ------
 
 [type] == ring && [quality] == rare # [fcr] == 10 && [maxhp] >= 25 && [fireresist]+[coldresist]+[lightresist] >= 25
-[type] == ring && [quality] == rare # [fcr] == 10 && [coldresist] >= 20 && [fireresist] >= 20 && [lightresist] >= 20
+[type] == ring && [quality] == rare # [fcr] == 10 && ([coldresist] >= 20) + ([fireresist] >= 20) + ([lightresist] >= 20) >= 2
 [type] == ring && [quality] == rare # [fcr] == 10 && [strength]+[dexterity] >= 25
 [type] == ring && [quality] == rare # [fcr] == 10 && ([strength] >= 10 || [maxhp] >= 20 || [maxmana] >= 40) && ([coldresist] >= 20 || [fireresist] >= 20 || [lightresist] >= 20)
 //[type] == ring && [quality] == rare # [tohit] == 100 && ([maxhp] >= 25 || [maxmana] >= 50) && ([lifeleech] >= 5 || [manaleech] >= 5 || [strength] >= 15)
@@ -24,34 +24,34 @@
 
 //------ belts ------
 
-[type] == belt && [name] >= platedbelt && [quality] == rare # ([fhr] >= 24 || [strength] >= 10 || [maxhp] >= 45) && [maxhp] >= 30 && [coldresist] >= 20 && [fireresist] >= 20 && [lightresist] >= 20
+[type] == belt && [name] >= platedbelt && [quality] == rare # ([fhr] >= 24 || [strength] >= 10 || [maxhp] >= 45) && [maxhp] >= 30 && ([coldresist] >= 20) + ([fireresist] >= 20) + ([lightresist] >= 20) >= 2
 [type] == belt && [quality] == rare # ([coldmindam] > 0 || [coldmaxdam] > 0) && [strength] >= 20 && [maxhp] >= 50
 [name] == warbelt && [quality] == rare # [enhanceddefense] >= 90 && [strength] >= 20
 
 //------ armor ------
 
-[type] == armor && [quality] == rare # [fhr] == 24 && [maxhp] >= 30 && [coldresist] >= 20 && [fireresist] >= 20 && [lightresist] >= 20
-[name] == ornateplate && [quality] == rare # [enhanceddefense] >= 9 && [itemreqpercent] < 0 && [maxhp] >= 30 && [strength] >= 10
-[name] == mageplate && [quality] == rare # [enhanceddefense] >= 60 && [maxhp] >= 30 && [coldresist] >= 20 && [fireresist] >= 20 && [lightresist] >= 20
+[type] == armor && [quality] == rare # [fhr] == 24 && [maxhp] >= 30 && ([coldresist] >= 20) + ([fireresist] >= 20) + ([lightresist] >= 20) >= 2
+[name] == ornateplate && [quality] == rare # ([enhanceddefense] >= 90) + ([itemreqpercent] < 0) + ([maxhp] >= 30) + ([strength] >= 10) >= 3
+[name] == mageplate && [quality] == rare # [enhanceddefense] >= 60 && [maxhp] >= 30 && ([coldresist] >= 20) + ([fireresist] >= 20) + ([lightresist] >= 20) >= 2
 [type] == armor && [quality] == rare # [fireresist]+[coldresist]+[lightresist] >= 50 && [itemlightradius] == 2 // banana
 
 //------ boots ------
 
-[type] == boots && [quality] == rare # [frw] == 30 && [fhr] == 10 && [coldresist] >= 25 && [fireresist] >= 25 && [lightresist] >= 25
+[type] == boots && [quality] == rare # [frw] == 30 && [fhr] == 10 && ([coldresist] >= 25) + ([fireresist] >= 25) + ([lightresist] >= 25) >= 2
 
 //------ gloves ------
 
-[type] == gloves && [quality] == rare # [manaleech] >= 3 && [coldresist] >= 20 && [fireresist] >= 20 && [lightresist] >= 20
-[type] == gloves && [quality] == rare # [coldresist] >= 20 && [fireresist] >= 20 && [lightresist] >= 20
+[type] == gloves && [quality] == rare # [manaleech] >= 3 && ([coldresist] >= 20) + ([fireresist] >= 20) + ([lightresist] >= 20) >= 2
+[type] == gloves && [quality] == rare # ([coldresist] >= 20) + ([fireresist] >= 20) + ([lightresist] >= 20) >= 3
 [name] == wargauntlets && [quality] == rare # [enhanceddefense] >= 90 && [strength]+[dexterity] >= 15
 
 //------ helms ------
 
-[type] == helm && [quality] == rare # [fhr] == 10 && [maxhp] >= 30 && [coldresist] >= 20 && [fireresist] >= 20 && [lightresist] >= 20
+[type] == helm && [quality] == rare # [fhr] == 10 && [maxhp] >= 30 && ([coldresist] >= 20) + ([fireresist] >= 20) + ([lightresist] >= 20) >= 2
 
-[name] == grimhelm && [quality] == rare # [enhanceddefense] >= 60 && [coldresist] >= 20 && [fireresist] >= 20 && [lightresist] >= 20
+[name] == grimhelm && [quality] == rare # [enhanceddefense] >= 60 && ([coldresist] >= 20) + ([fireresist] >= 20) + ([lightresist] >= 20) >= 2
 [name] == grimhelm && [quality] == rare # [enhanceddefense] >= 90 && [maxhp] >= 30 && ([itemtohitpercent] == 5 || [tohit] >= 30)
-([name] == bonehelm || [name] == grimhelm) && [quality] == rare # [itemlightradius] == 2 && [coldresist] >= 20 && [fireresist] >= 20 && [lightresist] >= 20 // banana
+([name] == bonehelm || [name] == grimhelm) && [quality] == rare # [itemlightradius] == 2 && ([coldresist] >= 20) + ([fireresist] >= 20) + ([lightresist] >= 20) >= 2 // banana
 
 //------ weapons ------
 
@@ -59,8 +59,8 @@
 [name] == executionersword && [quality] == rare # [enhanceddamage] >= 160 && [itemreqpercent] < 0
 //[name] == grimscythe && [quality] == rare # [enhanceddamage] >= 160 && [itemreqpercent] < 0
 [name] == gothicbow && [quality] == rare # [enhanceddamage] >= 160 && [ias] >= 20
-[type] == wand && [quality] == rare # [fcr] == 20 && [coldresist] >= 25 && [fireresist] >= 25 && [lightresist] >= 25
-[type] == wand && [quality] == rare # [fcr] == 20 && [coldresist] >= 30 && [fireresist] >= 30 && [lightresist] >= 30 && [maxmana] >= 30
+[type] == wand && [quality] == rare # [fcr] == 20 && ([coldresist] >= 25) + ([fireresist] >= 25) + ([lightresist] >= 25) >= 3
+[type] == wand && [quality] == rare # [fcr] == 20 && ([coldresist] >= 30) + ([fireresist] >= 30) + ([lightresist] >= 30) >= 2 && [maxmana] >= 30
 //[type] == wand && [quality] <= rare # [fcr] == 20 && [necromancerskills] == 2 && [skillbonespear] >= 3
 //[type] == wand && [quality] <= rare # [fcr] == 20 && [necromancerskills] == 2 && [skillcorpseexplosion] >= 3
 [type] == scepter && [quality] <= rare # [paladinskills] == 2 && ([fcr] >= 10 && ([skillblessedhammer] == 3 || [skillconcentration] == 3) || [skillblessedhammer]+[skillconcentration] >= 6 || [skillholyshield] >= 3)
@@ -263,7 +263,7 @@
 //[name] == flawlessskull
 //[name] == flawlessdiamond
 
-[type] == belt && [name] >= platedbelt && [quality] == rare # [maxhp] >= 30 && [coldresist] >= 20 && [fireresist] >= 20 && [lightresist] >= 20
+[type] == belt && [name] >= platedbelt && [quality] == rare # [maxhp] >= 30 && ([coldresist] >= 20) + ([fireresist] >= 20) + ([lightresist] >= 20) >= 2
 //[type] == armor && [name] >= ringmail && [quality] >= magic && me.gold < 2000000 # [maxhp] >= 999
 //[type] == helm && [name] >= greathelm && [quality] >= magic && me.gold < 2000000 # [maxhp] >= 999
 //[type] == shield && [name] >= kiteshield && [quality] >= magic && me.gold < 2000000 # [maxhp] >= 999

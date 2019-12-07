@@ -1,17 +1,17 @@
 [type] == polearm && [flag] == runeword # [strength] >= 1 && [fcr] == 35
 
 // insight rune word
-//([name] == voulge || [name] == scythe || [name] == poleaxe || [name] == warscythe) && [quality] <= superior && [flag] != runeword # [sockets] == 4 # [maxquantity] == 1
-//([name] == voulge || [name] == scythe || [name] == poleaxe || [name] == warscythe || [name] == bill || [name] == battlescythe || [name] == partizan || [name] == grimscythe) && [quality] <= superior && [flag] != runeword # [sockets] == 4 # [maxquantity] == 1
-//([name] == colossusvoulge || [name] == thresher || [name] == crypticaxe || [name] == giantthresher) && [quality] <= superior && [flag] != runeword # [sockets] == 4 # [maxquantity] == 1
-([name] == voulge || [name] == scythe || [name] == poleaxe || [name] == warscythe) && [quality] <= superior # [sockets] == 4 # [maxquantity] == 1
-([name] == voulge || [name] == scythe || [name] == poleaxe || [name] == warscythe || [name] == bill || [name] == battlescythe || [name] == partizan || [name] == grimscythe) && [quality] <= superior # [sockets] == 4 # [maxquantity] == 1
-([name] == thresher || [name] == crypticaxe || [name] == giantthresher) && [quality] <= superior # [sockets] == 4 # [maxquantity] == 1
-([name] == thresher || [name] == crypticaxe || [name] == giantthresher) && [quality] <= superior && [flag] == ethereal # [sockets] == 4 # [maxquantity] == 1
-[name] == colossusvoulge && [quality] <= superior && [flag] == ethereal # [sockets] == 4 # [maxquantity] == 1
+//me.diff == 0 && ([name] == voulge || [name] == scythe || [name] == poleaxe || [name] == warscythe) && [quality] <= superior && [flag] != runeword # [sockets] == 4 # [maxquantity] == 1
+//me.diff == 1 && ([name] == voulge || [name] == scythe || [name] == poleaxe || [name] == warscythe || [name] == bill || [name] == battlescythe || [name] == partizan || [name] == grimscythe) && [quality] <= superior && [flag] != runeword # [sockets] == 4 # [maxquantity] == 1
+//me.diff == 2 && ([name] == colossusvoulge || [name] == thresher || [name] == crypticaxe || [name] == giantthresher) && [quality] <= superior && [flag] != runeword # [sockets] == 4 # [maxquantity] == 1
+me.diff == 0 && ([name] == voulge || [name] == scythe || [name] == poleaxe || [name] == warscythe) && [quality] <= superior # [sockets] == 4 # [maxquantity] == 1
+me.diff == 1 && ([name] == voulge || [name] == scythe || [name] == poleaxe || [name] == warscythe || [name] == bill || [name] == battlescythe || [name] == partizan || [name] == grimscythe) && [quality] <= superior # [sockets] == 4 # [maxquantity] == 1
+me.diff > 1 && ([name] == thresher || [name] == crypticaxe || [name] == giantthresher) && [quality] <= superior # [sockets] == 4 # [maxquantity] == 1
+me.diff > 1 && ([name] == thresher || [name] == crypticaxe || [name] == giantthresher) && [quality] <= superior && [flag] == ethereal # [sockets] == 4 # [maxquantity] == 1
+me.diff > 1 && [name] == colossusvoulge && [quality] <= superior && [flag] == ethereal # [sockets] == 4 # [maxquantity] == 1
 
 // ancient's pledge rune word // ral + ort + tal
-//([name] == grimshield || [name] == boneshield || [name] == kiteshield || [name] == largeshield) && [quality] <= superior && [flag] != ethereal && [flag] != runeword # [sockets] == 3 # [maxquantity] == 1
+//me.diff < 2 && ([name] == grimshield || [name] == boneshield || [name] == kiteshield || [name] == largeshield) && [quality] <= superior && [flag] != ethereal && [flag] != runeword # [sockets] == 3 # [maxquantity] == 1
 ([name] == grimshield || [name] == boneshield || [name] == kiteshield || [name] == largeshield) && [quality] <= superior && [flag] != ethereal # [sockets] == 3 # [maxquantity] == 1
 
 // treachery rune word // shael + thul + lem
@@ -19,14 +19,14 @@
 ([name] == ringmail || [name] == lightplate || [name] == mageplate || [name] == wirefleece || [name] == duskshroud || [name] == breastplate) && [quality] == superior # [sockets] == 3 # [maxquantity] == 1
 
 // lore rune word // ort + sol
-//([name] == skullcap || [name] == mask || [name] == bonehelm) && [quality] <= superior && [flag] != ethereal && [flag] != runeword # [sockets] == 2 # [maxquantity] == 1
+//me.diff == 0 && ([name] == skullcap || [name] == mask || [name] == bonehelm) && [quality] <= superior && [flag] != ethereal && [flag] != runeword # [sockets] == 2 # [maxquantity] == 1
 
 // smoke rune word // nef + lum
-//([name] == serpentskinarmor || [name] == ghostarmor || [name] == lightplate || [name] == breastplate || [name] == ringmail || [name] == studdedleather || [name] == hardleatherarmor || [name] == leatherarmor || [name] == quiltedarmor) && [quality] == superior && [flag] != runeword # [sockets] == 2 # [maxquantity] == 1
+//me.diff < 2 && ([name] == serpentskinarmor || [name] == ghostarmor || [name] == lightplate || [name] == breastplate || [name] == ringmail || [name] == studdedleather || [name] == hardleatherarmor || [name] == leatherarmor || [name] == quiltedarmor) && [quality] == superior && [flag] != runeword # [sockets] == 2 # [maxquantity] == 1
 ([name] == serpentskinarmor || [name] == ghostarmor || [name] == lightplate || [name] == breastplate || [name] == ringmail || [name] == studdedleather || [name] == hardleatherarmor || [name] == leatherarmor || [name] == quiltedarmor) && [quality] == superior # [sockets] == 2 # [maxquantity] == 1
 
 // spirit rune word // tal + thul + ort + amn
-//([name] == broadsword || [name] == crystalsword) && [quality] <= superior && [flag] != ethereal && [flag] != runeword # [sockets] == 4 # [maxquantity] == 1
-([name] == broadsword || [name] == crystalsword) && [quality] <= superior && [flag] != ethereal # [sockets] == 4 # [maxquantity] == 1
-[name] == monarch && [quality] <= superior && [flag] != ethereal # [sockets] == 4 # [maxquantity] == 1
-[name] == sacredtarge && [quality] <= superior && [flag] != ethereal # [fireresist] >= 45 && [sockets] == 4 # [maxquantity] == 1
+//me.diff < 2 && ([name] == broadsword || [name] == crystalsword) && [quality] <= superior && [flag] != ethereal && [flag] != runeword # [sockets] == 4 # [maxquantity] == 1
+me.diff < 2 && ([name] == broadsword || [name] == crystalsword) && [quality] <= superior && [flag] != ethereal # [sockets] == 4 # [maxquantity] == 1
+me.diff == 2 && [name] == monarch && [quality] <= superior && [flag] != ethereal # [sockets] == 4 # [maxquantity] == 1
+me.diff == 2 && [name] == sacredtarge && [quality] <= superior && [flag] != ethereal # [fireresist] >= 45 && [sockets] == 4 # [maxquantity] == 1

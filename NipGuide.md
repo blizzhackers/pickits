@@ -1,4 +1,4 @@
-[pickit table of content](https://github.com/blizzhackers/pickits/#pickits)
+[pickit table of content](https://github.com/blizzhackers-d2/pickits/#pickits)
 
 ---
 

@@ -29,10 +29,7 @@ by [@noah-](https://github.com/noah-)
 
 1. extract NIP.xml in ...\Notepad++\plugins\APIs\
 
-1. extract userDefineLang.xml in C:\Users\<your user>\AppData\Roaming\Notepad++\
-
-AppData is sometimes a hidden folder so make sure to have hidden folders shown. 
-\* if there isn't a Notepad++ folder in C:\Users\<your user>\AppData\Roaming\ , extract userDefineLang.xml in \Notepad++\plugins\APIs\
+1. extract and rename userDefineLang.xml in ...\Notepad++\userDefineLangs\userDefineLang-nipcheck.xml
 
 ### check settings
 
@@ -46,6 +43,8 @@ If NipCheck plugin isn't listed, that can happen after you upgrade np++ to a new
 
 Here is an image showing auto-complete, syntax highlighting, and error checking:
 ![nipcheck2](assets/nipcheck2.png)
+
+For viewing nip files, you can choose **NIP** from the Language np++ menu.
 
 ### known bugs
 

@@ -1,6 +1,6 @@
-[pickit table of content](https://github.com/blizzhackers-d2/pickits/#pickits)
+[pickit table of content](https://github.com/blizzhackers/pickits/#pickits)
 
-[Nipper](https://github.com/blizzhackers-d2/pickits/nipper/readme.md)
+[Nipper](https://github.com/blizzhackers/pickits/nipper/readme.md)
 
 ---
 
@@ -16,6 +16,7 @@ by [@noah-](https://github.com/noah-)
 ### download
 
 * <https://github.com/noah-/NipCheck/archive/master.zip>
+* <https://github.com/blizzhackers/pickits/raw/master/nipcheck/notepad++.zip>
 
 ### download includes
 

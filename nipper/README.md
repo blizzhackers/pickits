@@ -1,4 +1,4 @@
-[pickit table of content](https://github.com/blizzhackers-d2/pickits/#pickits)
+[pickit table of content](https://github.com/blizzhackers/pickits/#pickits)
 
 [NipCheck](nipcheck/readme.md)
 
@@ -19,7 +19,7 @@ Note that you cannot create an invalid NIP line in Nipper. You can create NIPs t
 
 ### Installation
 
-Use the [nipper.zip](https://github.com/blizzhackers-d2/pickits/raw/master/nipper/nipper.zip) file included in this repo
+Use the [nipper.zip](https://github.com/blizzhackers/pickits/raw/master/nipper/nipper.zip) file included in this repo
 other version for download: http://www.mediafire.com/file/147s9ar7nsi5772/Nipper.zip/file (posted on bh topic)
 
 The Oracle Java Runtime Environment is required to run Nipper. If you have the JRE installed, you can simply double click on Nipper.jar to run the application. Otherwise, you could open nipper using windows command prompt, adding the corect path for app:

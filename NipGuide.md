@@ -50,22 +50,22 @@
 
 All pickit files are stored in d2bs/kolbot/pickit/ There are several default files to choose, you can also create and add your own or just edit these files.
 
-* [classic.nip](https://github.com/blizzhackers/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/classic.nip)
-* [follower.nip](https://github.com/blizzhackers/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/follower.nip)
-* [gold.nip](https://github.com/blizzhackers/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/gold.nip)
-* [keyorg.nip](https://github.com/blizzhackers/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/keyorg.nip)
-* [kolton.nip](https://github.com/blizzhackers/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/kolton.nip)
-* [LLD.nip](https://github.com/blizzhackers/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/LLD.nip)
-* [pots.nip](https://github.com/blizzhackers/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/pots.nip)
-* [shopbot.nip](https://github.com/blizzhackers/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/shopbot.nip)
-* [test.nip](https://github.com/blizzhackers/d2bot-with-kolbot/blob/master/d2bs/kolbot/pickit/test.nip)
+* [classic.nip](https://github.com/blizzhackers/kolbot/blob/master/d2bs/kolbot/pickit/classic.nip)
+* [follower.nip](https://github.com/blizzhackers/kolbot/blob/master/d2bs/kolbot/pickit/follower.nip)
+* [gold.nip](https://github.com/blizzhackers/kolbot/blob/master/d2bs/kolbot/pickit/gold.nip)
+* [keyorg.nip](https://github.com/blizzhackers/kolbot/blob/master/d2bs/kolbot/pickit/keyorg.nip)
+* [kolton.nip](https://github.com/blizzhackers/kolbot/blob/master/d2bs/kolbot/pickit/kolton.nip)
+* [LLD.nip](https://github.com/blizzhackers/kolbot/blob/master/d2bs/kolbot/pickit/LLD.nip)
+* [pots.nip](https://github.com/blizzhackers/kolbot/blob/master/d2bs/kolbot/pickit/pots.nip)
+* [shopbot.nip](https://github.com/blizzhackers/kolbot/blob/master/d2bs/kolbot/pickit/shopbot.nip)
+* [test.nip](https://github.com/blizzhackers/kolbot/blob/master/d2bs/kolbot/pickit/test.nip)
 
 It is strongly recommended to use [notepad++](https://notepad-plus-plus.org/download/) to edit files. A useful plugin for notepad++ that works as a [NipCheck](nipcheck/readme.md).
 It's important to check if your *.nip file is without errors. If you like you can use [Nipper](nipper/readme.md) which works both for kolbot and d2nt.
 
 First off familiarize yourself with some important and useful information.
 
-[NTItemAlias.dbl](https://github.com/blizzhackers/d2bot-with-kolbot/blob/master/d2bs/kolbot/libs/NTItemAlias.dbl) (or [NTItemAlias.ntl](d2nt/NTItemAlias.ntl) in d2nt case) will answer 99% of item names/stats questions.
+[NTItemAlias.dbl](https://github.com/blizzhackers/kolbot/blob/master/d2bs/kolbot/libs/NTItemAlias.dbl) (or [NTItemAlias.ntl](d2nt/NTItemAlias.ntl) in d2nt case) will answer 99% of item names/stats questions.
 
 **Remember**:
 
@@ -176,7 +176,7 @@ Finally, it would look like this:
 [type] == boots && [quality] == rare # [frw] >= 10 && [fireresist] >= 10
 ```
 
-Now, if you can't determine what goes before the **#** and what goes after the **#** simply open up [NTItemAlias.dbl](https://github.com/blizzhackers/d2bot-with-kolbot/blob/master/d2bs/kolbot/libs/NTItemAlias.dbl) and search with CTRL+F what you're trying to find.
+Now, if you can't determine what goes before the **#** and what goes after the **#** simply open up [NTItemAlias.dbl](https://github.com/blizzhackers/kolbot/blob/master/d2bs/kolbot/libs/NTItemAlias.dbl) and search with CTRL+F what you're trying to find.
 
 You can tell whether its a **[property]** or a **[stat]** simply by locating its alias, everything has an alias, just a matter of finding it.
 	

@@ -15,7 +15,7 @@ by [@noah-](https://github.com/noah-)
 
 ### download
 
-* <https://github.com/noah-/NipCheck/archive/master.zip>
+* <https://github.com/blizzhackers/NipCheck/archive/master.zip>
 * <https://github.com/blizzhackers/pickits/raw/master/nipcheck/notepad++.zip>
 
 ### download includes

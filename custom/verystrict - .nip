@@ -681,7 +681,7 @@
 [name] == smallcharm && [quality] == unique
 
 // --large--
-[name] == largecharm && [quality] == magic # [maxmana]+[maxhp] >= 70
+[name] == largecharm && [quality] == magic # [maxmana]+[maxhp] >= 69
 [name] == largecharm && [quality] == magic # [maxdamage] == 6 && [maxhp] == 35
 [name] == largecharm && [quality] == magic # [fireresist] == 8 && [lightresist] == 8 && [maxhp] == 35
 

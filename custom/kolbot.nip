@@ -483,7 +483,7 @@
 [name] == smallcharm && [quality] == magic # [itemgoldbonus] == 10 && ([poisonmaxdam] == 299 || [maxdamage] == 3 || [maxmana] == 17 || [fireresist] == 11 || [fireresist] == 5 && [lightresist] == 5)
 [name] == smallcharm && [quality] == magic # [maxhp] >= 10 && [tohit] >= 10 && [maxdamage] >= 2
 
-[name] == largecharm && [quality] == magic # [maxmana]+[maxhp] >= 70
+[name] == largecharm && [quality] == magic # [maxmana]+[maxhp] >= 69
 [name] == largecharm && [quality] == magic # [maxdamage] == 6 && [maxhp] == 35
 [name] == largecharm && [quality] == magic # [maxhp] >= 20 && [tohit] >= 20 && [maxdamage] >= 5
 [name] == largecharm && [quality] == magic # [fireresist] == 8 && [lightresist] == 8 && [maxhp] == 35

@@ -8,7 +8,8 @@
 
 ### Tools
 
-* [NipCheck](nipcheck/#nipcheck): notepad++ plugin for finding errors in *.nip files, by [@noah-](https://github.com/noah-)
+* ~~[NipCheck](nipcheck/#nipcheck): notepad++ plugin for finding errors in *.nip files, by [@noah-](https://github.com/noah-)~~ Depreciated
+* [vsnip-check](https://github.com/theBGuy/vsnip-check#): vscode plugin for finding errors and providing tab completion by [@theBGuy](https://github.com/theBGuy)
 
 * [Nipper](nipper/#nipper): by [@frickaline](https://github.com/frickaline)
 

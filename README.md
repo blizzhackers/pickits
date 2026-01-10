@@ -8,7 +8,7 @@
 
 ### Tools
 
-* ~~[NipCheck](nipcheck/#nipcheck): notepad++ plugin for finding errors in *.nip files, by [@noah-](https://github.com/noah-)~~ Depreciated
+* ~~[NipCheck](nipcheck/#nipcheck): notepad++ plugin for finding errors in *.nip files, by [@noah-](https://github.com/noah-)~~ Deprecated - does not work with current versions of notepad
 * [vsnip-check](https://github.com/theBGuy/vsnip-check#): vscode plugin for finding errors and providing tab completion by [@theBGuy](https://github.com/theBGuy)
 
 * [Nipper](nipper/#nipper): by [@frickaline](https://github.com/frickaline)
@@ -55,4 +55,5 @@ Some pickit files were shared in the past on blizzhackers.cc and projectetal.com
 * [everything](https://github.com/blizzhackers/pickits/blob/master/d2nt/everything.nip)
 
 * [quest](https://github.com/blizzhackers/pickits/blob/master/d2nt/quest.nip)
+
 

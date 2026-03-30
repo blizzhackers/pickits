@@ -60,8 +60,7 @@ All pickit files are stored in d2bs/kolbot/pickit/ There are several default fil
 * [shopbot.nip](https://github.com/blizzhackers/kolbot/blob/master/d2bs/kolbot/pickit/shopbot.nip)
 * [test.nip](https://github.com/blizzhackers/kolbot/blob/master/d2bs/kolbot/pickit/test.nip)
 
-It is strongly recommended to use [notepad++](https://notepad-plus-plus.org/download/) to edit files. A useful plugin for notepad++ that works as a [NipCheck](nipcheck/readme.md).
-It's important to check if your *.nip file is without errors. If you like you can use [Nipper](nipper/readme.md) which works both for kolbot and d2nt.
+It is strongly recommended to use [Visual Studio Code (VSCode)](https://code.visualstudio.com/) or similar IDEs to edit your files. If you use VSCode, you can install [vsnip-check](https://github.com/theBGuy/vsnip-check): a plugin for finding errors and providing tab completion. You can also check your `.nip` files for errors using the online compiler at <https://blizzhackers.github.io/nip-compiler/>.
 
 First off familiarize yourself with some important and useful information.
 
@@ -75,7 +74,7 @@ First off familiarize yourself with some important and useful information.
 
 * Crafts Get 4 affix + craft mods, still limited to 3 prefix or suffix max
 
-That's pretty much all there is to writing a pickit. Remember that everyone makes simple mistakes, but you can use [NipCheck](nipcheck/readme.md) to find easier the issued lines and to correct them.
+That's pretty much all there is to writing a pickit. Remember that everyone makes simple mistakes, but you can use [vsnip-check](https://github.com/theBGuy/vsnip-check#), a VSCode plugin for finding errors and providing tab completion, or check your files using the online compiler at <https://blizzhackers.github.io/nip-compiler/>.
 
 ### format of the nip lines
 

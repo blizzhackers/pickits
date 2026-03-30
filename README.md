@@ -8,7 +8,7 @@
 
 ### Tools
 
-* ~~[NipCheck](nipcheck/#nipcheck): notepad++ plugin for finding errors in *.nip files, by [@noah-](https://github.com/noah-)~~ Deprecated - does not work with current versions of notepad
+* [Nip Compiler/Checker](https://blizzhackers.github.io/nip-compiler/): Online tool for validating and compiling `.nip` files.
 * [vsnip-check](https://github.com/theBGuy/vsnip-check#): vscode plugin for finding errors and providing tab completion by [@theBGuy](https://github.com/theBGuy)
 
 * [Nipper](nipper/#nipper): by [@frickaline](https://github.com/frickaline)
